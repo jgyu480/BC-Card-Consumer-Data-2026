@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# macOS
+.DS_Store
+
+# API credentials and private certificates
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+
+# Do not commit public-source raw files or processed datasets
+1. Datasets/b. External Public Data/*
+!1. Datasets/b. External Public Data/.gitkeep
+1. Datasets/c. Processed Data/*
+!1. Datasets/c. Processed Data/.gitkeep
+
