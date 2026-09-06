@@ -1,0 +1,908 @@
+{
+  "schema_version": "1.0.0",
+  "is_mock": true,
+  "reference_period": "2026Q2",
+  "display_disclaimer": "APP-01 개발용 가짜 데이터이며 실제 추천 결과가 아닙니다.",
+  "brands": [
+    {
+      "brand_id": "BRAND-MOCK-A",
+      "brand_name": "가상 브랜드 A",
+      "brand_type": "도심 업무형",
+      "dna_summary": {
+        "evidence_store_count": 48,
+        "headline": "직장인 소비와 평일 거래가 활발한 도심 환경에 적합한 가상 브랜드",
+        "strengths": [
+          "30~40대 소비 비중",
+          "업무지구 수요",
+          "높은 거래건수"
+        ],
+        "cautions": [
+          "높은 경쟁 수준",
+          "기존 점포 근접 위험"
+        ]
+      },
+      "recommendations": [
+        {
+          "area_id": "MOCK-A001",
+          "area_name": "여의도역 상권",
+          "district_nm": "영등포구",
+          "centroid_latitude": 37.5219,
+          "centroid_longitude": 126.9245,
+          "suitability_score": 88.4,
+          "score_components": {
+            "dna_match_score": 92.4,
+            "market_score": 86.4,
+            "competition_score": 72,
+            "proximity_risk_score": 10
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 800,
+            "bakery_franchise_share": 0.22
+          }
+        },
+        {
+          "area_id": "MOCK-A002",
+          "area_name": "강남역 남부 상권",
+          "district_nm": "강남구",
+          "centroid_latitude": 37.4979,
+          "centroid_longitude": 127.0276,
+          "suitability_score": 85.7,
+          "score_components": {
+            "dna_match_score": 89.7,
+            "market_score": 84.7,
+            "competition_score": 69,
+            "proximity_risk_score": 14
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1030,
+            "bakery_franchise_share": 0.255
+          }
+        },
+        {
+          "area_id": "MOCK-A003",
+          "area_name": "서울역 동부 상권",
+          "district_nm": "중구",
+          "centroid_latitude": 37.5559,
+          "centroid_longitude": 126.9723,
+          "suitability_score": 82.9,
+          "score_components": {
+            "dna_match_score": 86.9,
+            "market_score": 82.9,
+            "competition_score": 66,
+            "proximity_risk_score": 18
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1260,
+            "bakery_franchise_share": 0.29
+          }
+        },
+        {
+          "area_id": "MOCK-A004",
+          "area_name": "상암 DMC 상권",
+          "district_nm": "마포구",
+          "centroid_latitude": 37.5795,
+          "centroid_longitude": 126.8899,
+          "suitability_score": 79.8,
+          "score_components": {
+            "dna_match_score": 83.8,
+            "market_score": 80.8,
+            "competition_score": 63,
+            "proximity_risk_score": 22
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1490,
+            "bakery_franchise_share": 0.325
+          }
+        },
+        {
+          "area_id": "MOCK-A005",
+          "area_name": "잠실역 상권",
+          "district_nm": "송파구",
+          "centroid_latitude": 37.5133,
+          "centroid_longitude": 127.1001,
+          "suitability_score": 77.5,
+          "score_components": {
+            "dna_match_score": 81.5,
+            "market_score": 79.5,
+            "competition_score": 60,
+            "proximity_risk_score": 26
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1720,
+            "bakery_franchise_share": 0.36
+          }
+        }
+      ],
+      "portfolios": [
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-A001"
+          ],
+          "area_names": [
+            "여의도역 상권"
+          ],
+          "portfolio_score": 88.4,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-A002"
+          ],
+          "area_names": [
+            "강남역 남부 상권"
+          ],
+          "portfolio_score": 85.7,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-A003"
+          ],
+          "area_names": [
+            "서울역 동부 상권"
+          ],
+          "portfolio_score": 82.9,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-A001",
+            "MOCK-A002"
+          ],
+          "area_names": [
+            "여의도역 상권",
+            "강남역 남부 상권"
+          ],
+          "portfolio_score": 88.6,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-A001",
+            "MOCK-A003"
+          ],
+          "area_names": [
+            "여의도역 상권",
+            "서울역 동부 상권"
+          ],
+          "portfolio_score": 87.2,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-A002",
+            "MOCK-A003"
+          ],
+          "area_names": [
+            "강남역 남부 상권",
+            "서울역 동부 상권"
+          ],
+          "portfolio_score": 85.8,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-A001",
+            "MOCK-A002",
+            "MOCK-A003"
+          ],
+          "area_names": [
+            "여의도역 상권",
+            "강남역 남부 상권",
+            "서울역 동부 상권"
+          ],
+          "portfolio_score": 87.7,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-A001",
+            "MOCK-A002",
+            "MOCK-A004"
+          ],
+          "area_names": [
+            "여의도역 상권",
+            "강남역 남부 상권",
+            "상암 DMC 상권"
+          ],
+          "portfolio_score": 86.6,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-A001",
+            "MOCK-A003",
+            "MOCK-A004"
+          ],
+          "area_names": [
+            "여의도역 상권",
+            "서울역 동부 상권",
+            "상암 DMC 상권"
+          ],
+          "portfolio_score": 85.7,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "BRAND-MOCK-B",
+      "brand_name": "가상 브랜드 B",
+      "brand_type": "주거 생활형",
+      "dna_summary": {
+        "evidence_store_count": 61,
+        "headline": "가족 단위 소비와 반복 방문이 많은 주거지역에 적합한 가상 브랜드",
+        "strengths": [
+          "40~50대 소비 비중",
+          "생활권 반복 수요",
+          "안정적인 거래"
+        ],
+        "cautions": [
+          "도심 상권과의 DNA 차이",
+          "고객시장 중복"
+        ]
+      },
+      "recommendations": [
+        {
+          "area_id": "MOCK-B001",
+          "area_name": "목동역 생활상권",
+          "district_nm": "양천구",
+          "centroid_latitude": 37.5261,
+          "centroid_longitude": 126.8643,
+          "suitability_score": 90.1,
+          "score_components": {
+            "dna_match_score": 94.1,
+            "market_score": 88.1,
+            "competition_score": 72,
+            "proximity_risk_score": 10
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 800,
+            "bakery_franchise_share": 0.22
+          }
+        },
+        {
+          "area_id": "MOCK-B002",
+          "area_name": "노원역 생활상권",
+          "district_nm": "노원구",
+          "centroid_latitude": 37.6542,
+          "centroid_longitude": 127.0568,
+          "suitability_score": 86.8,
+          "score_components": {
+            "dna_match_score": 90.8,
+            "market_score": 85.8,
+            "competition_score": 69,
+            "proximity_risk_score": 14
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1030,
+            "bakery_franchise_share": 0.255
+          }
+        },
+        {
+          "area_id": "MOCK-B003",
+          "area_name": "길음역 생활상권",
+          "district_nm": "성북구",
+          "centroid_latitude": 37.6033,
+          "centroid_longitude": 127.0251,
+          "suitability_score": 83.4,
+          "score_components": {
+            "dna_match_score": 87.4,
+            "market_score": 83.4,
+            "competition_score": 66,
+            "proximity_risk_score": 18
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1260,
+            "bakery_franchise_share": 0.29
+          }
+        },
+        {
+          "area_id": "MOCK-B004",
+          "area_name": "잠실새내 생활상권",
+          "district_nm": "송파구",
+          "centroid_latitude": 37.511,
+          "centroid_longitude": 127.086,
+          "suitability_score": 80.6,
+          "score_components": {
+            "dna_match_score": 84.6,
+            "market_score": 81.6,
+            "competition_score": 63,
+            "proximity_risk_score": 22
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1490,
+            "bakery_franchise_share": 0.325
+          }
+        },
+        {
+          "area_id": "MOCK-B005",
+          "area_name": "불광역 생활상권",
+          "district_nm": "은평구",
+          "centroid_latitude": 37.6101,
+          "centroid_longitude": 126.9291,
+          "suitability_score": 78.2,
+          "score_components": {
+            "dna_match_score": 82.2,
+            "market_score": 80.2,
+            "competition_score": 60,
+            "proximity_risk_score": 26
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1720,
+            "bakery_franchise_share": 0.36
+          }
+        }
+      ],
+      "portfolios": [
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-B001"
+          ],
+          "area_names": [
+            "목동역 생활상권"
+          ],
+          "portfolio_score": 90.1,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-B002"
+          ],
+          "area_names": [
+            "노원역 생활상권"
+          ],
+          "portfolio_score": 86.8,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-B003"
+          ],
+          "area_names": [
+            "길음역 생활상권"
+          ],
+          "portfolio_score": 83.4,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-B001",
+            "MOCK-B002"
+          ],
+          "area_names": [
+            "목동역 생활상권",
+            "노원역 생활상권"
+          ],
+          "portfolio_score": 89.9,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-B001",
+            "MOCK-B003"
+          ],
+          "area_names": [
+            "목동역 생활상권",
+            "길음역 생활상권"
+          ],
+          "portfolio_score": 88.2,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-B002",
+            "MOCK-B003"
+          ],
+          "area_names": [
+            "노원역 생활상권",
+            "길음역 생활상권"
+          ],
+          "portfolio_score": 86.6,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-B001",
+            "MOCK-B002",
+            "MOCK-B003"
+          ],
+          "area_names": [
+            "목동역 생활상권",
+            "노원역 생활상권",
+            "길음역 생활상권"
+          ],
+          "portfolio_score": 88.8,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-B001",
+            "MOCK-B002",
+            "MOCK-B004"
+          ],
+          "area_names": [
+            "목동역 생활상권",
+            "노원역 생활상권",
+            "잠실새내 생활상권"
+          ],
+          "portfolio_score": 87.8,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-B001",
+            "MOCK-B003",
+            "MOCK-B004"
+          ],
+          "area_names": [
+            "목동역 생활상권",
+            "길음역 생활상권",
+            "잠실새내 생활상권"
+          ],
+          "portfolio_score": 86.7,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "BRAND-MOCK-C",
+      "brand_name": "가상 브랜드 C",
+      "brand_type": "프리미엄 경험형",
+      "dna_summary": {
+        "evidence_store_count": 29,
+        "headline": "20~30대 소비와 목적 방문이 강한 상권에 적합한 가상 브랜드",
+        "strengths": [
+          "20~30대 소비 비중",
+          "목적 방문",
+          "높은 평균 결제금액"
+        ],
+        "cautions": [
+          "유행 변화",
+          "경쟁 변동성"
+        ]
+      },
+      "recommendations": [
+        {
+          "area_id": "MOCK-C001",
+          "area_name": "성수 연무장길 상권",
+          "district_nm": "성동구",
+          "centroid_latitude": 37.5436,
+          "centroid_longitude": 127.0558,
+          "suitability_score": 91.3,
+          "score_components": {
+            "dna_match_score": 95.3,
+            "market_score": 89.3,
+            "competition_score": 72,
+            "proximity_risk_score": 10
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 800,
+            "bakery_franchise_share": 0.22
+          }
+        },
+        {
+          "area_id": "MOCK-C002",
+          "area_name": "한남동 상권",
+          "district_nm": "용산구",
+          "centroid_latitude": 37.5345,
+          "centroid_longitude": 127.0006,
+          "suitability_score": 87.9,
+          "score_components": {
+            "dna_match_score": 91.9,
+            "market_score": 86.9,
+            "competition_score": 69,
+            "proximity_risk_score": 14
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1030,
+            "bakery_franchise_share": 0.255
+          }
+        },
+        {
+          "area_id": "MOCK-C003",
+          "area_name": "연남동 상권",
+          "district_nm": "마포구",
+          "centroid_latitude": 37.5622,
+          "centroid_longitude": 126.9251,
+          "suitability_score": 85.2,
+          "score_components": {
+            "dna_match_score": 89.2,
+            "market_score": 85.2,
+            "competition_score": 66,
+            "proximity_risk_score": 18
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1260,
+            "bakery_franchise_share": 0.29
+          }
+        },
+        {
+          "area_id": "MOCK-C004",
+          "area_name": "서촌 상권",
+          "district_nm": "종로구",
+          "centroid_latitude": 37.5793,
+          "centroid_longitude": 126.9715,
+          "suitability_score": 81.7,
+          "score_components": {
+            "dna_match_score": 85.7,
+            "market_score": 82.7,
+            "competition_score": 63,
+            "proximity_risk_score": 22
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1490,
+            "bakery_franchise_share": 0.325
+          }
+        },
+        {
+          "area_id": "MOCK-C005",
+          "area_name": "신사동 가로수길 상권",
+          "district_nm": "강남구",
+          "centroid_latitude": 37.5199,
+          "centroid_longitude": 127.0227,
+          "suitability_score": 79.4,
+          "score_components": {
+            "dna_match_score": 83.4,
+            "market_score": 81.4,
+            "competition_score": 60,
+            "proximity_risk_score": 26
+          },
+          "positive_factors": [
+            "브랜드 입점 DNA와 소비자 구성이 유사",
+            "시장 규모와 거래 활동이 양호"
+          ],
+          "risk_factors": [
+            "동종 점포 경쟁과 기존 점포 근접성을 추가 검토해야 함"
+          ],
+          "facts": {
+            "min_distance_to_existing_store_m": 1720,
+            "bakery_franchise_share": 0.36
+          }
+        }
+      ],
+      "portfolios": [
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-C001"
+          ],
+          "area_names": [
+            "성수 연무장길 상권"
+          ],
+          "portfolio_score": 91.3,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-C002"
+          ],
+          "area_names": [
+            "한남동 상권"
+          ],
+          "portfolio_score": 87.9,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 1,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-C003"
+          ],
+          "area_names": [
+            "연남동 상권"
+          ],
+          "portfolio_score": 85.2,
+          "rationale_facts": [
+            "개별 적합도가 높은 상권"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-C001",
+            "MOCK-C002"
+          ],
+          "area_names": [
+            "성수 연무장길 상권",
+            "한남동 상권"
+          ],
+          "portfolio_score": 91.1,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-C001",
+            "MOCK-C003"
+          ],
+          "area_names": [
+            "성수 연무장길 상권",
+            "연남동 상권"
+          ],
+          "portfolio_score": 89.8,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 2,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-C002",
+            "MOCK-C003"
+          ],
+          "area_names": [
+            "한남동 상권",
+            "연남동 상권"
+          ],
+          "portfolio_score": 88.1,
+          "rationale_facts": [
+            "서로 다른 자치구로 지역 위험 분산",
+            "개별 적합도와 상권 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 1,
+          "area_ids": [
+            "MOCK-C001",
+            "MOCK-C002",
+            "MOCK-C003"
+          ],
+          "area_names": [
+            "성수 연무장길 상권",
+            "한남동 상권",
+            "연남동 상권"
+          ],
+          "portfolio_score": 90.1,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 2,
+          "area_ids": [
+            "MOCK-C001",
+            "MOCK-C002",
+            "MOCK-C004"
+          ],
+          "area_names": [
+            "성수 연무장길 상권",
+            "한남동 상권",
+            "서촌 상권"
+          ],
+          "portfolio_score": 89.0,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        },
+        {
+          "desired_store_count": 3,
+          "portfolio_rank": 3,
+          "area_ids": [
+            "MOCK-C001",
+            "MOCK-C003",
+            "MOCK-C004"
+          ],
+          "area_names": [
+            "성수 연무장길 상권",
+            "연남동 상권",
+            "서촌 상권"
+          ],
+          "portfolio_score": 88.1,
+          "rationale_facts": [
+            "세 상권의 자치구가 겹치지 않음",
+            "상권 간 고객시장 중복 위험 분산",
+            "개별 적합도와 지역 분산을 함께 고려"
+          ]
+        }
+      ]
+    }
+  ]
+}

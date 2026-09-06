@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brand Area Recommendation Result",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "is_mock",
+    "reference_period",
+    "display_disclaimer",
+    "brands"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "is_mock": {
+      "type": "boolean"
+    },
+    "reference_period": {
+      "type": "string"
+    },
+    "display_disclaimer": {
+      "type": "string"
+    },
+    "brands": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "brand_id",
+          "brand_name",
+          "brand_type",
+          "dna_summary",
+          "recommendations",
+          "portfolios"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "project": "BC-Card-Consumer-Data-2026",
+  "scope": "bakery franchise Seoul commercial-area portfolio recommendation",
+  "setup_code": "SETUP-01",
+  "setup_status": "completed",
+  "setup_due_date": "2026-09-06",
+  "tasks": [
+    {
+      "code": "DATA-01",
+      "owner": "B",
+      "due_date": "2026-09-07",
+      "depends_on": [
+        "SETUP-01"
+      ],
+      "directory": "PART-II/DATA-01"
+    },
+    {
+      "code": "DATA-02",
+      "owner": "B",
+      "due_date": "2026-09-07",
+      "depends_on": [
+        "SETUP-01"
+      ],
+      "directory": "PART-II/DATA-02"
+    },
+    {
+      "code": "APP-01",
+      "owner": "C",
+      "due_date": "2026-09-09",
+      "depends_on": [
+        "SETUP-01"
+      ],
+      "directory": "PART-II/APP-01"
+    },
+    {
+      "code": "MODEL-01",
+      "owner": "A",
+      "due_date": "2026-09-10",
+      "depends_on": [
+        "DATA-01",
+        "DATA-02"
+      ],
+      "directory": "PART-III/MODEL-01"
+    }
+  ]
+}

@@ -239,3 +239,7 @@ secrets/
 /Datasets/a. BC Card Provided Data/*
 /Datasets/b. External Public Data/*
 /.env
+/Datasets/a. BC Provided Data/
+/Datasets/b. External Public Data/
+**/.DS_Store
+*.pyc

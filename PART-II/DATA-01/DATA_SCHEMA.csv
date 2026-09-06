@@ -1,0 +1,24 @@
+column_name,data_type,required,description
+brand_id,string,yes,표준화 브랜드 식별자
+brand_name,string,yes,표준 브랜드명
+store_id,string,yes,점포 식별자
+store_name_raw,string,yes,원본 점포명
+store_name_std,string,yes,표준화 점포명
+address_raw,string,yes,원본 주소
+address_std,string,yes,표준화 주소
+sido_nm,string,yes,광역시도
+ccg_nm,string,yes,시군구
+district_nm,string,no,서울 자치구
+longitude,float,no,WGS84 경도
+latitude,float,no,WGS84 위도
+coordinate_source,string,no,좌표 출처
+store_status,string,yes,운영 또는 제외 상태
+match_method,string,yes,매칭 방식
+match_confidence,string,yes,high medium excluded
+area_id,string,no,서울 상권 코드
+area_name,string,no,서울 상권명
+area_type,string,no,서울 상권 유형
+spatial_join_status,string,yes,공간 연결 상태
+exclusion_reason,string,no,제외 또는 실패 사유
+source_name,string,yes,원천 데이터명
+source_date,string,yes,수집 또는 확인일
