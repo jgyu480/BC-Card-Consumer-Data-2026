@@ -234,3 +234,8 @@ secrets/
 1. Datasets/c. Processed Data/*
 !1. Datasets/c. Processed Data/.gitkeep
 
+
+# Local-only raw datasets and secrets
+/Datasets/a. BC Card Provided Data/*
+/Datasets/b. External Public Data/*
+/.env
