@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-09-06T17:26:48.983639+00:00",
+  "source_snapshot": "202606",
+  "distance_crs": "EPSG:5181",
+  "radii_m": [
+    250,
+    500,
+    1000
+  ],
+  "decay_scale_m": 300.0,
+  "decay_cutoff_m": 2000.0,
+  "categories": {
+    "빵/도넛": "bakery",
+    "카페": "cafe",
+    "떡/한과": "rice_cake"
+  },
+  "input_point_stats": {
+    "zip_member": "소상공인시장진흥공단_상가(상권)정보_서울_202606.csv",
+    "seoul_all_rows": 554092,
+    "relevant_before_coordinate_filter": 29921,
+    "invalid_coordinate_rows": 0,
+    "duplicate_store_ids": 0,
+    "final_relevant_points": 29921,
+    "category_counts": {
+      "cafe": 22739,
+      "bakery": 6119,
+      "rice_cake": 1063
+    }
+  },
+  "output_rows": 1650,
+  "outputs": [
+    "PART-II/DATA-02/intermediate/seoul_relevant_store_points_202606.parquet",
+    "PART-II/DATA-02/intermediate/seoul_spatial_competition_features_202606.parquet",
+    "PART-II/DATA-02/outputs/area_feature_master.parquet"
+  ]
+}

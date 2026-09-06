@@ -1,0 +1,50 @@
+{
+  "reference_period": "2026Q2",
+  "bc_period_start": "202601",
+  "bc_period_end": "202606",
+  "bc_industry_code": "8301",
+  "seoul_industry_code": "CS100005",
+  "seoul_industry_name": "제과점",
+  "non_person_code": "X",
+  "female_gender_code": null,
+  "age_code_mapping": {},
+  "distance_radii_m": [
+    250,
+    500,
+    1000
+  ],
+  "distance_bandwidth_m": 500,
+  "input_paths": {
+    "bc": "Datasets/a. BC Provided Data/ABP_CONTEST_DATA.csv",
+    "bc_readme": "Datasets/a. BC Provided Data/README.md",
+    "seoul_store": "Datasets/b. External Public Data/04_seoul_store_by_area/store_by_area_20262.jsonl",
+    "seoul_sales": "Datasets/b. External Public Data/05_seoul_sales_by_area/sales_by_area_20262.jsonl",
+    "small_business_zip": "Datasets/b. External Public Data/02_small_business_stores/소상공인시장진흥공단_상가(상권)정보_20260630.zip",
+    "area_reference": "Datasets/b. External Public Data/06_seoul_area_reference/area_reference.jsonl"
+  },
+  "bc_codebook": {
+    "gender": {
+      "1": "남성",
+      "2": "여성",
+      "3": "외국인",
+      "x": "법인"
+    },
+    "age": {
+      "1": "20대 이하",
+      "2": "20대",
+      "3": "30대",
+      "4": "40대",
+      "5": "50대",
+      "6": "60대 이상",
+      "x": "법인 및 외국인"
+    },
+    "bakery_industry_code": "8301"
+  },
+  "seoul_codebook": {
+    "bakery_service_code": "CS100005",
+    "coffee_service_code": "CS100010"
+  },
+  "small_business_codebook": {
+    "bakery_subcategory_name": "빵/도넛"
+  }
+}
