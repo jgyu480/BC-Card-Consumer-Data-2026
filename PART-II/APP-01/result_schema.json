@@ -7,6 +7,8 @@
     "is_mock",
     "reference_period",
     "display_disclaimer",
+    "service_context",
+    "ui_copy",
     "brands"
   ],
   "properties": {
@@ -22,6 +24,26 @@
     "display_disclaimer": {
       "type": "string"
     },
+    "service_context": {
+      "type": "object",
+      "required": [
+        "target_user",
+        "primary_job",
+        "analyzed_population",
+        "user_inputs",
+        "decision_flow"
+      ]
+    },
+    "ui_copy": {
+      "type": "object",
+      "required": [
+        "service_title",
+        "portfolio_section_title",
+        "area_section_title",
+        "risk_section_title",
+        "disclaimer"
+      ]
+    },
     "brands": {
       "type": "array",
       "minItems": 3,
@@ -32,6 +54,7 @@
           "brand_name",
           "brand_type",
           "dna_summary",
+          "decision_summary",
           "recommendations",
           "portfolios"
         ]
