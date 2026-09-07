@@ -82,6 +82,24 @@ def names_match(a: str, b: str) -> bool:
     return a == b or a in b or b in a
 
 
+def find_name_matched_candidates(candidates: pd.DataFrame, store_name_std: str, store_name_only_std: str) -> pd.DataFrame:
+    """
+    상호명+지점명 결합형(store_name_std)으로 먼저 시도하고,
+    실패하면 상호명만(store_name_only_std)으로 한 번 더 시도한다.
+    -> 지점명 표기가 데이터셋 간에 다를 뿐(예: "강동구청점" vs "강동점")
+       실제로는 같은 브랜드 매장인 경우를 더 건져내기 위함.
+    """
+    strict = candidates[candidates["mois_name_std"].apply(lambda x: names_match(store_name_std, x))]
+    if not strict.empty:
+        return strict, "strict"
+
+    loose = candidates[candidates["mois_name_std"].apply(lambda x: names_match(store_name_only_std, x))]
+    if not loose.empty:
+        return loose, "loose_brand_only"
+
+    return candidates.iloc[0:0], None
+
+
 def cross_check_with_mois(stores_df: pd.DataFrame, mois_df: pd.DataFrame) -> pd.DataFrame:
     stores_df = stores_df.copy()
     stores_df["store_lotno_addr_std"] = stores_df["지번주소"].apply(normalize_address)
@@ -102,6 +120,7 @@ def cross_check_with_mois(stores_df: pd.DataFrame, mois_df: pd.DataFrame) -> pd.
     for idx in seoul_idx:
         row = stores_df.loc[idx]
         store_name = row.get("store_name_std", "")
+        store_name_only = normalize_name(row.get("상호명", ""))
         store_lot = row.get("store_lotno_addr_std", "")
         store_road = row.get("store_road_addr_std", "")
 
@@ -114,15 +133,16 @@ def cross_check_with_mois(stores_df: pd.DataFrame, mois_df: pd.DataFrame) -> pd.
             stores_df.at[idx, "mois_note"] = "주소 일치하는 행안부 레코드 없음"
             continue
 
-        name_matched = candidates[
-            candidates["mois_name_std"].apply(lambda x: names_match(store_name, x))
-        ]
+        name_matched, match_level = find_name_matched_candidates(candidates, store_name, store_name_only)
 
         if not name_matched.empty:
             best = name_matched.iloc[0]
             stores_df.at[idx, "mois_matched"] = True
             stores_df.at[idx, "business_status"] = best["SALS_STTS_NM"]
-            stores_df.at[idx, "mois_note"] = "주소+상호명 일치"
+            stores_df.at[idx, "mois_note"] = (
+                "주소+상호명 일치" if match_level == "strict"
+                else "주소+상호명 일치(지점명 제외 브랜드명 기준)"
+            )
             matched_count += 1
         else:
             stores_df.at[idx, "mois_note"] = "주소는 일치하나 상호명 불일치 (같은 건물 내 다른 업소로 추정)"
