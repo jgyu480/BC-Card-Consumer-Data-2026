@@ -110,3 +110,126 @@ BC 자료는 월별 시군구 단위이고 서울시 자료는 분기별 상권 
 
 서울시 상권 내부 점포 수와 소진공 중심점 반경 점포 수의 상관을 교차검증으로 기록합니다. 두 값은 공간 정의가 달라 일치 여부가 아니라 전반적 방향의 일관성을 확인하는 용도입니다.
 <!-- STAGE3_METHOD_END -->
+
+<!-- DATA02_PROGRESS_START -->
+
+## 7. 작업 진행 현황
+
+### 1/4. 분석 구조 및 데이터 검증 — 완료
+
+DATA-02의 역할, 분석 단위와 DATA-01 및 MODEL-01과의 결합 규격을 정의하였다.
+
+- 분석 단위: `area_id × period_q`
+- 기준 분기: `2026Q2`
+- 서울시 제과점 업종코드: `CS100005`
+- BC카드 제과점 업종코드: `8301`
+- BC카드·서울시·소진공 원본 스키마 검증
+- 기간, 식별자, 업종코드, 결측 및 중복 확인
+- DATA-01 및 MODEL-01과의 역할 분리
+- 분석 설정과 방법론 문서화
+
+주요 결과물:
+
+- `config/data02_config.json`
+- `src/inspect_and_collect.py`
+- `reports/stage1_schema_report.md`
+
+### 2/4. BC카드 및 서울시 상권 기본 특성 생성 — 완료
+
+BC카드 데이터를 월별·시군구별 소비 프로필로 가공하고, 서울시 상권분석서비스를 이용해 상권별 시장 및 경쟁 특성을 생성하였다.
+
+생성 특성:
+
+- 소비금액, 거래건수 및 객단가
+- 성별·연령대별 소비 비중
+- 제과점 점포 수와 프랜차이즈 비중
+- 개업·폐업 수와 비율
+- 추정매출액과 거래건수
+- 점포당 매출 및 점포당 거래건수
+- 커피 업종의 점포 및 매출 특성
+
+BC카드 자료는 시군구 단위, 서울시 자료는 상권 단위로 유지하며 시군구 소비를 개별 상권에 임의 배분하지 않는다.
+
+주요 결과물:
+
+- `outputs/bc_ccg_month_features.parquet`
+- `outputs/bc_ccg_profile_2026h1.parquet`
+- `outputs/bc_bakery_ccg_profile_2026h1.parquet`
+- `intermediate/ccg_reference.parquet`
+- `intermediate/area_base_features_20262.parquet`
+- `reports/stage2_quality_report.md`
+
+현재 결과 규모:
+
+- 전체 BC 시군구·업종 프로필: 2,352행
+- 제과점 BC 시군구 프로필: 252행
+- 서울 후보 상권: 1,650개
+
+### 3/4. 좌표 기반 공간 경쟁 특성 생성 — 완료
+
+소진공 서울 점포 좌표를 이용해 후보 상권 주변의 공간 경쟁 특성을 생성하였다.
+
+입력 점포:
+
+| 업종 | 점포 수 |
+|---|---:|
+| 빵·도넛 | 6,119개 |
+| 카페 | 22,739개 |
+| 떡·한과 | 1,063개 |
+| 합계 | 29,921개 |
+
+생성 특성:
+
+- 250m·500m·1,000m 반경 내 점포 수
+- 가장 가까운 제과점까지의 거리
+- `exp(-거리/300m)` 기반 거리감쇠 경쟁압력
+- 카페와 떡·한과 점포의 공간 밀도
+- 제과점 대비 카페 점포 비율
+- 서울시 공식 점포 수와 소진공 반경 지표의 교차검증
+
+품질검증 결과:
+
+- 최종 후보 상권: 1,650개
+- 최종 특성 수: 165개
+- `area_id` 중복: 0건
+- 검증 오류: 없음
+- 비교 가능 상권: 1,186개
+- Pearson 상관계수: 0.4319
+- Spearman 상관계수: 0.3887
+
+주요 결과물:
+
+- `intermediate/seoul_relevant_store_points_202606.parquet`
+- `outputs/seoul_spatial_competition_features_202606.parquet`
+- `outputs/area_feature_master.parquet`
+- `reports/stage3_quality_report.md`
+- `reports/stage3_manifest.json`
+
+### 4/4. DATA-01 결합 계약 및 최종 품질검증 — DATA-01 완료 후 진행
+
+DATA-01 담당자는 다음 결과물을 완성한 후 DATA-02의 4/4 작업까지 진행한다.
+
+필요한 DATA-01 결과물:
+
+- `brand_store_master.parquet`
+- `brand_ccg_presence.parquet`
+- `brand_area_presence.parquet`
+- `brand_name_mapping.csv`
+- `data01_quality_report.md`
+
+4/4 작업 내용:
+
+1. DATA-01과 DATA-02의 `area_id`, `ccg_id` 자료형을 통일한다.
+2. `brand_ccg_presence.parquet`과 BC 시군구 프로필의 연결률을 확인한다.
+3. `brand_area_presence.parquet`과 상권 특성 테이블의 연결률을 확인한다.
+4. 결합키의 중복, 결측 및 미연결 행을 검증한다.
+5. 브랜드 점포 좌표의 유효성을 확인한다.
+6. 동일 브랜드가 이미 입점한 상권을 후보에서 제외할 수 있는지 확인한다.
+7. 기존 점포와 후보 상권 사이의 거리 계산 가능 여부를 확인한다.
+8. 결합 전후 행 수와 데이터 보존 여부를 확인한다.
+9. MODEL-01 입력 규격과 결합 계약을 문서화한다.
+10. 최종 품질보고서를 작성하고 README 상태를 갱신한다.
+
+DATA-01과 DATA-02는 하나의 파일로 미리 합치지 않는다. 두 특성 테이블을 독립적으로 유지하고 MODEL-01에서 `area_id`, `ccg_id`와 점포 좌표를 이용해 결합한다.
+
+<!-- DATA02_PROGRESS_END -->
