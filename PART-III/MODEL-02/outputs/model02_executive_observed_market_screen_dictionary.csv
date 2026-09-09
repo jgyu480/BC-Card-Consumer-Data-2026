@@ -1,0 +1,6 @@
+﻿column,meaning,interpretation
+recent_4q_sales_per_store_won,2025Q3~2026Q2 상권 제과점 총매출 ÷ 같은 기간 평균 제과점 수,최근 1년의 실제 기존 점포당 매출환경
+seoul_observed_percentile,매출·점포가 완전 관측된 399개 상권 안에서의 백분위,"서울 전체 1,186개 상권 기준 순위가 아님"
+recent_4q_vs_prior_year_pct,직전 동일 계절 4분기 대비 실제 점포당 매출환경 증감률,미래 성장률 예측이 아닌 과거 변화
+recent_4q_quarterly_variation_pct,최근 4개 분기 점포당 매출의 변동계수,값이 클수록 분기별 매출 흔들림이 컸음
+forecast_status,엄격한 시간차단 검증 결과,미래 매출예측 수치는 제공하지 않음

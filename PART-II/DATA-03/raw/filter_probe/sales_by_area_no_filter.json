@@ -1,0 +1,18 @@
+{
+  "service": "VwsmTrdarSelngQq",
+  "variant": "no_filter",
+  "params": [],
+  "result": {
+    "CODE": "INFO-000",
+    "MESSAGE": "정상 처리되었습니다"
+  },
+  "list_total_count": 481462,
+  "returned_rows": 50,
+  "periods": [
+    "20222"
+  ],
+  "industries": [
+    "CS100010"
+  ],
+  "filter_effective": false
+}

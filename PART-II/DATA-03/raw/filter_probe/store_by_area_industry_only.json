@@ -1,0 +1,16 @@
+{
+  "service": "VwsmTrdarStorQq",
+  "variant": "industry_only",
+  "params": [
+    "CS100005"
+  ],
+  "result": {
+    "CODE": "INFO-200",
+    "MESSAGE": "해당하는 데이터가 없습니다."
+  },
+  "list_total_count": null,
+  "returned_rows": 0,
+  "periods": [],
+  "industries": [],
+  "filter_effective": false
+}

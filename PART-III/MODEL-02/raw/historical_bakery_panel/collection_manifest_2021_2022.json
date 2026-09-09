@@ -1,0 +1,135 @@
+{
+  "created_at_utc": "2026-09-09T11:18:36.813232+00:00",
+  "source": "서울 열린데이터광장 공식 연도별 ZIP",
+  "bakery_industry_code": "CS100005",
+  "rows": [
+    {
+      "period": "20211",
+      "dataset": "sales",
+      "source_zip": "seoul_sales_area_2021.zip",
+      "rows": 438,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_sales_20211.parquet"
+    },
+    {
+      "period": "20212",
+      "dataset": "sales",
+      "source_zip": "seoul_sales_area_2021.zip",
+      "rows": 445,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_sales_20212.parquet"
+    },
+    {
+      "period": "20213",
+      "dataset": "sales",
+      "source_zip": "seoul_sales_area_2021.zip",
+      "rows": 452,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_sales_20213.parquet"
+    },
+    {
+      "period": "20214",
+      "dataset": "sales",
+      "source_zip": "seoul_sales_area_2021.zip",
+      "rows": 453,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_sales_20214.parquet"
+    },
+    {
+      "period": "20221",
+      "dataset": "sales",
+      "source_zip": "seoul_sales_area_2022.zip",
+      "rows": 452,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_sales_20221.parquet"
+    },
+    {
+      "period": "20222",
+      "dataset": "sales",
+      "source_zip": "seoul_sales_area_2022.zip",
+      "rows": 455,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_sales_20222.parquet"
+    },
+    {
+      "period": "20223",
+      "dataset": "sales",
+      "source_zip": "seoul_sales_area_2022.zip",
+      "rows": 448,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_sales_20223.parquet"
+    },
+    {
+      "period": "20224",
+      "dataset": "sales",
+      "source_zip": "seoul_sales_area_2022.zip",
+      "rows": 447,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_sales_20224.parquet"
+    },
+    {
+      "period": "20211",
+      "dataset": "store",
+      "source_zip": "seoul_store_area_2021.zip",
+      "rows": 1128,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_store_20211.parquet"
+    },
+    {
+      "period": "20212",
+      "dataset": "store",
+      "source_zip": "seoul_store_area_2021.zip",
+      "rows": 1139,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_store_20212.parquet"
+    },
+    {
+      "period": "20213",
+      "dataset": "store",
+      "source_zip": "seoul_store_area_2021.zip",
+      "rows": 1149,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_store_20213.parquet"
+    },
+    {
+      "period": "20214",
+      "dataset": "store",
+      "source_zip": "seoul_store_area_2021.zip",
+      "rows": 1156,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_store_20214.parquet"
+    },
+    {
+      "period": "20221",
+      "dataset": "store",
+      "source_zip": "seoul_store_area_2022.zip",
+      "rows": 1163,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_store_20221.parquet"
+    },
+    {
+      "period": "20222",
+      "dataset": "store",
+      "source_zip": "seoul_store_area_2022.zip",
+      "rows": 1160,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_store_20222.parquet"
+    },
+    {
+      "period": "20223",
+      "dataset": "store",
+      "source_zip": "seoul_store_area_2022.zip",
+      "rows": 1171,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_store_20223.parquet"
+    },
+    {
+      "period": "20224",
+      "dataset": "store",
+      "source_zip": "seoul_store_area_2022.zip",
+      "rows": 1174,
+      "duplicate_key_rows": 0,
+      "output": "PART-III/MODEL-02/raw/historical_bakery_panel/seoul_bakery_store_20224.parquet"
+    }
+  ]
+}

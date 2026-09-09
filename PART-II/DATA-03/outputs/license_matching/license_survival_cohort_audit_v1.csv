@@ -1,0 +1,5 @@
+﻿match_rule,survival_label_12m,store_count
+coordinate_within_20m,unknown_or_censored,14
+name_address_high,closed_within_12m,8
+name_address_high,survived_12m,99
+name_address_high,unknown_or_censored,5

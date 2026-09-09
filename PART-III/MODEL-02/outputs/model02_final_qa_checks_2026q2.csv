@@ -1,0 +1,9 @@
+﻿check,passed,detail
+통합 패널 22개 분기,True,"20211~20262, 22개"
+미래 정답 가능 행 수,True,"7,116행"
+통과한 미래 예측모델 없음,True,없음
+실제 매출환경 화면 표본,True,399개 완전 관측 상권
+현장검증 목록은 실제 화면의 부분집합,True,40개
+화면에 미래 예측 수치 열 없음,True,없음
+실패 처리 상태 일치,True,NO_QUALIFIED_FUTURE_SALES_MODEL
+금지 산출물 3개 이상 명시,True,3개

@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-09-09T11:59:32.935672+00:00",
+  "overall_qa_passed": true,
+  "release_status": "RELEASE_OBSERVED_MARKET_SCREEN_ONLY",
+  "allowed_release_content": [
+    "최근 4개 분기 실제 점포당 제과매출환경",
+    "전년동기 대비 실제 변화",
+    "분기별 변동성 경고",
+    "현장검증 우선순위"
+  ],
+  "prohibited_release_content": [
+    "향후 12개월 상권 매출예측",
+    "신규 브랜드 점포 예상매출",
+    "보수적·낙관적 예측구간",
+    "최적 점포 규모 또는 투자수익률"
+  ],
+  "observed_market_screen_area_count": 399,
+  "field_check_priority_counts": {
+    "일반 검토": 359,
+    "현장검증 필요": 36,
+    "현장검증 우선": 4
+  },
+  "qualified_future_sales_models": []
+}

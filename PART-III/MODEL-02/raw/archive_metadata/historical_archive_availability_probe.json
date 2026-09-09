@@ -1,0 +1,102 @@
+{
+  "created_at_utc": "2026-09-09T11:53:58.640743+00:00",
+  "purpose": "MODEL-02 미래 매출 검증 표본 확대를 위한 2021년 이전 서울시 상권 추정매출·점포 공식 파일 보관 여부 점검",
+  "target_years": [
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "results": {
+    "sales": {
+      "dataset_id": "OA-15572",
+      "url": "https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do",
+      "http_status": 200,
+      "html_characters": 100293,
+      "snapshot": "PART-III/MODEL-02/raw/archive_metadata/sales_OA-15572_page.html",
+      "year_hits": {
+        "2017": {
+          "count": 4,
+          "contexts_first_3": [
+            "20220615 --> <script src=\"/js/jquery.modal.min.js\"></script> <link rel=\"stylesheet\" href=\"/css/jquery.modal.min.css\"> <script src=\"/js/jquery-ui.min.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.jb.acescroll.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.mousewheel.js\"></script> <!-- 2017.11.02 스크롤관",
+            "heet\" href=\"/css/jquery.modal.min.css\"> <script src=\"/js/jquery-ui.min.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.jb.acescroll.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.mousewheel.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.DB_navi3DSwap.min.js\"></script> <link rel=\"sty",
+            "ript> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.jb.acescroll.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.mousewheel.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.DB_navi3DSwap.min.js\"></script> <link rel=\"stylesheet\" href=\"/css/animate.min.css\" /> <!-- 2017.11.11 추가 --> <!-- jQuery 1.7+, IE"
+          ]
+        },
+        "2018": {
+          "count": 1,
+          "contexts_first_3": [
+            "option:selected').val() != \"\") var url = $('#Slink1 option:selected').val(); window.open(url, '_blank'); }); }); </script> <script src=\"/js/common.js?ver=20180713\"></script> <script src=\"/js/feCommon-UIACC_min.js\"></script> <!-- 로거 --> <script src=\"//weblog.eseoul.go.kr/wlo/js/install.js\"></script> <!-- <script src=\"//wcs.naver.net/"
+          ]
+        },
+        "2019": {
+          "count": 2,
+          "contexts_first_3": [
+            "<col class=\"col1\"> <col class=\"col2\"> </colgroup> <tbody> <tr> <th scope=\"row\">공개일자</th> <td><span class=\"en\">2019.05.29.</span></td> <th scope=\"row\">데이터 갱신일</th> <td><span class=\"en\">2026.09.02.</span></td> </tr> <tr> <th s",
+            "<col class=\"col1a\"> <col class=\"col2\"> </colgroup> <tbody> <tr> <th scope=\"row\">공개일자</th> <td><span class=\"en\">2019.05.29.</span></td> </tr> <tr><th scope=\"row\"> 데이터 갱신일 </th> <td><span class=\"en\">2026.09.02.</span></td>"
+          ]
+        },
+        "2020": {
+          "count": 5,
+          "contexts_first_3": [
+            "itle); } function naviSet(naviSetMenu, naviSetSubtTtle){ $('#naviSet').text(naviSetMenu); $('#subTitle').text(naviSetSubtTtle); $('#menuName').text(naviSetMenu); } //20200910 웹접근성관련 ie의 본문바로가기 실행후 메뉴로 가는 버그때문에 추가 function skipMenu(sectionStr) { var loc = \"#\"+sectionStr; $(loc).prop(\"tabindex\",\"0\"); document.location.href = loc; $(loc).k",
+            "ment.getElementById('open-pop-btn').focus(); } function logout(){ //location.href = \"/sso/logout.jsp?nextPage=\"+encodeURIComponent(location.href); //통계소식, 게시판 상세에서 로그인시 오류 발생 20200213 add var ourl = location.href; //if( ourl.includes(\"boardView.do\") || ourl.includes(\"inquireView.do\") || ourl.includes(\"galleryView.do\") || ourl.includes(\"statView.do\") ) { /",
+            "ogout.jsp?nextPage=\"+encodeURIComponent(ourl); } function login(){ //location.href = \"/sso/login.jsp?nextPage=\"+encodeURIComponent(location.href); //통계소식, 게시판 상세에서 로그인시 오류 발생 20200213 add var ourl = location.href; if( ourl.indexOf(\"boardView.do\")>=0 || ourl.indexOf(\"inquireView.do\")>=0 || ourl.indexOf(\"galleryView.do\")>=0 || ourl.indexOf(\"statView.do\")>=0"
+          ]
+        }
+      },
+      "download_function_sequence_candidates": [
+        "47",
+        "48",
+        "49",
+        "50",
+        "51"
+      ]
+    },
+    "store": {
+      "dataset_id": "OA-15577",
+      "url": "https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do",
+      "http_status": 200,
+      "html_characters": 99486,
+      "snapshot": "PART-III/MODEL-02/raw/archive_metadata/store_OA-15577_page.html",
+      "year_hits": {
+        "2017": {
+          "count": 4,
+          "contexts_first_3": [
+            "20220615 --> <script src=\"/js/jquery.modal.min.js\"></script> <link rel=\"stylesheet\" href=\"/css/jquery.modal.min.css\"> <script src=\"/js/jquery-ui.min.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.jb.acescroll.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.mousewheel.js\"></script> <!-- 2017.11.02 스크롤관",
+            "heet\" href=\"/css/jquery.modal.min.css\"> <script src=\"/js/jquery-ui.min.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.jb.acescroll.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.mousewheel.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.DB_navi3DSwap.min.js\"></script> <link rel=\"sty",
+            "ript> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.jb.acescroll.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.mousewheel.js\"></script> <!-- 2017.11.02 스크롤관련 js 추가 --> <script src=\"/js/jquery.DB_navi3DSwap.min.js\"></script> <link rel=\"stylesheet\" href=\"/css/animate.min.css\" /> <!-- 2017.11.11 추가 --> <!-- jQuery 1.7+, IE"
+          ]
+        },
+        "2018": {
+          "count": 1,
+          "contexts_first_3": [
+            "option:selected').val() != \"\") var url = $('#Slink1 option:selected').val(); window.open(url, '_blank'); }); }); </script> <script src=\"/js/common.js?ver=20180713\"></script> <script src=\"/js/feCommon-UIACC_min.js\"></script> <!-- 로거 --> <script src=\"//weblog.eseoul.go.kr/wlo/js/install.js\"></script> <!-- <script src=\"//wcs.naver.net/"
+          ]
+        },
+        "2019": {
+          "count": 2,
+          "contexts_first_3": [
+            "<col class=\"col1\"> <col class=\"col2\"> </colgroup> <tbody> <tr> <th scope=\"row\">공개일자</th> <td><span class=\"en\">2019.06.04.</span></td> <th scope=\"row\">데이터 갱신일</th> <td><span class=\"en\">2026.09.02.</span></td> </tr> <tr> <th s",
+            "<col class=\"col1a\"> <col class=\"col2\"> </colgroup> <tbody> <tr> <th scope=\"row\">공개일자</th> <td><span class=\"en\">2019.06.04.</span></td> </tr> <tr><th scope=\"row\"> 데이터 갱신일 </th> <td><span class=\"en\">2026.09.02.</span></td>"
+          ]
+        },
+        "2020": {
+          "count": 5,
+          "contexts_first_3": [
+            "itle); } function naviSet(naviSetMenu, naviSetSubtTtle){ $('#naviSet').text(naviSetMenu); $('#subTitle').text(naviSetSubtTtle); $('#menuName').text(naviSetMenu); } //20200910 웹접근성관련 ie의 본문바로가기 실행후 메뉴로 가는 버그때문에 추가 function skipMenu(sectionStr) { var loc = \"#\"+sectionStr; $(loc).prop(\"tabindex\",\"0\"); document.location.href = loc; $(loc).k",
+            "ment.getElementById('open-pop-btn').focus(); } function logout(){ //location.href = \"/sso/logout.jsp?nextPage=\"+encodeURIComponent(location.href); //통계소식, 게시판 상세에서 로그인시 오류 발생 20200213 add var ourl = location.href; //if( ourl.includes(\"boardView.do\") || ourl.includes(\"inquireView.do\") || ourl.includes(\"galleryView.do\") || ourl.includes(\"statView.do\") ) { /",
+            "ogout.jsp?nextPage=\"+encodeURIComponent(ourl); } function login(){ //location.href = \"/sso/login.jsp?nextPage=\"+encodeURIComponent(location.href); //통계소식, 게시판 상세에서 로그인시 오류 발생 20200213 add var ourl = location.href; if( ourl.indexOf(\"boardView.do\")>=0 || ourl.indexOf(\"inquireView.do\")>=0 || ourl.indexOf(\"galleryView.do\")>=0 || ourl.indexOf(\"statView.do\")>=0"
+          ]
+        }
+      },
+      "download_function_sequence_candidates": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    }
+  }
+}

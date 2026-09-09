@@ -1,0 +1,3 @@
+﻿prediction,winning_folds,total_folds,winning_fold_pct
+hist_gradient_boosting_corrected_v1,2,10,20.0
+random_forest_corrected_v1,2,10,20.0

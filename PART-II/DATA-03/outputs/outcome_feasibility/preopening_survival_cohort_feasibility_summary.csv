@@ -1,0 +1,5 @@
+﻿survival_label_12m,within_historical_panel_range,pre_opening_panel_found,store_count
+closed_within_12m,False,False,6
+closed_within_12m,True,False,2
+survived_12m,False,False,83
+survived_12m,True,False,16

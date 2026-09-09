@@ -1,0 +1,25 @@
+﻿brand_id,brand_name,official_brand_url,official_menu_url,official_franchise_url,menu_source_type,source_checked_date,brand_description_text,store_format_evidence,special_location_evidence,manual_review_status,evidence_note,official_social_url,official_verification_status
+BRD_20220253,곤트란쉐리에(Gontran Cherrier),https://gontran.kr/,https://gontran.kr/sub/sub03_01.php?cat_no=1,,,2026-09-09,,,,official_url_seeded,공식 브랜드·메뉴 페이지 시드,,seeded_needs_url_validation
+BRD_20120100621,더베이크,https://thebake.co.kr/,https://thebake.co.kr/product.html,,,2026-09-09,,,,official_url_seeded,공식 상품 페이지 시드,,seeded_needs_url_validation
+BRD_20080500016,던킨/던킨도너츠,https://www.dunkindonuts.co.kr/,https://www.dunkindonuts.co.kr/menu?cat=1,,,2026-09-09,,,,official_url_seeded,던킨코리아 공식 메뉴 페이지 시드,,seeded_needs_url_validation
+BRD_20250749,디에그,,,,,2026-09-09,,,,official_url_seeded,공식 소셜 채널만 확인됨 — 가격은 별도 수기 검증 필요,https://www.instagram.com/de_egg_official/,seeded_needs_url_validation
+BRD_20080100039,뚜레쥬르,https://m.tlj.co.kr/,https://m.tlj.co.kr/,,,2026-09-09,,,,official_url_seeded,뚜레쥬르 공식 모바일 상품 페이지 시드,,seeded_needs_url_validation
+BRD_20140306,롤링핀,,,,,,,,,not_started,,,
+BRD_20161137,명랑시대쌀핫도그,https://myungranghotdog.com/,https://myungranghotdog.com/,,,2026-09-09,,,,official_url_seeded,공식 브랜드·메뉴 페이지 시드,,seeded_needs_url_validation
+BRD_20150085,못난이꽈배기,https://monnanifood.com/,https://monnanifood.com/,,,2026-09-09,,,,official_url_seeded,국내 공식 사이트 시드,,seeded_needs_url_validation
+BRD_20240814,보리원,,,,,,,,,not_started,,,
+BRD_20212010,복호두,https://bokhodu.com/,https://bokhodu.com/,,,2026-09-09,,,,official_url_seeded,공식 브랜드·메뉴 페이지 시드,,seeded_needs_url_validation
+BRD_20080200287,브레댄코(bread&co.DAILY-NEW),https://www.breadnco.kr/,https://www.breadnco.kr/,,,2026-09-09,,,,official_url_seeded,공식 브랜드 페이지 시드,,seeded_needs_url_validation
+BRD_20260378,빵굼터,,,,,,,,,not_started,,,
+BRD_20150052,빵장수단팥빵,,,,,,,,,not_started,,,
+BRD_20211367,삼송빵집,https://www.ssbnc.kr/,https://www.ssbnc.kr/,,,2026-09-09,,,,official_url_seeded,공식 브랜드·상품 페이지 시드,,seeded_needs_url_validation
+BRD_20230468,소림사,,,,,,,,,not_started,,,
+BRD_20140288,스트릿츄러스,https://www.streetchurros.com/,https://www.streetchurros.com/,,,2026-09-09,,,,official_url_seeded,공식 브랜드·메뉴 페이지 시드,,seeded_needs_url_validation
+BRD_20160521,심봉사도로케,,,,,,,,,not_started,,,
+BRD_20240723,올드몬트베이글,https://www.oldmontbagel.com/,https://www.oldmontbagel.com/,,,2026-09-09,,,,official_url_seeded,공식 브랜드·상품 페이지 시드,,seeded_needs_url_validation
+BRD_20140778,크리스피크림,https://www.lotteeatz.com/,https://www.lotteeatz.com/,,,2026-09-09,,,,official_url_seeded,공식 주문 플랫폼 시드 — 크리스피크림 메뉴 경로는 수기 확인 필요,,seeded_needs_url_validation
+BRD_20080200064,파리바게뜨,,,,,,,,,not_started,,,
+BRD_20170827,핫브레드 ,,,,,,,,,not_started,,,
+BRD_20201275,호두당,,,,,,,,,not_started,,,
+BRD_20080100675,호밀호두,,,,,,,,,not_started,,,
+BRD_20240478,화이트리에,,,,,,,,,not_started,,,

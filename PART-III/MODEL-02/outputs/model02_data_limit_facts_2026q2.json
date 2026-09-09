@@ -1,0 +1,8 @@
+{
+  "current_public_panel_periods": "2021Q1~2026Q2, 22개 분기",
+  "future_12m_label_origins": "2021Q1~2025Q2, 18개 시작분기",
+  "strict_future_validation": "2023Q1~2025Q2, 10개 미래 검증분기",
+  "forecast_model_result": "통과 모델 없음",
+  "public_archive_result": "서울시 공식 ZIP 공개 보관 범위는 2021~2025이며 2021년 이전 공개 ZIP은 현재 페이지에서 확인되지 않음",
+  "failure_protocol": "미래 매출예측을 제공하지 않고 최근 4개 분기 실제 점포당 제과매출환경만 표시"
+}

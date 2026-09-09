@@ -1,0 +1,19 @@
+﻿store_id,brand_id,brand_name,store_name_raw,area_id,license_open_date,pre_opening_quarter,survival_label_12m,_area_id_norm,name_bridge_status
+MA0101202305A0008899,BRD_20211903,제이델링,제이델링서울노원구점,,2023-04-06,20231,survived_12m,,name_column_not_available
+MA0101202307A0051983,BRD_20161137,명랑시대쌀핫도그,명랑시대쌀핫도그은평 이마트점,,2023-07-05,20232,survived_12m,,name_column_not_available
+MA0101202309A0017558,BRD_20150052,빵장수단팥빵,빵장수단팥빵CAFE 신림점,,2023-09-21,20232,survived_12m,,name_column_not_available
+MA0101202311A0055068,BRD_20161137,명랑시대쌀핫도그,명랑시대쌀핫도그중계은행 사거리점,,2023-11-15,20233,survived_12m,,name_column_not_available
+MA0101202406A0178679,BRD_20260730,르말뒤페이,르말뒤페이 강동점,,2024-03-04,20234,survived_12m,,name_column_not_available
+MA0101202406A0239608,BRD_20170827,핫브레드 ,오류동맞이방종합제과점핫브레드,,2024-02-20,20234,survived_12m,,name_column_not_available
+MA0101202505A0063587,BRD_20211315,꿀복이 꽈배기,꿀복이꽈배기인수점,,2025-05-12,20251,survived_12m,,name_column_not_available
+MA0101202506A0036142,BRD_20170827,핫브레드 ,핫브레드외대앞역점,,2025-06-09,20251,survived_12m,,name_column_not_available
+MA0101202507A0006484,BRD_20080100039,뚜레쥬르,뚜레쥬르한림대강남성심병원,,2025-07-29,20252,survived_12m,,name_column_not_available
+MA0101202508A0010959,BRD_20120100621,더베이크,더베이크서강대점,,2024-09-11,20242,survived_12m,,name_column_not_available
+MA0101202509A0001091,BRD_20140288,스트릿츄러스,스트릿츄러스한강버스 망원점,,2025-07-29,20252,survived_12m,,name_column_not_available
+MA0101202509A0017623,BRD_20211903,제이델링,제이델링레터링케이크서울 송파점,,2025-08-07,20252,survived_12m,,name_column_not_available
+MA0101202509A0043134,BRD_20251458,구로명물호떡 쉐프윤,구로명물호떡쉐프윤,,2025-09-11,20252,closed_within_12m,,name_column_not_available
+MA0101202510A0017346,BRD_20241738,성수동꿀꽈배기,성수동꿀꽈배기,,2024-06-13,20241,survived_12m,,name_column_not_available
+MA0101202602A0015005,BRD_20160521,심봉사도로케,심봉사도로케비트플렉스점,,2024-09-04,20242,survived_12m,,name_column_not_available
+MA0101202602A0023113,BRD_20250428,케이크시즌,케이크시즌,,2023-11-20,20233,survived_12m,,name_column_not_available
+MA0101202602A0032166,BRD_20160521,심봉사도로케,심봉사도로케 등촌점,,2025-04-23,20251,survived_12m,,name_column_not_available
+MA0101202604A0043174,BRD_20080200064,파리바게뜨,파리바게뜨사가정센트럴 아이파크점,,2025-06-24,20251,closed_within_12m,,name_column_not_available

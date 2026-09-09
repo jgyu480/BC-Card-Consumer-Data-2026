@@ -1,0 +1,354 @@
+[
+  {
+    "dataset": "sales",
+    "download_seq": "51",
+    "years_found_near_call": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "il-cont-tit\"> <h2>파일내려받기</h2> <div class=\"fl-item-r mgt-xxxs only-d\"> <span>* 파일에 이상이 있는 경우 ‘오류신고’를 통해 운영자에게 알려주세요.</span> <a href=\"javascript:goNotice();\" id=\"BtnErrorNotice\" class=\"btn-base-s\">오류신고</a> </div> </div> <div class=\"tbl-base-d list-download\"> <table> <caption> <strong>파일내려받기</strong> <span class=\"ui-caption\"></span> </caption> <colgroup> <col class=\"col1\"> <col class=\"col2\"> <col class=\"col3\"> <col class=\"col4\"> <col class=\"col5\"> <col class=\"col6\"> </colgroup> <thead> <tr> <th scope=\"col\">NO</th> <th scope=\"col\">항목</th> <th scope=\"col\">파일명</th> <th scope=\"col\">용량 (MB)</th> <th scope=\"col\">수정일</th> <th scope=\"col\">내려받기</th> </tr> </thead> <tbody> <tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\" onclick=\"javascript:downloadFile('51');\">서울시 상권분석서비스(추정매출-상권)_2025년.zip</span></td> <td>13.71</td> <td>2026.05.18.</td> <td><a href=\"javascript:downloadFile('51');\" title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\" onclick=\"javascript:downloadFile('50');\">서울시 상권분석서비스(추정매출-상권)_2024년.zip</span></td> <td>14.21</td> <td>2025.03.14.</td> <td><a href=\"javascript:downloadFile('50');\" title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" ti"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "51",
+    "years_found_near_call": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "<a href=\"javascript:goNotice();\" id=\"BtnErrorNotice\" class=\"btn-base-s\">오류신고</a> </div> </div> <div class=\"tbl-base-d list-download\"> <table> <caption> <strong>파일내려받기</strong> <span class=\"ui-caption\"></span> </caption> <colgroup> <col class=\"col1\"> <col class=\"col2\"> <col class=\"col3\"> <col class=\"col4\"> <col class=\"col5\"> <col class=\"col6\"> </colgroup> <thead> <tr> <th scope=\"col\">NO</th> <th scope=\"col\">항목</th> <th scope=\"col\">파일명</th> <th scope=\"col\">용량 (MB)</th> <th scope=\"col\">수정일</th> <th scope=\"col\">내려받기</th> </tr> </thead> <tbody> <tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\" onclick=\"javascript:downloadFile('51');\">서울시 상권분석서비스(추정매출-상권)_2025년.zip</span></td> <td>13.71</td> <td>2026.05.18.</td> <td><a href=\"javascript:downloadFile('51');\" title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\" onclick=\"javascript:downloadFile('50');\">서울시 상권분석서비스(추정매출-상권)_2024년.zip</span></td> <td>14.21</td> <td>2025.03.14.</td> <td><a href=\"javascript:downloadFile('50');\" title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "50",
+    "years_found_near_call": [
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2022년",
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "l2\"> <col class=\"col3\"> <col class=\"col4\"> <col class=\"col5\"> <col class=\"col6\"> </colgroup> <thead> <tr> <th scope=\"col\">NO</th> <th scope=\"col\">항목</th> <th scope=\"col\">파일명</th> <th scope=\"col\">용량 (MB)</th> <th scope=\"col\">수정일</th> <th scope=\"col\">내려받기</th> </tr> </thead> <tbody> <tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\" onclick=\"javascript:downloadFile('51');\">서울시 상권분석서비스(추정매출-상권)_2025년.zip</span></td> <td>13.71</td> <td>2026.05.18.</td> <td><a href=\"javascript:downloadFile('51');\" title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\" onclick=\"javascript:downloadFile('50');\">서울시 상권분석서비스(추정매출-상권)_2024년.zip</span></td> <td>14.21</td> <td>2025.03.14.</td> <td><a href=\"javascript:downloadFile('50');\" title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\" onclick=\"javascript:downloadFile('48');\">서울시_상권분석서비스(추정매출-상권)_2022년.zip</span></td> <td>12.96</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('48');\" ti"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "50",
+    "years_found_near_call": [
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2022년",
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "> <tr> <th scope=\"col\">NO</th> <th scope=\"col\">항목</th> <th scope=\"col\">파일명</th> <th scope=\"col\">용량 (MB)</th> <th scope=\"col\">수정일</th> <th scope=\"col\">내려받기</th> </tr> </thead> <tbody> <tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\" onclick=\"javascript:downloadFile('51');\">서울시 상권분석서비스(추정매출-상권)_2025년.zip</span></td> <td>13.71</td> <td>2026.05.18.</td> <td><a href=\"javascript:downloadFile('51');\" title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\" onclick=\"javascript:downloadFile('50');\">서울시 상권분석서비스(추정매출-상권)_2024년.zip</span></td> <td>14.21</td> <td>2025.03.14.</td> <td><a href=\"javascript:downloadFile('50');\" title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\" onclick=\"javascript:downloadFile('48');\">서울시_상권분석서비스(추정매출-상권)_2022년.zip</span></td> <td>12.96</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('48');\" title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "49",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "<td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\" onclick=\"javascript:downloadFile('51');\">서울시 상권분석서비스(추정매출-상권)_2025년.zip</span></td> <td>13.71</td> <td>2026.05.18.</td> <td><a href=\"javascript:downloadFile('51');\" title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\" onclick=\"javascript:downloadFile('50');\">서울시 상권분석서비스(추정매출-상권)_2024년.zip</span></td> <td>14.21</td> <td>2025.03.14.</td> <td><a href=\"javascript:downloadFile('50');\" title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\" onclick=\"javascript:downloadFile('48');\">서울시_상권분석서비스(추정매출-상권)_2022년.zip</span></td> <td>12.96</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('48');\" title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\" onclick=\"javascript:downloadFile('47');\">서울시_상권분석서비스(추정매출-상권)_2021년.zip</span></td> <td>12.55</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('47');\" ti"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "49",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "script:downloadFile('51');\">서울시 상권분석서비스(추정매출-상권)_2025년.zip</span></td> <td>13.71</td> <td>2026.05.18.</td> <td><a href=\"javascript:downloadFile('51');\" title=\"서울시 상권분석서비스(추정매출-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\" onclick=\"javascript:downloadFile('50');\">서울시 상권분석서비스(추정매출-상권)_2024년.zip</span></td> <td>14.21</td> <td>2025.03.14.</td> <td><a href=\"javascript:downloadFile('50');\" title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\" onclick=\"javascript:downloadFile('48');\">서울시_상권분석서비스(추정매출-상권)_2022년.zip</span></td> <td>12.96</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('48');\" title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\" onclick=\"javascript:downloadFile('47');\">서울시_상권분석서비스(추정매출-상권)_2021년.zip</span></td> <td>12.55</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('47');\" title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2021년.zip 다운로드</span></a></td> </tr>"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "48",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년",
+      "2024년"
+    ],
+    "context": "<td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\" onclick=\"javascript:downloadFile('50');\">서울시 상권분석서비스(추정매출-상권)_2024년.zip</span></td> <td>14.21</td> <td>2025.03.14.</td> <td><a href=\"javascript:downloadFile('50');\" title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\" onclick=\"javascript:downloadFile('48');\">서울시_상권분석서비스(추정매출-상권)_2022년.zip</span></td> <td>12.96</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('48');\" title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\" onclick=\"javascript:downloadFile('47');\">서울시_상권분석서비스(추정매출-상권)_2021년.zip</span></td> <td>12.55</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('47');\" title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody> </table> </div> <div class=\"btn-wrap align-r\" id=\"listDownload\"> <a href=\"javascript:void(0);\" class=\"link-txt\"><span>전체 파일보기</span></a> </div> <script> var fileCnt = 5; (function($, win, doc, undefined) { $(doc).ready(funct"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "48",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년",
+      "2024년"
+    ],
+    "context": "script:downloadFile('50');\">서울시 상권분석서비스(추정매출-상권)_2024년.zip</span></td> <td>14.21</td> <td>2025.03.14.</td> <td><a href=\"javascript:downloadFile('50');\" title=\"서울시 상권분석서비스(추정매출-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(추정매출-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\" onclick=\"javascript:downloadFile('48');\">서울시_상권분석서비스(추정매출-상권)_2022년.zip</span></td> <td>12.96</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('48');\" title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\" onclick=\"javascript:downloadFile('47');\">서울시_상권분석서비스(추정매출-상권)_2021년.zip</span></td> <td>12.55</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('47');\" title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody> </table> </div> <div class=\"btn-wrap align-r\" id=\"listDownload\"> <a href=\"javascript:void(0);\" class=\"link-txt\"><span>전체 파일보기</span></a> </div> <script> var fileCnt = 5; (function($, win, doc, undefined) { $(doc).ready(function(){ if(fileCnt == 0){ $(\"#fileDownList\").hide(); }"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "47",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년"
+    ],
+    "context": "<td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\" onclick=\"javascript:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\" onclick=\"javascript:downloadFile('48');\">서울시_상권분석서비스(추정매출-상권)_2022년.zip</span></td> <td>12.96</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('48');\" title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\" onclick=\"javascript:downloadFile('47');\">서울시_상권분석서비스(추정매출-상권)_2021년.zip</span></td> <td>12.55</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('47');\" title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody> </table> </div> <div class=\"btn-wrap align-r\" id=\"listDownload\"> <a href=\"javascript:void(0);\" class=\"link-txt\"><span>전체 파일보기</span></a> </div> <script> var fileCnt = 5; (function($, win, doc, undefined) { $(doc).ready(function(){ if(fileCnt == 0){ $(\"#fileDownList\").hide(); } for(var i=1; i<=fileCnt; i++){ if(i > 5){ $(\"#fileTr_\" + i).hide(); }//end if }//end for if(fileCnt < 6){ $(\"#listDownload > a\").hide(); } $(\"#listDownload > a\").on(\"click\", function(){ movement(); }); });"
+  },
+  {
+    "dataset": "sales",
+    "download_seq": "47",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년"
+    ],
+    "context": "script:downloadFile('49');\">서울시_상권분석서비스(추정매출-상권)_2023년.zip</span></td> <td>13.54</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('49');\" title=\"서울시_상권분석서비스(추정매출-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\" onclick=\"javascript:downloadFile('48');\">서울시_상권분석서비스(추정매출-상권)_2022년.zip</span></td> <td>12.96</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('48');\" title=\"서울시_상권분석서비스(추정매출-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\" onclick=\"javascript:downloadFile('47');\">서울시_상권분석서비스(추정매출-상권)_2021년.zip</span></td> <td>12.55</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('47');\" title=\"서울시_상권분석서비스(추정매출-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(추정매출-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody> </table> </div> <div class=\"btn-wrap align-r\" id=\"listDownload\"> <a href=\"javascript:void(0);\" class=\"link-txt\"><span>전체 파일보기</span></a> </div> <script> var fileCnt = 5; (function($, win, doc, undefined) { $(doc).ready(function(){ if(fileCnt == 0){ $(\"#fileDownList\").hide(); } for(var i=1; i<=fileCnt; i++){ if(i > 5){ $(\"#fileTr_\" + i).hide(); }//end if }//end for if(fileCnt < 6){ $(\"#listDownload > a\").hide(); } $(\"#listDownload > a\").on(\"click\", function(){ movement(); }); }); var listDownChecks = true; function movement(){ if(listDownChecks) {"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "20",
+    "years_found_near_call": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "tail-cont-tit\"> <h2>파일내려받기</h2> <div class=\"fl-item-r mgt-xxxs only-d\"> <span>* 파일에 이상이 있는 경우 ‘오류신고’를 통해 운영자에게 알려주세요.</span> <a href=\"javascript:goNotice();\" id=\"BtnErrorNotice\" class=\"btn-base-s\">오류신고</a> </div> </div> <div class=\"tbl-base-d list-download\"> <table> <caption> <strong>파일내려받기</strong> <span class=\"ui-caption\"></span> </caption> <colgroup> <col class=\"col1\"> <col class=\"col2\"> <col class=\"col3\"> <col class=\"col4\"> <col class=\"col5\"> <col class=\"col6\"> </colgroup> <thead> <tr> <th scope=\"col\">NO</th> <th scope=\"col\">항목</th> <th scope=\"col\">파일명</th> <th scope=\"col\">용량 (MB)</th> <th scope=\"col\">수정일</th> <th scope=\"col\">내려받기</th> </tr> </thead> <tbody> <tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\" onclick=\"javascript:downloadFile('20');\">서울시 상권분석서비스(점포-상권)_2025년.zip</span></td> <td>2.07</td> <td>2026.05.21.</td> <td><a href=\"javascript:downloadFile('20');\" title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\" onclick=\"javascript:downloadFile('19');\">서울시 상권분석서비스(점포-상권)_2024년.zip</span></td> <td>2.08</td> <td>2025.03.13.</td> <td><a href=\"javascript:downloadFile('19');\" title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "20",
+    "years_found_near_call": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "<a href=\"javascript:goNotice();\" id=\"BtnErrorNotice\" class=\"btn-base-s\">오류신고</a> </div> </div> <div class=\"tbl-base-d list-download\"> <table> <caption> <strong>파일내려받기</strong> <span class=\"ui-caption\"></span> </caption> <colgroup> <col class=\"col1\"> <col class=\"col2\"> <col class=\"col3\"> <col class=\"col4\"> <col class=\"col5\"> <col class=\"col6\"> </colgroup> <thead> <tr> <th scope=\"col\">NO</th> <th scope=\"col\">항목</th> <th scope=\"col\">파일명</th> <th scope=\"col\">용량 (MB)</th> <th scope=\"col\">수정일</th> <th scope=\"col\">내려받기</th> </tr> </thead> <tbody> <tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\" onclick=\"javascript:downloadFile('20');\">서울시 상권분석서비스(점포-상권)_2025년.zip</span></td> <td>2.07</td> <td>2026.05.21.</td> <td><a href=\"javascript:downloadFile('20');\" title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\" onclick=\"javascript:downloadFile('19');\">서울시 상권분석서비스(점포-상권)_2024년.zip</span></td> <td>2.08</td> <td>2025.03.13.</td> <td><a href=\"javascript:downloadFile('19');\" title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\">"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "19",
+    "years_found_near_call": [
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2022년",
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "l class=\"col2\"> <col class=\"col3\"> <col class=\"col4\"> <col class=\"col5\"> <col class=\"col6\"> </colgroup> <thead> <tr> <th scope=\"col\">NO</th> <th scope=\"col\">항목</th> <th scope=\"col\">파일명</th> <th scope=\"col\">용량 (MB)</th> <th scope=\"col\">수정일</th> <th scope=\"col\">내려받기</th> </tr> </thead> <tbody> <tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\" onclick=\"javascript:downloadFile('20');\">서울시 상권분석서비스(점포-상권)_2025년.zip</span></td> <td>2.07</td> <td>2026.05.21.</td> <td><a href=\"javascript:downloadFile('20');\" title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\" onclick=\"javascript:downloadFile('19');\">서울시 상권분석서비스(점포-상권)_2024년.zip</span></td> <td>2.08</td> <td>2025.03.13.</td> <td><a href=\"javascript:downloadFile('19');\" title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\" onclick=\"javascript:downloadFile('17');\">서울시_상권분석서비스(점포-상권)_2022년.zip</span></td> <td>3.9</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('17');\" title=\"서울시_상권분석서비스(점포-상권"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "19",
+    "years_found_near_call": [
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2022년",
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "<thead> <tr> <th scope=\"col\">NO</th> <th scope=\"col\">항목</th> <th scope=\"col\">파일명</th> <th scope=\"col\">용량 (MB)</th> <th scope=\"col\">수정일</th> <th scope=\"col\">내려받기</th> </tr> </thead> <tbody> <tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\" onclick=\"javascript:downloadFile('20');\">서울시 상권분석서비스(점포-상권)_2025년.zip</span></td> <td>2.07</td> <td>2026.05.21.</td> <td><a href=\"javascript:downloadFile('20');\" title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\" onclick=\"javascript:downloadFile('19');\">서울시 상권분석서비스(점포-상권)_2024년.zip</span></td> <td>2.08</td> <td>2025.03.13.</td> <td><a href=\"javascript:downloadFile('19');\" title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\" onclick=\"javascript:downloadFile('17');\">서울시_상권분석서비스(점포-상권)_2022년.zip</span></td> <td>3.9</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('17');\" title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\">"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "18",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "<tr id=\"fileTr_1\"> <td>1</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\" onclick=\"javascript:downloadFile('20');\">서울시 상권분석서비스(점포-상권)_2025년.zip</span></td> <td>2.07</td> <td>2026.05.21.</td> <td><a href=\"javascript:downloadFile('20');\" title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\" onclick=\"javascript:downloadFile('19');\">서울시 상권분석서비스(점포-상권)_2024년.zip</span></td> <td>2.08</td> <td>2025.03.13.</td> <td><a href=\"javascript:downloadFile('19');\" title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\" onclick=\"javascript:downloadFile('17');\">서울시_상권분석서비스(점포-상권)_2022년.zip</span></td> <td>3.9</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('17');\" title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\" onclick=\"javascript:downloadFile('16');\">서울시_상권분석서비스(점포-상권)_2021년.zip</span></td> <td>4.01</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('16');\" title=\"서울시_상권분석서비스(점포-상권"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "18",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년",
+      "2024년",
+      "2025년"
+    ],
+    "context": "5년.zip\" onclick=\"javascript:downloadFile('20');\">서울시 상권분석서비스(점포-상권)_2025년.zip</span></td> <td>2.07</td> <td>2026.05.21.</td> <td><a href=\"javascript:downloadFile('20');\" title=\"서울시 상권분석서비스(점포-상권)_2025년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2025년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\" onclick=\"javascript:downloadFile('19');\">서울시 상권분석서비스(점포-상권)_2024년.zip</span></td> <td>2.08</td> <td>2025.03.13.</td> <td><a href=\"javascript:downloadFile('19');\" title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\" onclick=\"javascript:downloadFile('17');\">서울시_상권분석서비스(점포-상권)_2022년.zip</span></td> <td>3.9</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('17');\" title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\" onclick=\"javascript:downloadFile('16');\">서울시_상권분석서비스(점포-상권)_2021년.zip</span></td> <td>4.01</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('16');\" title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody>"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "17",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년",
+      "2024년"
+    ],
+    "context": "<tr id=\"fileTr_2\"> <td>2</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\" onclick=\"javascript:downloadFile('19');\">서울시 상권분석서비스(점포-상권)_2024년.zip</span></td> <td>2.08</td> <td>2025.03.13.</td> <td><a href=\"javascript:downloadFile('19');\" title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\" onclick=\"javascript:downloadFile('17');\">서울시_상권분석서비스(점포-상권)_2022년.zip</span></td> <td>3.9</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('17');\" title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\" onclick=\"javascript:downloadFile('16');\">서울시_상권분석서비스(점포-상권)_2021년.zip</span></td> <td>4.01</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('16');\" title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody> </table> </div> <div class=\"btn-wrap align-r\" id=\"listDownload\"> <a href=\"javascript:void(0);\" class=\"link-txt\"><span>전체 파일보기</span></a> </div> <script> var fileCnt = 5; (function($, win, doc, undefined) { $(doc).ready(function(){"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "17",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년",
+      "2024년"
+    ],
+    "context": "24년.zip\" onclick=\"javascript:downloadFile('19');\">서울시 상권분석서비스(점포-상권)_2024년.zip</span></td> <td>2.08</td> <td>2025.03.13.</td> <td><a href=\"javascript:downloadFile('19');\" title=\"서울시 상권분석서비스(점포-상권)_2024년.zip\"><span class=\"hide\">서울시 상권분석서비스(점포-상권)_2024년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\" onclick=\"javascript:downloadFile('17');\">서울시_상권분석서비스(점포-상권)_2022년.zip</span></td> <td>3.9</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('17');\" title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\" onclick=\"javascript:downloadFile('16');\">서울시_상권분석서비스(점포-상권)_2021년.zip</span></td> <td>4.01</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('16');\" title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody> </table> </div> <div class=\"btn-wrap align-r\" id=\"listDownload\"> <a href=\"javascript:void(0);\" class=\"link-txt\"><span>전체 파일보기</span></a> </div> <script> var fileCnt = 5; (function($, win, doc, undefined) { $(doc).ready(function(){ if(fileCnt == 0){ $(\"#fileDownList\").hide(); } for(var i=1;"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "16",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년"
+    ],
+    "context": "<tr id=\"fileTr_3\"> <td>3</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\" onclick=\"javascript:downloadFile('17');\">서울시_상권분석서비스(점포-상권)_2022년.zip</span></td> <td>3.9</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('17');\" title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\" onclick=\"javascript:downloadFile('16');\">서울시_상권분석서비스(점포-상권)_2021년.zip</span></td> <td>4.01</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('16');\" title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody> </table> </div> <div class=\"btn-wrap align-r\" id=\"listDownload\"> <a href=\"javascript:void(0);\" class=\"link-txt\"><span>전체 파일보기</span></a> </div> <script> var fileCnt = 5; (function($, win, doc, undefined) { $(doc).ready(function(){ if(fileCnt == 0){ $(\"#fileDownList\").hide(); } for(var i=1; i<=fileCnt; i++){ if(i > 5){ $(\"#fileTr_\" + i).hide(); }//end if }//end for if(fileCnt < 6){ $(\"#listDownload > a\").hide(); } $(\"#listDownload > a\").on(\"click\", function(){ movement(); }); });"
+  },
+  {
+    "dataset": "store",
+    "download_seq": "16",
+    "years_found_near_call": [
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "korean_year_labels_near_call": [
+      "2021년",
+      "2022년",
+      "2023년"
+    ],
+    "context": "23년.zip\" onclick=\"javascript:downloadFile('18');\">서울시_상권분석서비스(점포-상권)_2023년.zip</span></td> <td>1.94</td> <td>2025.01.13.</td> <td><a href=\"javascript:downloadFile('18');\" title=\"서울시_상권분석서비스(점포-상권)_2023년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2023년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_4\"> <td>4</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\" onclick=\"javascript:downloadFile('17');\">서울시_상권분석서비스(점포-상권)_2022년.zip</span></td> <td>3.9</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('17');\" title=\"서울시_상권분석서비스(점포-상권)_2022년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2022년.zip 다운로드</span></a></td> </tr> <tr id=\"fileTr_5\"> <td>5</td> <td>데이터</td> <td class=\"align-l\" style=\"cursor:pointer\"><span title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\" onclick=\"javascript:downloadFile('16');\">서울시_상권분석서비스(점포-상권)_2021년.zip</span></td> <td>4.01</td> <td>2023.10.30.</td> <td><a href=\"javascript:downloadFile('16');\" title=\"서울시_상권분석서비스(점포-상권)_2021년.zip\"><span class=\"hide\">서울시_상권분석서비스(점포-상권)_2021년.zip 다운로드</span></a></td> </tr> </tbody> </table> </div> <div class=\"btn-wrap align-r\" id=\"listDownload\"> <a href=\"javascript:void(0);\" class=\"link-txt\"><span>전체 파일보기</span></a> </div> <script> var fileCnt = 5; (function($, win, doc, undefined) { $(doc).ready(function(){ if(fileCnt == 0){ $(\"#fileDownList\").hide(); } for(var i=1; i<=fileCnt; i++){ if(i > 5){ $(\"#fileTr_\" + i).hide(); }//end if }//end for if(fileCnt < 6){ $(\"#listDownload > a\").hide(); } $(\"#listDownload > a\").on(\"click\", function(){ movement(); }); }); var listDownChecks = true; function movement(){ if(listDownChecks) {"
+  }
+]

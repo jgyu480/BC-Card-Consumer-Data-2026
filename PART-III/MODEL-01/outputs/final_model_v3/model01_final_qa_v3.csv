@@ -1,0 +1,2 @@
+﻿target_brand_count,brand_with_exactly_20_recommendations,mean_top10_jaccard,max_top10_jaccard,most_repeated_area_brand_count,high_competition_risk_count,same_brand_500_750m_count,moderate_stability_brand_count,store_size_recommendation_available
+24,23,0.048531937883213284,0.42857142857142855,6,0,0,7,False

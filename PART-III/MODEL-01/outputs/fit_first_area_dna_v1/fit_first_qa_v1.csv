@@ -1,0 +1,4 @@
+﻿scenario,brands_with_top10,mean_top10_jaccard,max_top10_jaccard,areas_recommended_to_all_brands,most_repeated_area_brand_count
+balanced,24,0.4145266255408939,1.0,0,23
+familiar,24,0.3760724977325462,0.8181818181818182,0,22
+opportunity,24,0.46957233830467093,1.0,0,23

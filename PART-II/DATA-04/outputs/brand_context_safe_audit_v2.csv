@@ -1,0 +1,25 @@
+﻿brand_name,context_text_length,context_quality,use_menu_presence_experiment,use_text_embedding_experiment,direct_price_observed,price_tier_status,menu_category_observed_count
+파리바게뜨,5988,rich,True,True,True,candidate_only_not_verified_as_menu_price,10.0
+삼송빵집,5284,rich,True,True,False,not_observable_from_current_official_html,5.0
+명랑시대쌀핫도그,3848,rich,True,True,False,not_observable_from_current_official_html,5.0
+뚜레쥬르,3774,rich,True,True,False,not_observable_from_current_official_html,0.0
+심봉사도로케,3144,rich,True,True,False,not_observable_from_current_official_html,6.0
+스트릿츄러스,2955,rich,True,True,False,not_observable_from_current_official_html,3.0
+빵굼터,2557,rich,True,True,True,candidate_only_not_verified_as_menu_price,3.0
+브레댄코(bread&co.DAILY-NEW),2280,rich,True,True,False,not_observable_from_current_official_html,5.0
+던킨/던킨도너츠,1691,rich,True,True,False,not_observable_from_current_official_html,7.0
+호두당,1304,rich,True,True,False,not_observable_from_current_official_html,2.0
+크리스피크림,1290,rich,True,True,True,candidate_only_not_verified_as_menu_price,4.0
+곤트란쉐리에(Gontran Cherrier),1098,rich,True,True,False,not_observable_from_current_official_html,3.0
+복호두,1066,rich,True,True,False,not_observable_from_current_official_html,3.0
+화이트리에,865,rich,True,True,False,not_observable_from_current_official_html,1.0
+롤링핀,492,limited,True,False,False,not_observable_from_current_official_html,0.0
+소림사,69,insufficient,False,False,False,not_observable_from_current_official_html,
+올드몬트베이글,24,insufficient,False,False,False,not_observable_from_current_official_html,
+빵장수단팥빵,9,insufficient,False,False,False,not_observable_from_current_official_html,
+보리원,9,insufficient,False,False,False,not_observable_from_current_official_html,
+디에그,9,insufficient,False,False,False,not_observable_from_current_official_html,
+못난이꽈배기,6,insufficient,False,False,False,not_observable_from_current_official_html,
+호밀호두,0,insufficient,False,False,False,not_observable_from_current_official_html,
+더베이크,0,insufficient,False,False,False,not_observable_from_current_official_html,
+핫브레드,0,insufficient,False,False,False,not_observable_from_current_official_html,

@@ -1,0 +1,3 @@
+﻿prediction,n,wape_pct,mae_won,spearman,top10_lift,relative_mae_vs_trailing_12m
+baseline_current_q_annualized,7116,18.52,66789955,0.966,3.8514,0.8859
+baseline_trailing_12m_per_store,5593,21.14,75389357,0.9596,3.8125,1.0

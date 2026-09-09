@@ -1,0 +1,47 @@
+{
+  "service": "VwsmTrdarSelngQq",
+  "variant": "period_only",
+  "params": [
+    "20242"
+  ],
+  "result": {
+    "CODE": "INFO-000",
+    "MESSAGE": "정상 처리되었습니다"
+  },
+  "list_total_count": 21887,
+  "returned_rows": 50,
+  "periods": [
+    "20242"
+  ],
+  "industries": [
+    "CS100001",
+    "CS100003",
+    "CS100005",
+    "CS100006",
+    "CS100008",
+    "CS100009",
+    "CS100010",
+    "CS200001",
+    "CS200006",
+    "CS200007",
+    "CS200017",
+    "CS200024",
+    "CS200025",
+    "CS200028",
+    "CS200030",
+    "CS200031",
+    "CS200032",
+    "CS200033",
+    "CS300003",
+    "CS300004",
+    "CS300009",
+    "CS300011",
+    "CS300018",
+    "CS300019",
+    "CS300024",
+    "CS300028",
+    "CS300036",
+    "CS300043"
+  ],
+  "filter_effective": true
+}

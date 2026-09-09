@@ -1,0 +1,70 @@
+{
+  "collected_at_utc": "2026-09-09T11:25:08.472430+00:00",
+  "api_key_saved": false,
+  "datasets": [
+    {
+      "dataset": "road_population",
+      "service": "VwsmTrdarFlpopQq",
+      "raw_rows_all_periods": 36281,
+      "rows_2021q1_2026q2": 36281,
+      "periods_found": [
+        "20211",
+        "20212",
+        "20213",
+        "20214",
+        "20221",
+        "20222",
+        "20223",
+        "20224",
+        "20231",
+        "20232",
+        "20233",
+        "20234",
+        "20241",
+        "20242",
+        "20243",
+        "20244",
+        "20251",
+        "20252",
+        "20253",
+        "20254",
+        "20261",
+        "20262"
+      ],
+      "raw_path": "PART-III/MODEL-02/raw/supplementary_panels/road_population_all_periods.jsonl",
+      "parquet_path": "PART-III/MODEL-02/raw/supplementary_panels/road_population_2021q1_2026q2.parquet"
+    },
+    {
+      "dataset": "attracting_facilities",
+      "service": "VwsmTrdarFcltyQq",
+      "raw_rows_all_periods": 34716,
+      "rows_2021q1_2026q2": 34716,
+      "periods_found": [
+        "20211",
+        "20212",
+        "20213",
+        "20214",
+        "20221",
+        "20222",
+        "20223",
+        "20224",
+        "20231",
+        "20232",
+        "20233",
+        "20234",
+        "20241",
+        "20242",
+        "20243",
+        "20244",
+        "20251",
+        "20252",
+        "20253",
+        "20254",
+        "20261",
+        "20262"
+      ],
+      "raw_path": "PART-III/MODEL-02/raw/supplementary_panels/attracting_facilities_all_periods.jsonl",
+      "parquet_path": "PART-III/MODEL-02/raw/supplementary_panels/attracting_facilities_2021q1_2026q2.parquet"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "model02_status": "NO_QUALIFIED_FUTURE_SALES_MODEL",
+  "reason": "모든 후보 모델이 엄격한 미래 시간차단 검증과 분기 블록 부트스트랩에서 기준선을 이기지 못함",
+  "display_metric": "최근 4개 분기 실제 점포당 제과매출환경",
+  "display_period": "20253~20262",
+  "formula": "최근 4개 분기 상권 제과점 총매출 / 최근 4개 분기 평균 제과점 영업점포 수",
+  "not_allowed_claims": [
+    "향후 12개월 매출 예측",
+    "보수적·낙관적 예측구간",
+    "브랜드 신규점포의 예상 매출"
+  ],
+  "observed_area_count": 399,
+  "latest_store_area_count": 1186,
+  "excluded_due_to_incomplete_4q_observation": 787
+}

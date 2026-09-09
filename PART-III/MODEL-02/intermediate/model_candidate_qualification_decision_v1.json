@@ -1,0 +1,7 @@
+{
+  "validation_sample": "2023Q1~2025Q2, 10개 미래 검증분기, 3,863 상권-분기 행",
+  "bootstrap_method": "분기 단위 블록 부트스트랩 10,000회",
+  "qualification_rule": "전체 WAPE 개선, 부트스트랩 95% 구간 전체 개선, 10개 중 6개 이상 분기 WAPE 개선",
+  "qualified_models": [],
+  "decision": "NO_MODEL_QUALIFIED_USE_TRAILING_ACTUALS_ONLY"
+}

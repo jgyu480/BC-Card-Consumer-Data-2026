@@ -1,0 +1,14 @@
+{
+  "analysis_status": "OBSERVED_MARKET_SCREEN_ONLY",
+  "available_observed_areas": 399,
+  "future_sales_forecast_available": false,
+  "field_check_priority_counts": {
+    "일반 검토": 359,
+    "현장검증 필요": 36,
+    "현장검증 우선": 4
+  },
+  "small_denominator_under_2_stores": 21,
+  "year_over_year_decline_10pct_or_more": 111,
+  "high_quarterly_variation": 17,
+  "mandatory_message": "본 화면은 최근 실제 매출환경 및 현장검증 우선순위이며, 신규 브랜드 점포의 미래 매출 예측이나 출점 추천이 아님"
+}

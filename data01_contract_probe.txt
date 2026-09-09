@@ -1,0 +1,48 @@
+===== 1. DATA-01 폴더 =====
+경로: /Users/jgyu480/3_personal/26-2/BC공모전/BC-Card-Consumer-Data-2026/PART-II/DATA-01
+존재: True
+파일 수: 2
+- PART-II/DATA-01/DATA_SCHEMA.csv (1,019 bytes)
+- PART-II/DATA-01/README.md (1,007 bytes)
+
+===== 2. 필수 결과물 검색 =====
+
+[brand_store_master.parquet]
+  없음
+
+[brand_ccg_presence.parquet]
+  없음
+
+[brand_area_presence.parquet]
+  없음
+
+[brand_name_mapping.csv]
+  없음
+
+[data01_quality_report.md]
+  없음
+
+===== 3. Parquet 스키마와 표본 =====
+
+===== 4. DATA-02 최종 후보 파일 =====
+
+[PART-II/DATA-02/outputs/area_feature_master.parquet]
+존재: True
+행 수: 1650
+컬럼 수: 165
+결합키 후보: ['area_id', 'ccg_id', 'period_q', 'model_eligible']
+
+[PART-II/DATA-02/outputs/bc_ccg_profile_2026h1.parquet]
+존재: True
+행 수: 2352
+컬럼 수: 39
+결합키 후보: ['ccg_id', 'industry_code', 'model_eligible']
+
+[PART-II/DATA-02/outputs/bc_bakery_ccg_profile_2026h1.parquet]
+존재: True
+행 수: 252
+컬럼 수: 39
+결합키 후보: ['ccg_id', 'industry_code', 'model_eligible']
+
+===== 5. DATA-01 품질보고서 앞부분 =====
+보고서 없음

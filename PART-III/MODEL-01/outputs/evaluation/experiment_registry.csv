@@ -1,0 +1,10 @@
+﻿experiment_id,method,status
+popularity_sales,서울시 추정매출 기준선,planned
+popularity_transactions,서울시 추정 거래건수 기준선,planned
+market_per_store,점포당 시장규모 기준선,planned
+dna_cosine,브랜드 DNA-상권 코사인 유사도,planned
+dna_shrinkage,표본 수 보정 DNA 유사도,planned
+conditional_logit,해석 가능한 공간 선택모형,planned
+lightfm_bpr,implicit-feedback 행렬분해,planned
+lgbm_matched_rank,매칭 후보 기반 LambdaRank,planned
+pu_bagging_lgbm,반복 미표지 표본 기반 PU 근사,planned

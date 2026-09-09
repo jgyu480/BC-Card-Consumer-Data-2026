@@ -1,0 +1,46 @@
+﻿brand_id,brand_name,source_role,source_quality,url,usage_rule,note,validation_result,http_status,final_url,page_title
+BRD_20220253,곤트란쉐리에(Gontran Cherrier),brand,official_site,https://www.gontran.co.kr/,brand_text_and_menu_structure,공식 홈페이지 주소 보정,reachable,200.0,https://www.gontran.co.kr/,곤트란쉐리에
+BRD_20220253,곤트란쉐리에(Gontran Cherrier),menu,official_site,https://www.gontran.co.kr/sub/sub03_01.php?cat_no=1,brand_text_and_menu_structure,공식 홈페이지 주소 보정,reachable,200.0,https://www.gontran.co.kr/sub/sub03_01.php?cat_no=1,곤트란쉐리에
+BRD_20120100621,더베이크,brand,official_site,https://thebake.co.kr/,brand_text_and_menu_structure,공식 상품 페이지,url_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certific,,https://thebake.co.kr/,
+BRD_20120100621,더베이크,menu,official_site,https://thebake.co.kr/product.html,brand_text_and_menu_structure,공식 상품 페이지,url_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certific,,https://thebake.co.kr/product.html,
+BRD_20080500016,던킨/던킨도너츠,brand,official_site,https://www.dunkindonuts.co.kr/,brand_text_and_menu_structure,공식 브랜드·메뉴 페이지,reachable,200.0,https://www.dunkindonuts.co.kr/,
+BRD_20080500016,던킨/던킨도너츠,menu,official_site,https://www.dunkindonuts.co.kr/menu?cat=1,brand_text_and_menu_structure,공식 브랜드·메뉴 페이지,reachable,200.0,https://www.dunkindonuts.co.kr/menu?cat=1,
+BRD_20250749,디에그,social,official_social_only,https://www.instagram.com/de_egg_official/,brand_text_only_no_price,"공식 소셜 채널: 브랜드 문맥만 활용, 가격 수집 제외",reachable,200.0,https://www.instagram.com/de_egg_official/,Instagram
+BRD_20080100039,뚜레쥬르,brand,official_site,https://m.tlj.co.kr/,brand_text_and_menu_structure,공식 모바일 상품 페이지,reachable,200.0,https://www.tlj.co.kr:7008/index.asp,"ǰ ϸ Ŀ, , ũ, ġ, ̺Ʈ, ȳ"
+BRD_20080100039,뚜레쥬르,menu,official_site,https://m.tlj.co.kr/,brand_text_and_menu_structure,공식 모바일 상품 페이지,reachable,200.0,https://www.tlj.co.kr:7008/index.asp,"ǰ ϸ Ŀ, , ũ, ġ, ̺Ʈ, ȳ"
+BRD_20140306,롤링핀,brand,official_site,https://rollingpin.co.kr/,brand_text_and_menu_structure,공식 브랜드·메뉴 페이지,reachable,200.0,https://rollingpin.co.kr/,
+BRD_20140306,롤링핀,menu,official_site,https://rollingpin.co.kr/default/sub/menu/page01.php,brand_text_and_menu_structure,공식 브랜드·메뉴 페이지,reachable,200.0,https://rollingpin.co.kr/default/sub/menu/page01.php,ѸɤRollingpin Bakery & CAFE
+BRD_20161137,명랑시대쌀핫도그,brand,official_site,https://myungranghotdog.com/,brand_text_and_menu_structure,공식 브랜드·메뉴 페이지,reachable,200.0,https://myungranghotdog.com/main/main,명랑핫도그
+BRD_20161137,명랑시대쌀핫도그,menu,official_site,https://myungranghotdog.com/,brand_text_and_menu_structure,공식 브랜드·메뉴 페이지,reachable,200.0,https://myungranghotdog.com/main/main,명랑핫도그
+BRD_20150085,못난이꽈배기,brand,official_site,https://monnanifood.com/,brand_text_and_menu_structure,국내 공식 브랜드 페이지,reachable,200.0,https://monnanifood.com/,못난이꽈배기
+BRD_20150085,못난이꽈배기,menu,official_site,https://monnanifood.com/,brand_text_and_menu_structure,국내 공식 브랜드 페이지,reachable,200.0,https://monnanifood.com/,못난이꽈배기
+BRD_20240814,보리원,social,official_social_only,https://www.instagram.com/borywon_official/,brand_text_only_no_price,"공식 소셜 채널: 브랜드 문맥만 활용, 가격 수집 제외",reachable,200.0,https://www.instagram.com/borywon_official/,Instagram
+BRD_20212010,복호두,brand,official_site,https://bokhodu.com/,brand_text_and_menu_structure,공식 브랜드·메뉴 페이지,reachable,200.0,https://bokhodu.com/,복호두
+BRD_20212010,복호두,menu,official_site,https://bokhodu.com/,brand_text_and_menu_structure,공식 브랜드·메뉴 페이지,reachable,200.0,https://bokhodu.com/,복호두
+BRD_20080200287,브레댄코(bread&co.DAILY-NEW),brand,official_site,https://www.breadnco.kr/,brand_text_and_menu_structure,공식 브랜드 페이지,reachable,200.0,https://www.breadnco.kr/,브레댄코
+BRD_20080200287,브레댄코(bread&co.DAILY-NEW),menu,official_site,https://www.breadnco.kr/,brand_text_and_menu_structure,공식 브랜드 페이지,reachable,200.0,https://www.breadnco.kr/,브레댄코
+BRD_20260378,빵굼터,brand,official_site,https://bbanggoomteo.com/,brand_text_and_menu_structure,공식 온라인몰·브랜드 소개 페이지,reachable,200.0,https://bbanggoomteo.com/,BGT호두단팥빵(빵굼터본사)
+BRD_20260378,빵굼터,menu,official_site,https://bbanggoomteo.com/,brand_text_and_menu_structure,공식 온라인몰·브랜드 소개 페이지,reachable,200.0,https://bbanggoomteo.com/,BGT호두단팥빵(빵굼터본사)
+BRD_20150052,빵장수단팥빵,social,official_social_only,https://www.instagram.com/ppangjangsu/,brand_text_only_no_price,"공식 소셜 채널: 브랜드 문맥만 활용, 가격 수집 제외",reachable,200.0,https://www.instagram.com/ppangjangsu/,Instagram
+BRD_20211367,삼송빵집,brand,official_site,https://www.ssbnc.kr/,brand_text_and_menu_structure,공식 브랜드·상품 페이지,reachable,200.0,https://www.ssbnc.kr/,삼송빵집
+BRD_20211367,삼송빵집,menu,official_site,https://www.ssbnc.kr/,brand_text_and_menu_structure,공식 브랜드·상품 페이지,reachable,200.0,https://www.ssbnc.kr/,삼송빵집
+BRD_20230468,소림사,brand,official_site,https://xn--4y2by0kfta.com/,brand_text_and_menu_structure,공식 브랜드 페이지,reachable,200.0,https://xn--4y2by0kfta.com/,"소림사 | 프리미엄 소금빵 프랜차이즈, 소자본 카페·빵집 창업"
+BRD_20230468,소림사,menu,official_site,https://xn--4y2by0kfta.com/,brand_text_and_menu_structure,공식 브랜드 페이지,reachable,200.0,https://xn--4y2by0kfta.com/,"소림사 | 프리미엄 소금빵 프랜차이즈, 소자본 카페·빵집 창업"
+BRD_20140288,스트릿츄러스,brand,official_site,https://www.streetchurros.com/,brand_text_and_menu_structure,공식 홈페이지 주소 보정,"url_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, c",,https://www.streetchurros.com/,
+BRD_20140288,스트릿츄러스,menu,official_site,https://www.streetchurros.com/hm_board/menu/gallery.php?cate=menu1&code=hm_menu,brand_text_and_menu_structure,공식 홈페이지 주소 보정,"url_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, c",,https://www.streetchurros.com/hm_board/menu/gallery.php?cate=menu1&code=hm_menu,
+BRD_20160521,심봉사도로케,brand,official_site,https://www.dorokke.co.kr/,brand_text_and_menu_structure,공식 브랜드·메뉴 안내 페이지,reachable,200.0,https://www.dorokke.co.kr/,"꽈배기 창업, 고로케 창업도 심봉사도로케!"
+BRD_20160521,심봉사도로케,menu,official_site,https://www.dorokke.co.kr/,brand_text_and_menu_structure,공식 브랜드·메뉴 안내 페이지,reachable,200.0,https://www.dorokke.co.kr/,"꽈배기 창업, 고로케 창업도 심봉사도로케!"
+BRD_20240723,올드몬트베이글,brand,official_site,https://www.oldmontbagel.com/,brand_text_and_menu_structure,공식 브랜드·상품 페이지,reachable,200.0,https://www.oldmontbagel.com/,올드몬트 베이글 - Oldmont Bagel
+BRD_20240723,올드몬트베이글,menu,official_site,https://www.oldmontbagel.com/,brand_text_and_menu_structure,공식 브랜드·상품 페이지,reachable,200.0,https://www.oldmontbagel.com/,올드몬트 베이글 - Oldmont Bagel
+BRD_20140778,크리스피크림,brand,official_ordering,https://www.lotteeatz.com/,brand_text_and_menu_structure,공식 주문 플랫폼: 개별 메뉴 경로는 후속 수기 확인,reachable,200.0,https://www.lotteeatz.com/,LOTTE EATZ
+BRD_20140778,크리스피크림,menu,official_ordering,https://www.lotteeatz.com/,brand_text_and_menu_structure,공식 주문 플랫폼: 개별 메뉴 경로는 후속 수기 확인,reachable,200.0,https://www.lotteeatz.com/,LOTTE EATZ
+BRD_20080200064,파리바게뜨,brand,official_site,https://www.paris.co.kr/,brand_text_and_menu_structure,공식 브랜드·상품 페이지,reachable,200.0,https://www.paris.co.kr/,파리바게뜨
+BRD_20080200064,파리바게뜨,menu,official_site,https://www.paris.co.kr/products/,brand_text_and_menu_structure,공식 브랜드·상품 페이지,reachable,200.0,https://www.paris.co.kr/products/,상품 안내 | 파리바게뜨
+BRD_20170827,핫브레드,brand,official_site,https://hot-bread.com/,brand_text_and_menu_structure,공식 브랜드·제품 안내 페이지,url_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certific,,https://hot-bread.com/,
+BRD_20170827,핫브레드,menu,official_site,https://hot-bread.com/%EC%A0%9C%ED%92%88%EC%95%88%EB%82%B4/,brand_text_and_menu_structure,공식 브랜드·제품 안내 페이지,url_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certific,,https://hot-bread.com/%EC%A0%9C%ED%92%88%EC%95%88%EB%82%B4/,
+BRD_20201275,호두당,brand,official_site,https://xn--ok1bkz875e.com/,brand_text_and_menu_structure,공식 브랜드 페이지,reachable,200.0,https://xn--ok1bkz875e.com/,호두당
+BRD_20201275,호두당,menu,official_site,https://xn--ok1bkz875e.com/,brand_text_and_menu_structure,공식 브랜드 페이지,reachable,200.0,https://xn--ok1bkz875e.com/,호두당
+BRD_20080100675,호밀호두,brand,official_site,https://www.homilhodu.co.kr/,brand_text_and_menu_structure,공식 브랜드·제품 페이지,url_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certific,,https://www.homilhodu.co.kr/,
+BRD_20080100675,호밀호두,menu,official_site,https://www.homilhodu.co.kr/product_cake.php,brand_text_and_menu_structure,공식 브랜드·제품 페이지,url_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certific,,https://www.homilhodu.co.kr/product_cake.php,
+BRD_20240478,화이트리에,brand,official_site,https://www.whitelier.com/,brand_text_and_menu_structure,공식 브랜드·제품 소개 페이지,reachable,200.0,https://www.whitelier.com/,화이트리에 공식 홈페이지 | 프리미엄 생식빵 브랜드
+BRD_20240478,화이트리에,menu,official_site,https://www.whitelier.com/about,brand_text_and_menu_structure,공식 브랜드·제품 소개 페이지,reachable,200.0,https://www.whitelier.com/about,화이트리에 공식 홈페이지 웹사이트

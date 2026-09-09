@@ -1,0 +1,3 @@
+﻿prediction,winning_folds,total_folds,winning_fold_pct
+elasticnet_baseline_corrected_v1,2,10,20.0
+ridge_baseline_corrected_v1,1,10,10.0
