@@ -1,0 +1,2589 @@
+/* =========================================================
+   이 파일이 어떤 파이썬 파일에서 쓰이는지 섹션마다 주석으로 표시했습니다.
+   전체 요약:
+
+   layout.py              → PAGE, LANDING PAGE(일부), DASHBOARD HEADER(일부), DASHBOARD CARD TEMPLATE(일부), MODAL CONTAINER
+   tabbar.py    (구 s00_tabbar.py)          → DASHBOARD HEADER
+   selector.py  (구 s01_selector.py)         → LANDING PAGE(일부), SELECTOR / DROPDOWN
+   tab1_overview.py        (구 s02_dna_summary.py)      → S02 BRAND OVERVIEW
+   tab2_portfolio.py       (구 s03_portfolio_cards.py)  → S03 PORTFOLIO, PORTFOLIO COMPARISON, NEXT CHECKS, PLOTLY RESPONSIVE FIX
+                                                          ※ 확인됨 (tab2_portfolio.py 실제 코드와 대조 완료)
+   tab2_portfolio_modal.py (구 s03b_portfolio_detail.py)→ 두 번째 PORTFOLIO DETAIL MODAL(.portfolio-detail-*)
+   tab3_area_table.py      (구 s04_area_list.py)        → Area List, Expanded Area Detail, Fact Chips, Factor, Risk, Basic Information, Next Checks
+   tab3_area_map.py        (구 s05_map_view.py)         → 자체 CSS 클래스 없음 (인라인 스타일만 사용)
+   utils/competitor_lookup.py (구 s03c_competitor_lookup.py) → CSS 없음 (순수 데이터 로직)
+
+   ⚠ 삭제해도 안전 (확인됨):
+   - OLD PORTFOLIO LINK STYLES 중 .portfolio-rank-number, .portfolio-area-link (tab2_portfolio.py 대조 완료)
+   - 첫 번째 PORTFOLIO DETAIL MODAL 섹션 전체 (.portfolio-modal-*)
+   - s00_navbar.py 파일 자체 — layout.py가 이 파일을 import도, 호출도 하지 않는 것 확인됨 (2026-09-10 확인)
+   ========================================================= */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
+
+
+/* =========================================================
+    DESIGN SYSTEM
+    ========================================================= */
+/* 사용 파일: 전역 — 모든 컴포넌트 파일이 공유하는 색상·폰트·부트스트랩 변수 */
+
+:root {
+    --color-page: #F3F1EC;
+    --color-shell: #FAF8F5;
+    --color-surface: #FFFFFF;
+    --color-bg: #EFECE6;
+    --color-ink: #1F1917;
+    --color-ink-muted: #78716C;
+    --color-accent: #A9683A;
+    --color-good: #5B7332;
+    --color-risk: #A13D2B;
+    --color-border: #E7E5E4;
+
+    --font-heading: 'Fraunces', serif;
+    --font-body: 'Inter', sans-serif;
+
+    --bs-body-bg: var(--color-page);
+    --bs-body-color: var(--color-ink);
+    --bs-body-font-family: var(--font-body);
+    --bs-border-color: var(--color-border);
+    --bs-secondary-color: var(--color-ink-muted);
+
+    --bs-primary: var(--color-accent);
+    --bs-primary-rgb: 169, 104, 58;
+
+    --bs-success: var(--color-good);
+    --bs-success-rgb: 91, 115, 50;
+
+    --bs-danger: var(--color-risk);
+    --bs-danger-rgb: 161, 61, 43;
+
+    --bs-info: #8A5A2E;
+    --bs-info-rgb: 138, 90, 46;
+
+    --bs-warning: #C9992B;
+    --bs-warning-rgb: 201, 153, 43;
+}
+
+
+/* =========================================================
+    BASE
+    ========================================================= */
+/* 사용 파일: 전역 — body, 제목 태그 기본 스타일 */
+
+body {
+    font-family: var(--font-body);
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-ink);
+}
+
+
+/* =========================================================
+    PAGE
+    ========================================================= */
+/* 사용 파일: layout.py */
+
+.page-backdrop {
+    min-height: 100vh;
+    padding: 24px;
+}
+
+
+.page-disclaimer {
+    max-width: 1400px;
+    margin: 0 auto 16px;
+    padding: 0 8px;
+    font-size: 12px;
+    color: var(--color-ink-muted);
+}
+
+
+/* =========================================================
+    LANDING PAGE
+    ========================================================= */
+/* 사용 파일: layout.py (랜딩 화면 build_landing_shell) + selector.py (구 s01_selector.py, .selector-row) */
+
+.landing-shell {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+.landing-card {
+	background: var(--color-shell);
+	border: 1px solid rgba(231, 229, 228, 0.8);
+	box-shadow: 0 4px 6px -1px rgba(31, 25, 23, 0.1), 0 2px 4px -2px rgba(31, 25, 23, 0.1);
+	border-radius: 20px;
+	padding: 150px 56px;
+	max-width: 1400px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.app-wordmark {
+    font-family: var(--font-heading);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-ink);
+}
+.landing-headline {
+    font-family: var(--font-heading);
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--color-ink);
+    text-align: center;
+    max-width: 480px;
+}
+.landing-description {
+    font-size: 15px;
+    color: var(--color-ink-muted);
+    text-align: center;
+    max-width: 520px;
+    line-height: 1.7;
+}
+.landing-shell .selector-row {
+    max-width: 640px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+
+/* =========================================================
+    DASHBOARD HEADER
+    ========================================================= */
+/* 사용 파일: tabbar.py (구 s00_tabbar.py, .tab-folder/.tab-nav) + layout.py (.shell-header-row 래퍼) */
+
+.shell-header-row {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.tab-folder {
+    display: inline-block;
+    background: var(--color-shell);
+    border-radius: 15px 15px 0 0;
+    padding: 20px 50px 15px 30px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.tab-nav {
+    display: flex;
+    gap: 100px;
+    margin-left: 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.tab-nav .nav-link {
+    color: var(--color-ink-muted);
+    font-weight: 500;
+    padding: 6px 2px 12px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+}
+
+.tab-nav .nav-link.active {
+    background: transparent !important;
+    color: var(--color-ink) !important;
+    border-bottom: 2px solid var(--color-accent);
+}
+
+
+/* =========================================================
+    SELECTOR / DROPDOWN
+    ========================================================= */
+/* 사용 파일: selector.py (구 s01_selector.py) — 브랜드·출점수 dcc.Dropdown 전체 */
+
+#selector-outside-wrap {
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+
+#selector-outside-wrap .selector-row {
+    margin: 0;
+}
+
+
+.dash-dropdown-wrapper {
+    width: 100%;
+}
+
+
+.dash-dropdown {
+    width: 100%;
+    min-height: 42px;
+    background: var(--color-surface) !important;
+    border: 1px solid var(--color-border) !important;
+    border-radius: 6px !important;
+    padding: 0 12px;
+    font-family: var(--font-body);
+    cursor: pointer;
+    box-shadow: none !important;
+    --accent-color: var(--color-accent) !important;
+    --focus-color: transparent !important;
+    --selected-color: var(--color-bg) !important;
+}
+
+
+.dash-dropdown:hover {
+    border-color: #CFC9C2 !important;
+}
+
+
+.dash-dropdown:focus,
+.dash-dropdown:focus-visible,
+.dash-dropdown:active,
+.dash-dropdown:focus-within {
+    outline: none !important;
+    border-color: #CFC9C2 !important;
+    box-shadow: none !important;
+}
+
+
+.dash-dropdown[data-state="open"] {
+    border-color: #CFC9C2 !important;
+    box-shadow: none !important;
+}
+
+
+.dash-dropdown-value-item span {
+    color: var(--color-ink) !important;
+    font-size: 14px;
+    font-family: var(--font-body);
+}
+
+
+.dash-dropdown-trigger-icon path {
+    fill: var(--color-ink-muted) !important;
+}
+
+
+.dash-dropdown-content,
+[role="listbox"] {
+    width: var(--radix-popper-anchor-width) !important;
+    max-width: var(--radix-popper-anchor-width) !important;
+    min-width: var(--radix-popper-anchor-width) !important;
+    background: var(--color-surface) !important;
+    border: 1px solid var(--color-border) !important;
+    border-radius: 6px !important;
+
+    box-shadow:
+        0 10px 25px rgba(46, 42, 34, 0.10),
+        0 2px 6px rgba(46, 42, 34, 0.05) !important;
+
+    padding: 0 !important;
+    overflow: hidden;
+    font-family: var(--font-body) !important;
+
+    --accent-color: var(--color-accent) !important;
+    --focus-color: transparent !important;
+}
+
+
+.dash-dropdown-content:focus,
+.dash-dropdown-content:focus-visible,
+[role="listbox"]:focus,
+[role="listbox"]:focus-visible {
+    outline: none !important;
+    box-shadow:
+        0 10px 25px rgba(46, 42, 34, 0.10),
+        0 2px 6px rgba(46, 42, 34, 0.05) !important;
+}
+
+
+.dash-dropdown-search-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: 44px;
+    background: var(--color-surface) !important;
+    border: none !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    border-radius: 0 !important;
+    padding: 0 13px !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+.dash-dropdown-search-container:focus,
+.dash-dropdown-search-container:focus-within {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom-color: var(--color-border) !important;
+}
+
+
+.dash-dropdown-search,
+.dash-dropdown-search:focus,
+.dash-dropdown-search:focus-visible,
+.dash-dropdown-search:active {
+    width: 100% !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: var(--color-ink) !important;
+    font-family: var(--font-body) !important;
+    font-size: 14px !important;
+}
+
+
+.dash-dropdown-search::placeholder {
+    color: #A8A29E !important;
+    opacity: 1;
+}
+
+
+.dash-dropdown-search-icon {
+    color: var(--color-ink-muted) !important;
+    fill: var(--color-ink-muted) !important;
+}
+
+
+.dash-dropdown-search-container *,
+.dash-dropdown-search-container *:focus,
+.dash-dropdown-search-container *:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.dash-options-list,
+.dash-dropdown-options {
+    width: 100% !important;
+    background: var(--color-surface) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: var(--color-ink) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.dash-options-list [role="option"],
+.dash-dropdown-options [role="option"],
+[role="listbox"] [role="option"] {
+    width: 100% !important;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 13px;
+    background: var(--color-surface) !important;
+    color: var(--color-ink) !important;
+    border: none !important;
+    border-radius: 0 !important;
+    font-family: var(--font-body);
+    font-size: 14px;
+    cursor: pointer;
+
+    transition:
+        background-color 0.12s ease,
+        color 0.12s ease;
+}
+
+
+.dash-options-list [role="option"] + [role="option"],
+.dash-dropdown-options [role="option"] + [role="option"],
+[role="listbox"] [role="option"] + [role="option"] {
+    border-top: 1px solid var(--color-border) !important;
+}
+
+
+.dash-options-list [role="option"]:hover,
+.dash-dropdown-options [role="option"]:hover,
+[role="listbox"] [role="option"]:hover {
+    background: var(--color-bg) !important;
+    color: var(--color-ink) !important;
+}
+
+
+.dash-options-list [role="option"][aria-selected="true"],
+.dash-dropdown-options [role="option"][aria-selected="true"],
+[role="listbox"] [role="option"][aria-selected="true"] {
+    background: #F5F2EB !important;
+    color: var(--color-ink) !important;
+}
+
+
+.dash-options-list [role="option"]:focus,
+.dash-options-list [role="option"]:focus-visible,
+.dash-dropdown-options [role="option"]:focus,
+.dash-dropdown-options [role="option"]:focus-visible,
+[role="listbox"] [role="option"]:focus,
+[role="listbox"] [role="option"]:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.dash-dropdown-content *,
+[role="listbox"] * {
+    outline-color: transparent !important;
+}
+
+
+.dash-dropdown-content,
+.dash-dropdown-content::before,
+.dash-dropdown-content::after,
+[role="listbox"],
+[role="listbox"]::before,
+[role="listbox"]::after {
+    outline: none !important;
+}
+
+
+.dash-dropdown-content::before,
+.dash-dropdown-content::after,
+[role="listbox"]::before,
+[role="listbox"]::after {
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+    DASHBOARD CARD TEMPLATE
+    ========================================================= */
+/* 사용 파일: layout.py (.content-card) + 전역 dbc.Card 공용 스타일 (여러 탭 파일이 함께 재사용) */
+
+.content-card {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: var(--color-shell);
+    box-shadow:
+        0 4px 6px -1px rgba(31, 25, 23, 0.1),
+        0 2px 4px -2px rgba(31, 25, 23, 0.1);
+    border-radius: 0 15px 15px 15px;
+    padding: 24px;
+}
+
+
+.card {
+    background: var(--color-surface);
+    border: none;
+    border-radius: 12px;
+    box-shadow: none !important;
+}
+
+
+.btn-primary {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    border-radius: 8px;
+}
+
+
+.btn-primary:hover {
+    background: #8F5530;
+    border-color: #8F5530;
+}
+
+
+.card h5 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.3px;
+    line-height: 1.4;
+}
+
+
+.card .js-plotly-plot {
+    margin-bottom: 0 !important;
+}
+
+
+.card .badge.bg-light {
+    font-weight: 400 !important;
+    padding: 6px 10px;
+    background-color: #F5F2EB !important;
+}
+
+
+/* =========================================================
+    S02 BRAND OVERVIEW
+    Portfolio와 일관된 정보 중심 디자인
+    ========================================================= */
+/* 사용 파일: tab1_overview.py (구 s02_dna_summary.py) */
+
+    .overview-layout {
+    width: 100%;
+}
+
+
+/* ---------------------------------------------------------
+    Brand Identity
+    --------------------------------------------------------- */
+
+.overview-brand-panel {
+    background: var(--color-surface);
+    border-radius: 12px;
+    padding: 36px 28px;
+    transition:
+        box-shadow 0.18s ease,
+        transform 0.18s ease;
+}
+
+.overview-brand-panel:hover {
+    box-shadow:
+        0 8px 20px rgba(31, 25, 23, 0.06),
+        0 2px 6px rgba(31, 25, 23, 0.04);
+
+    transform: translateY(-1px);
+}
+
+
+.overview-brand-name {
+    font-family: var(--font-heading);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--color-ink);
+    margin-bottom: 7px;
+}
+
+
+.overview-brand-type {
+    display: inline-block;
+    padding: 3px 9px;
+    background: var(--color-bg);
+    color: var(--color-ink-muted);
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+
+.overview-brand-headline {
+    max-width: 310px;
+    margin: 0 auto 18px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--color-ink-muted);
+}
+
+
+/* ---------------------------------------------------------
+    Brand Tags
+    --------------------------------------------------------- */
+
+.overview-tag-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    max-width: 330px;
+}
+
+
+.overview-caution-group {
+    margin-top: 5px;
+}
+
+
+.overview-tag {
+    display: inline-block;
+    padding: 4px 9px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+
+.overview-tag-good {
+    background: #E8EEDC;
+    color: var(--color-good);
+}
+
+
+.overview-tag-risk {
+    background: #F4E2DD;
+    color: var(--color-risk);
+}
+
+
+/* ---------------------------------------------------------
+    KPI Tiles
+    --------------------------------------------------------- */
+
+.overview-kpi-tile {
+    min-height: 86px;
+    background: var(--color-surface);
+
+    border-radius: 12px;
+
+    padding: 18px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition:
+        box-shadow 0.18s ease,
+        transform 0.18s ease;
+}
+
+
+.overview-kpi-tile:hover {
+    box-shadow:
+        0 7px 18px rgba(31, 25, 23, 0.055),
+        0 2px 5px rgba(31, 25, 23, 0.035);
+
+    transform: translateY(-1px);
+}
+
+
+.overview-kpi-label {
+    font-size: 11px;
+    font-weight: 500;
+
+    color: var(--color-ink-muted);
+
+    margin-bottom: 6px;
+}
+
+
+.overview-kpi-value {
+    font-family: var(--font-body);
+
+    font-size: 16px;
+    font-weight: 600;
+
+    color: var(--color-ink);
+
+    line-height: 1.45;
+}
+
+
+/* ---------------------------------------------------------
+    Decision Headline
+    --------------------------------------------------------- */
+
+.overview-decision-headline {
+    background: var(--color-surface);
+
+    border-radius: 12px;
+
+    padding: 13px 17px;
+
+    margin-bottom: 12px;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    color: var(--color-ink);
+
+    line-height: 1.6;
+
+    transition:
+        box-shadow 0.18s ease,
+        transform 0.18s ease;
+}
+
+
+.overview-decision-headline:hover {
+    box-shadow:
+        0 7px 18px rgba(31, 25, 23, 0.045),
+        0 2px 5px rgba(31, 25, 23, 0.03);
+
+    transform: translateY(-1px);
+}
+
+
+/* ---------------------------------------------------------
+    Evidence
+    --------------------------------------------------------- */
+
+.overview-evidence-panel {
+    background: var(--color-surface);
+
+    border-radius: 12px;
+
+    padding: 19px 20px;
+
+    margin-bottom: 12px;
+
+    transition:
+        box-shadow 0.18s ease,
+        transform 0.18s ease;
+}
+
+
+.overview-evidence-panel:hover {
+    box-shadow:
+        0 7px 18px rgba(31, 25, 23, 0.05),
+        0 2px 5px rgba(31, 25, 23, 0.03);
+
+    transform: translateY(-1px);
+}
+
+
+.overview-evidence-header {
+    margin-bottom: 10px;
+}
+
+
+.overview-evidence-rank {
+    color: var(--color-good);
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.overview-evidence-title {
+    color: var(--color-ink);
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.overview-evidence-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+
+.overview-evidence-item {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 7px;
+}
+
+
+.overview-check {
+    flex: 0 0 auto;
+
+    color: var(--color-good);
+
+    font-size: 13px;
+    font-weight: 600;
+
+    line-height: 1.55;
+}
+
+
+.overview-evidence-text {
+    font-size: 12px;
+    line-height: 1.55;
+
+    color: var(--color-ink-muted);
+}
+
+
+.overview-evidence-meta {
+    margin-top: 12px;
+
+    padding-top: 10px;
+
+    border-top: 1px solid var(--color-border);
+
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+
+.overview-meta-label {
+    color: var(--color-ink-muted);
+    font-weight: 600;
+}
+
+
+.overview-meta-value {
+    color: var(--color-ink-muted);
+}
+
+
+.overview-meta-separator {
+    color: #B0AAA3;
+
+    margin: 0 2px;
+}
+
+
+/* ---------------------------------------------------------
+    Gauge / Map
+    --------------------------------------------------------- */
+
+.overview-visual-panel {
+    background: var(--color-surface);
+
+    border-radius: 12px;
+
+    padding: 17px 18px 14px;
+
+    overflow: hidden;
+
+    transition:
+        box-shadow 0.18s ease,
+        transform 0.18s ease;
+}
+
+
+.overview-visual-panel:hover {
+    box-shadow:
+        0 7px 18px rgba(31, 25, 23, 0.05),
+        0 2px 5px rgba(31, 25, 23, 0.03);
+
+    transform: translateY(-1px);
+}
+
+
+.overview-visual-title {
+    font-size: 12px;
+    font-weight: 600;
+
+    color: var(--color-ink);
+
+    margin-bottom: 2px;
+}
+
+
+.overview-score-caption {
+    text-align: center;
+
+    margin-top: -1px;
+
+    font-size: 11px;
+
+    color: var(--color-ink-muted);
+}
+
+
+/* ---------------------------------------------------------
+    기존 Bootstrap Card의 border 제거
+    Overview 내부에서만 적용
+    --------------------------------------------------------- */
+
+.overview-layout .card {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* ---------------------------------------------------------
+    Map
+    --------------------------------------------------------- */
+
+.overview-visual-panel .leaflet-container {
+    border-radius: 7px;
+}
+
+
+/* ---------------------------------------------------------
+    Responsive
+    --------------------------------------------------------- */
+
+@media (max-width: 1000px) {
+
+    .overview-brand-panel {
+        padding: 30px 20px;
+    }
+
+    .overview-brand-name {
+        font-size: 23px;
+    }
+
+    .overview-kpi-value {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .overview-layout > .col-4,
+    .overview-layout > .col-8 {
+        width: 100%;
+    }
+
+    .overview-brand-panel {
+        min-height: 260px;
+    }
+
+    .overview-brand-headline {
+        max-width: 420px;
+    }
+}
+
+
+/* =========================================================
+    OLD PORTFOLIO LINK STYLES
+    ========================================================= */
+/* ⚠ 확인됨 — 삭제해도 안전: tab2_portfolio.py 실제 코드는 .portfolio-rank-label / .portfolio-area-name을
+    쓰고 있고, 이 블록의 .portfolio-rank-number / .portfolio-area-link는 어디서도 참조하지 않습니다.
+    단, 바로 아래 .fact-chip은 tab3_area_table.py(구 s04_area_list.py)가 지금도 쓰고 있어서 그것만 남기고 지우세요. */
+
+.portfolio-rank-number {
+    font-family: var(--font-heading);
+
+    font-size: 40px;
+    font-weight: 600;
+
+    line-height: 1;
+}
+
+
+.portfolio-area-link {
+    font-size: 15px;
+
+    font-weight: 500;
+
+    color: var(--color-ink);
+
+    cursor: pointer;
+}
+
+
+.portfolio-area-link:hover {
+    color: var(--color-accent);
+
+    text-decoration: underline;
+}
+
+
+.fact-chip {
+    display: inline-block;
+
+    background: var(--color-bg);
+
+    color: var(--color-ink-muted);
+
+    font-size: 12px;
+
+    padding: 3px 10px;
+
+    border-radius: 999px;
+
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+
+/* =========================================================
+    S03 PORTFOLIO
+    Overview와 동일한 visual language
+    ========================================================= */
+/* 사용 파일: tab2_portfolio.py (구 s03_portfolio_cards.py) — 확인됨, 클래스명 전부 일치 */
+
+.portfolio-section {
+    width: 100%;
+}
+
+
+/* ---------------------------------------------------------
+    페이지 타이틀
+    --------------------------------------------------------- */
+
+.portfolio-page-intro {
+    margin-top: 4px;
+    margin-bottom: 18px;
+}
+
+
+.portfolio-page-title {
+    font-family: var(--font-heading);
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: var(--color-ink);
+
+    letter-spacing: -0.3px;
+}
+
+
+.portfolio-page-description {
+    margin-top: 5px;
+
+    font-size: 13px;
+
+    color: var(--color-ink-muted);
+
+    line-height: 1.6;
+}
+
+
+/* ---------------------------------------------------------
+    추천 카드 Row
+    --------------------------------------------------------- */
+
+.portfolio-card-row {
+    margin-left: -7px;
+    margin-right: -7px;
+
+    margin-bottom: 24px;
+}
+
+
+.portfolio-card-col {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+/* ---------------------------------------------------------
+    기본 추천 카드
+    --------------------------------------------------------- */
+
+.portfolio-card {
+    position: relative;
+
+    height: 100%;
+    min-height: 350px;
+
+    background: var(--color-surface);
+
+    /*
+        의도적으로 border 제거.
+        Overview의 white surface card와 동일한 느낌.
+    */
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 22px 22px 18px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow:
+        0 1px 3px rgba(31, 25, 23, 0.04);
+
+    transition:
+        box-shadow 0.15s ease,
+        transform 0.15s ease;
+}
+
+
+.portfolio-card:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 4px 10px rgba(31, 25, 23, 0.07);
+}
+
+
+/* ---------------------------------------------------------
+    1순위 강조
+    ---------------------------------------------------------
+
+    중요:
+    border-top 제거
+    gradient 제거
+
+    1순위는 타이포그래피와 색으로만 강조한다.
+    --------------------------------------------------------- */
+
+.portfolio-card-primary {
+    background: #FCFBF8;
+    border: var(--color-accent) 5px;
+    box-shadow:
+        0 2px 6px rgba(31, 25, 23, 0.06);
+}
+
+
+.portfolio-card-primary:hover {
+    box-shadow:
+        0 5px 12px rgba(31, 25, 23, 0.08);
+}
+
+
+/* ---------------------------------------------------------
+    Card Header
+    --------------------------------------------------------- */
+
+.portfolio-card-header {
+    display: flex;
+
+    align-items: baseline;
+
+    justify-content: space-between;
+
+    padding-bottom: 13px;
+}
+
+
+.portfolio-rank-label {
+    font-family: var(--font-body);
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.02em;
+
+    color: var(--color-ink);
+}
+
+
+.portfolio-card-primary .portfolio-rank-label {
+    color: var(--color-accent);
+}
+
+
+.portfolio-rank-desc {
+    font-size: 11px;
+
+    color: var(--color-ink-muted);
+}
+
+
+.portfolio-card-primary .portfolio-rank-desc {
+    color: var(--color-accent);
+
+    font-weight: 500;
+}
+
+
+/* ---------------------------------------------------------
+    Score
+    --------------------------------------------------------- */
+
+.portfolio-score-block {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 9px;
+
+    margin-bottom: 15px;
+}
+
+
+.portfolio-score {
+    /*
+        기존 Fraunces 대신 Inter.
+        숫자가 더 현대적이고 데이터 UI에 적합함.
+    */
+    font-family: var(--font-body);
+
+    font-size: 44px;
+
+    font-weight: 500;
+
+    line-height: 0.95;
+
+    letter-spacing: -2.2px;
+
+    color: var(--color-ink);
+}
+
+
+.portfolio-card-primary .portfolio-score {
+    color: var(--color-accent);
+
+    font-size: 48px;
+
+    font-weight: 600;
+
+    letter-spacing: -2.5px;
+}
+
+
+.portfolio-score-label {
+    font-size: 12px;
+
+    font-weight: 400;
+
+    color: var(--color-ink-muted);
+
+    white-space: nowrap;
+}
+
+
+/* ---------------------------------------------------------
+    Divider
+    --------------------------------------------------------- */
+
+.portfolio-divider {
+    width: 100%;
+
+    height: 1px;
+
+    background: var(--color-border);
+
+    margin-bottom: 17px;
+}
+
+
+/* ---------------------------------------------------------
+    Section Label
+    --------------------------------------------------------- */
+
+.portfolio-section-label {
+    margin-bottom: 8px;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    color: var(--color-ink-muted);
+
+    letter-spacing: 0.01em;
+}
+
+
+/* ---------------------------------------------------------
+    Area List
+    --------------------------------------------------------- */
+
+.portfolio-area-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+
+    margin-bottom: 16px;
+}
+
+
+.portfolio-area-item {
+    display: flex;
+
+    align-items: center;
+
+    min-height: 30px;
+
+    /*
+        카드 안쪽의 아주 약한 background만 사용.
+        별도의 강한 box 느낌은 피함.
+    */
+    background: #F8F6F2;
+
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 4px 8px;
+}
+
+
+.portfolio-area-index {
+    flex: 0 0 auto;
+
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 8px;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    color: var(--color-ink-muted);
+
+    background: #ECE8E1;
+
+    border-radius: 3px;
+}
+
+
+.portfolio-area-name {
+    min-width: 0;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    color: var(--color-ink);
+
+    cursor: pointer;
+}
+
+
+.portfolio-area-name:hover {
+    color: var(--color-accent);
+}
+
+
+/* ---------------------------------------------------------
+    Rationale
+    --------------------------------------------------------- */
+
+.portfolio-rationale-block {
+    margin-top: auto;
+
+    padding-top: 14px;
+
+    border-top: 1px solid var(--color-border);
+}
+
+
+.portfolio-rationale {
+    font-size: 12px;
+
+    line-height: 1.6;
+
+    color: var(--color-ink-muted);
+
+    display: -webkit-box;
+
+    -webkit-line-clamp: 2;
+
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+}
+
+
+/* ---------------------------------------------------------
+    Footer
+    --------------------------------------------------------- */
+
+.portfolio-card-footer {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    min-height: 30px;
+
+    margin-top: 14px;
+}
+
+
+/* ---------------------------------------------------------
+    Risk
+    --------------------------------------------------------- */
+
+.portfolio-risk {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+}
+
+
+.portfolio-risk-label {
+    font-size: 10px;
+
+    font-weight: 600;
+
+    color: var(--color-risk);
+
+    letter-spacing: 0.02em;
+}
+
+
+.portfolio-risk-value {
+    font-size: 11px;
+
+    color: var(--color-risk);
+}
+
+
+.portfolio-risk-label-neutral {
+    font-size: 10px;
+
+    font-weight: 600;
+
+    color: var(--color-good);
+
+    letter-spacing: 0.02em;
+}
+
+
+.portfolio-risk-value-neutral {
+    font-size: 11px;
+
+    color: var(--color-ink-muted);
+}
+
+
+/* ---------------------------------------------------------
+    상세보기
+    --------------------------------------------------------- */
+
+.portfolio-detail-link {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    font-size: 12px;
+
+    font-weight: 500;
+
+    color: var(--color-accent);
+
+    cursor: pointer;
+
+    white-space: nowrap;
+}
+
+
+.portfolio-detail-link:hover {
+    color: #8F5530;
+
+    text-decoration: underline;
+}
+
+
+.portfolio-detail-arrow {
+    font-size: 13px;
+
+    transition:
+        transform 0.12s ease;
+}
+
+
+.portfolio-detail-link:hover .portfolio-detail-arrow {
+    transform: translateX(2px);
+}
+
+
+/* =========================================================
+    PORTFOLIO COMPARISON
+    그래프는 기존 디자인 유지
+    ========================================================= */
+/* 사용 파일: tab2_portfolio.py — 조합 간 지표 비교 그래프 카드 (확인됨) */
+
+.portfolio-comparison-card {
+    background: var(--color-surface);
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 20px 20px 8px;
+
+    margin-bottom: 20px;
+
+    box-shadow:
+        0 1px 3px rgba(31, 25, 23, 0.04);
+}
+
+
+.comparison-header {
+    display: flex;
+
+    align-items: baseline;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding: 0 2px;
+}
+
+
+.comparison-title {
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: var(--color-ink);
+}
+
+
+.comparison-description {
+    font-size: 12px;
+
+    color: var(--color-ink-muted);
+
+    text-align: right;
+
+    line-height: 1.5;
+}
+
+
+.comparison-chart-wrap {
+    margin-top: 4px;
+}
+
+
+.portfolio-comparison-card .js-plotly-plot {
+    margin-bottom: 0 !important;
+}
+
+
+/* =========================================================
+    NEXT CHECKS
+    ========================================================= */
+/* 사용 파일: tab2_portfolio.py — 공통 추가 검토사항 카드 (확인됨) */
+
+.portfolio-next-checks {
+    background: transparent;
+
+    border-top: 1px solid var(--color-border);
+
+    padding: 18px 2px 4px;
+
+    margin-bottom: 10px;
+}
+
+
+.next-checks-title {
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: var(--color-ink);
+
+    margin-bottom: 9px;
+}
+
+
+.next-checks-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+
+.next-check-item {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 8px;
+}
+
+
+.next-checks-bullet {
+    color: var(--color-ink-muted);
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+.next-checks-text {
+    font-size: 14px;
+
+    color: var(--color-ink-muted);
+
+    line-height: 1.6;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+
+    .portfolio-card {
+        min-height: 320px;
+    }
+
+    .portfolio-score {
+        font-size: 38px;
+    }
+
+    .portfolio-card-primary .portfolio-score {
+        font-size: 42px;
+    }
+
+    .comparison-header {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 4px;
+    }
+
+    .comparison-description {
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .portfolio-card-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .portfolio-card-col {
+        padding-left: 0;
+        padding-right: 0;
+
+        margin-bottom: 12px;
+    }
+
+    .portfolio-card {
+        min-height: auto;
+    }
+
+    .portfolio-card-footer {
+        margin-top: 18px;
+    }
+
+    .portfolio-page-title {
+        font-size: 19px;
+    }
+}
+
+
+/* =========================================================
+    PORTFOLIO DETAIL MODAL
+    ========================================================= */
+/* ⚠ 미사용 추정: 아래 .portfolio-modal-* 블록 전체가, 한참 뒤에 나오는 두 번째 'PORTFOLIO DETAIL MODAL'
+    섹션(.portfolio-detail-*)과 거의 같은 내용을 다른 이름으로 담고 있습니다. tab2_portfolio_modal.py
+    (구 s03b_portfolio_detail.py)의 실제 코드는 .portfolio-detail-*를 쓰고 있어서, 이 블록(.portfolio-modal-*)은
+    예전 버전의 잔재로 보입니다. 삭제해도 안전한지 확인 후 지우는 걸 추천드려요. */
+
+    .portfolio-modal-content {
+    background: var(--color-shell);
+    color: var(--color-ink);
+    padding: 24px 28px 26px;
+}
+
+
+/* ---------------------------------------------------------
+    Header
+    --------------------------------------------------------- */
+
+.portfolio-modal-header {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.portfolio-modal-score-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 9px;
+
+    margin-right: 2px;
+}
+
+.portfolio-modal-rank {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.portfolio-modal-score-label {
+    font-size: 12px;
+    color: var(--color-ink-muted);
+}
+
+.portfolio-modal-score {
+    font-family: var(--font-heading);
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1;
+
+    letter-spacing: -0.8px;
+}
+
+.portfolio-modal-score-unit {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* ---------------------------------------------------------
+    Section
+    --------------------------------------------------------- */
+
+.portfolio-modal-section {
+    margin-top: 20px;
+}
+
+.portfolio-modal-section-title {
+    margin-bottom: 9px;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    color: var(--color-ink);
+}
+
+
+/* ---------------------------------------------------------
+    Map
+    --------------------------------------------------------- */
+
+.portfolio-modal-map-section {
+    margin-bottom: 4px;
+}
+
+.portfolio-modal-map {
+    width: 100%;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+}
+
+.portfolio-modal-map .leaflet-container {
+    border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------------
+    Area Summary
+    --------------------------------------------------------- */
+
+.portfolio-modal-area-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.portfolio-modal-area-row {
+    display: flex;
+    align-items: center;
+
+    min-height: 48px;
+
+    padding: 8px 10px;
+
+    background: var(--color-surface);
+
+    border-radius: 6px;
+}
+
+.portfolio-modal-area-index {
+    flex: 0 0 auto;
+
+    width: 22px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 10px;
+
+    background: var(--color-bg);
+    color: var(--color-ink-muted);
+
+    border-radius: 4px;
+
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.portfolio-modal-area-info {
+    min-width: 0;
+}
+
+.portfolio-modal-area-name {
+    font-size: 13px;
+    font-weight: 500;
+
+    color: var(--color-ink);
+
+    line-height: 1.4;
+}
+
+.portfolio-modal-area-meta {
+    margin-top: 2px;
+
+    font-size: 11px;
+
+    color: var(--color-ink-muted);
+
+    line-height: 1.4;
+}
+
+
+/* ---------------------------------------------------------
+    Selection Rationale
+    --------------------------------------------------------- */
+
+.portfolio-modal-rationale {
+    padding-top: 18px;
+
+    border-top: 1px solid var(--color-border);
+}
+
+.portfolio-modal-fact-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.portfolio-modal-fact-row {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 8px;
+}
+
+.portfolio-modal-check {
+    flex: 0 0 auto;
+
+    color: var(--color-good);
+
+    font-size: 13px;
+    font-weight: 600;
+
+    line-height: 1.5;
+}
+
+.portfolio-modal-fact-text {
+    font-size: 12px;
+
+    color: var(--color-ink-muted);
+
+    line-height: 1.55;
+}
+
+
+/* ---------------------------------------------------------
+    Risk
+    --------------------------------------------------------- */
+
+.portfolio-modal-risk-section {
+    padding-top: 18px;
+
+    border-top: 1px solid var(--color-border);
+}
+
+.portfolio-modal-risk-title {
+    color: var(--color-risk);
+}
+
+.portfolio-modal-risk-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.portfolio-modal-risk-row {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 8px;
+}
+
+.portfolio-modal-risk-label {
+    flex: 0 0 auto;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    color: var(--color-risk);
+
+    line-height: 1.6;
+}
+
+.portfolio-modal-risk-text {
+    font-size: 12px;
+
+    color: var(--color-ink-muted);
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+    MODAL CONTAINER
+    기존 Bootstrap Modal과 디자인 통일
+    ========================================================= */
+/* 사용 파일: 전역 dbc.Modal 스타일 — 현재는 layout.py의 포트폴리오 상세 모달 하나에 적용됨 */
+
+.modal-content {
+    background: var(--color-shell) !important;
+
+    border: none !important;
+    border-radius: 10px !important;
+
+    box-shadow:
+        0 18px 45px rgba(31, 25, 23, 0.16),
+        0 4px 12px rgba(31, 25, 23, 0.08) !important;
+
+    overflow: hidden;
+}
+
+.modal-header {
+    background: var(--color-shell) !important;
+
+    border-bottom: 1px solid var(--color-border) !important;
+
+    padding: 16px 20px !important;
+}
+
+.modal-title {
+    font-family: var(--font-heading) !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+
+    color: var(--color-ink) !important;
+}
+
+.modal-footer {
+    background: var(--color-shell) !important;
+
+    border-top: 1px solid var(--color-border) !important;
+
+    padding: 12px 20px !important;
+}
+
+.modal-footer .btn {
+    background: var(--color-ink-muted) !important;
+    border-color: var(--color-ink-muted) !important;
+
+    border-radius: 6px !important;
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.modal-footer .btn:hover {
+    background: var(--color-ink) !important;
+    border-color: var(--color-ink) !important;
+}
+
+
+/* ---------------------------------------------------------
+    Responsive
+    --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    .portfolio-modal-content {
+        padding: 20px 18px 22px;
+    }
+
+    .portfolio-modal-score {
+        font-size: 30px;
+    }
+
+    .portfolio-modal-area-row {
+        min-height: 44px;
+    }
+}
+
+/* =========================================================
+    PLOTLY RESPONSIVE FIX
+    ========================================================= */
+/* 사용 파일: tab2_portfolio.py — .portfolio-section 스코프 안 Plotly 그래프 반응형 처리 (확인됨) */
+
+    .portfolio-section .row,
+    .portfolio-section .col,
+    .portfolio-section .card,
+    .portfolio-section .card-body {
+        min-width: 0;
+    }
+    
+    .portfolio-section .js-plotly-plot,
+    .portfolio-section .plot-container,
+    .portfolio-section .svg-container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+/* =========================================================
+    PORTFOLIO DETAIL MODAL
+    Overview / Portfolio와 동일한 디자인 시스템
+    ========================================================= */
+/* 사용 파일: tab2_portfolio_modal.py (구 s03b_portfolio_detail.py) — 실제 코드와 클래스명 일치 확인됨 */
+
+    .portfolio-detail-content {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+}
+
+
+/* ---------------------------------------------------------
+    Score Header
+    --------------------------------------------------------- */
+    .portfolio-detail-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 12px;
+
+    padding: 0 0 14px;
+
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 16px;
+}
+
+
+/* 1순위 + 종합 적합도 */
+.portfolio-detail-score-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+
+    white-space: nowrap;
+}
+
+
+.portfolio-detail-rank,
+.portfolio-detail-score-label {
+    font-family: var(--font-body);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+
+    white-space: nowrap;
+}
+
+
+/* 점수 */
+.portfolio-detail-score-wrap {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 3px;
+
+    white-space: nowrap;
+}
+
+
+.portfolio-detail-score {
+    font-family: var(--font-body);
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+
+    letter-spacing: -0.5px;
+
+    white-space: nowrap;
+}
+
+
+.portfolio-detail-score-unit {
+    font-family: var(--font-body);
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+
+    color: var(--color-ink-muted);
+
+    white-space: nowrap;
+}
+
+
+/* ---------------------------------------------------------
+    Section
+    --------------------------------------------------------- */
+
+.portfolio-detail-section {
+    margin-bottom: 20px;
+}
+
+
+.portfolio-detail-section-title {
+    font-size: 12px;
+    font-weight: 600;
+
+    color: var(--color-ink);
+
+    margin-bottom: 8px;
+}
+
+/* ---------------------------------------------------------
+    Map
+    --------------------------------------------------------- */
+
+.portfolio-detail-map {
+    width: 100%;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+}
+
+
+.portfolio-detail-map .leaflet-container {
+    border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------------
+    Area Summary
+    --------------------------------------------------------- */
+
+.portfolio-detail-area-row {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    min-height: 48px;
+
+    padding: 7px 10px;
+
+    background: #F8F6F2;
+
+    border-radius: 6px;
+
+    margin-bottom: 5px;
+}
+
+
+.portfolio-detail-area-index {
+    flex: 0 0 auto;
+
+    width: 22px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ECE8E1;
+
+    border-radius: 4px;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    color: var(--color-ink-muted);
+}
+
+
+.portfolio-detail-area-info {
+    min-width: 0;
+}
+
+
+.portfolio-detail-area-name {
+    font-size: 13px;
+    font-weight: 600;
+
+    color: var(--color-ink);
+
+    line-height: 1.4;
+}
+
+
+.portfolio-detail-area-meta {
+    margin-top: 2px;
+
+    font-size: 11px;
+
+    color: var(--color-ink-muted);
+
+    line-height: 1.4;
+}
+
+
+/* ---------------------------------------------------------
+    Selection Rationale
+    --------------------------------------------------------- */
+
+.portfolio-detail-reason-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 2px;
+}
+
+
+.portfolio-detail-reason-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+.portfolio-detail-check {
+    flex: 0 0 auto;
+    color: var(--color-good);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+.portfolio-detail-reason-text {
+    font-size: 12px;
+    color: var(--color-ink-muted);
+    line-height: 1.6;
+}
+
+
+/* ---------------------------------------------------------
+    Risk
+    --------------------------------------------------------- */
+
+.portfolio-detail-risk-section {
+    padding-top: 14px;
+    border-top: 1px solid var(--color-border);
+    margin-top: 2px;
+}
+
+
+.portfolio-detail-risk-title {
+    color: var(--color-risk);
+}
+
+
+.portfolio-detail-risk-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+.portfolio-detail-risk-label {
+    flex: 0 0 auto;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--color-risk);
+    padding-top: 2px;
+}
+
+
+.portfolio-detail-risk-text {
+    font-size: 12px;
+    color: var(--color-risk);
+    line-height: 1.6;
+}
+
+
+/* ---------------------------------------------------------
+    Responsive
+    --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    .portfolio-detail-header {
+        gap: 8px;
+    }
+
+    .portfolio-detail-score {
+        font-size: 30px;
+    }
+
+    .portfolio-detail-score-label {
+        display: none;
+    }
+}
+
+/* =========================================================
+    Area List
+    ========================================================= */
+/* 사용 파일: tab3_area_table.py (구 s04_area_list.py) — 상권 요약 표 */
+
+.area-list-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.area-table {
+    margin-bottom: 0;
+    font-family: var(--font-body);
+    color: var(--color-ink);
+}
+
+
+/* Header */
+
+.area-table-head th {
+    border-bottom: 1px solid var(--color-border) !important;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    padding: 10px 12px;
+    white-space: nowrap;
+}
+
+
+/* Summary row */
+
+.area-table-row td {
+    border-bottom: 1px solid var(--color-border) !important;
+    padding: 13px 12px;
+    vertical-align: middle;
+    font-family: var(--font-body);
+}
+
+
+.area-table-row:hover td {
+    background: rgba(91, 115, 50, 0.035);
+}
+
+
+.area-table-row-selected td {
+    background: rgba(91, 115, 50, 0.06);
+}
+
+
+.area-table-rank {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.area-table-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-ink);
+    white-space: nowrap;
+}
+
+
+.area-table-score {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+
+.area-table-positive {
+    font-size: 12px;
+    color: var(--color-ink);
+    line-height: 1.5;
+}
+
+
+.area-table-risk {
+    font-size: 12px;
+    color: var(--color-ink);
+    line-height: 1.5;
+}
+
+
+.area-table-confidence {
+    font-size: 12px;
+    color: var(--color-ink-muted);
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+    Expanded Area Detail
+    ========================================================= */
+/* 사용 파일: tab3_area_table.py — 행 클릭 시 펼쳐지는 상세 영역 래퍼 */
+
+.area-detail-content {
+    padding: 20px 24px 22px;
+    background: rgba(250, 248, 243, 0.65);
+    border-top: 1px solid var(--color-border);
+}
+
+
+.area-detail-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-ink);
+    margin-bottom: 4px;
+}
+
+
+.area-detail-score-section {
+    margin-bottom: 8px;
+}
+
+
+/* =========================================================
+    Fact Chips
+    ========================================================= */
+/* 사용 파일: tab3_area_table.py — 위 OLD 섹션의 .fact-chip을 상권 상세 안에서 재정의(override) */
+
+.area-detail-content .fact-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #EFEDE7;
+    color: var(--color-ink-muted);
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+    Factor
+    ========================================================= */
+/* 사용 파일: tab3_area_table.py — 핵심 강점/위험 목록 */
+
+.area-detail-factors {
+    border-top: 1px solid var(--color-border);
+    padding-top: 14px;
+    margin-top: 4px;
+}
+
+
+.area-detail-factor-group {
+    margin-bottom: 14px;
+}
+
+
+.area-detail-factor-group:last-child {
+    margin-bottom: 0;
+}
+
+
+.area-detail-subtitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-ink);
+    margin-bottom: 7px;
+}
+
+
+.area-detail-factor-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    margin-bottom: 5px;
+}
+
+
+.area-detail-check {
+    color: var(--color-good);
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+
+.area-detail-factor-text {
+    font-size: 13px;
+    color: var(--color-ink);
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+    Risk
+    ========================================================= */
+/* 사용 파일: tab3_area_table.py — 위험 요인 텍스트 색상 */
+
+.area-detail-risk-title {
+    color: var(--color-ink);
+}
+
+
+.area-detail-risk-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+
+.area-detail-risk-label {
+    color: #A13D2B;
+    font-size: 13px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+
+.area-detail-risk-text {
+    color: #A13D2B;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+    Basic Information
+    ========================================================= */
+/* 사용 파일: tab3_area_table.py — 데이터 신뢰도 표시 */
+
+.area-detail-info {
+    border-top: 1px solid var(--color-border);
+    margin-top: 14px;
+    padding-top: 12px;
+}
+
+
+.area-detail-info-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 6px;
+}
+
+
+.area-detail-info-row:last-child {
+    margin-bottom: 0;
+}
+
+
+.area-detail-info-label {
+    width: 82px;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-ink);
+}
+
+
+.area-detail-info-value {
+    font-size: 13px;
+    color: var(--color-ink-muted);
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+    Next Checks
+    ========================================================= */
+/* 사용 파일: tab3_area_table.py — 실제 출점 전 추가 검토사항 목록 */
+
+.area-detail-next-checks {
+    border-top: 1px solid var(--color-border);
+    margin-top: 14px;
+    padding-top: 14px;
+}
+
+
+.area-detail-check-list {
+    margin: 0;
+    padding-left: 18px;
+}
+
+
+.area-detail-check-item {
+    font-size: 12px;
+    color: var(--color-ink);
+    line-height: 1.7;
+    margin-bottom: 2px;
+}

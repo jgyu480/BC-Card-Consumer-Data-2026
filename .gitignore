@@ -241,5 +241,6 @@ secrets/
 /.env
 /Datasets/a. BC Provided Data/
 /Datasets/b. External Public Data/
+/PART-II/DATA-02/outputs/
 **/.DS_Store
 *.pyc
