@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-09-09T14:42:53.901522+00:00",
+  "data_origin": "SYNTHETIC_DO_NOT_USE_FOR_BUSINESS",
+  "target_definition": "개점월부터 12개월 동안의 점포별 월매출 합계",
+  "target_column": "y_first_12m_sales_won",
+  "all_store_count": 360,
+  "eligible_store_count": 360,
+  "preopening_feature_columns": [
+    "data_origin",
+    "brand_id",
+    "store_id",
+    "opening_date",
+    "opening_month",
+    "area_id",
+    "area_name",
+    "latitude",
+    "longitude",
+    "store_area_m2",
+    "monthly_rent_won",
+    "initial_investment_won",
+    "area_demand_index_at_opening",
+    "foot_traffic_index_at_opening",
+    "competition_density_index_at_opening",
+    "same_brand_store_count_at_opening",
+    "brand_area_fit_score_at_opening"
+  ],
+  "future_leakage_columns_in_inputs": [],
+  "warning": "합성 데이터 파이프라인 시험 결과이며 실제 브랜드 매출 성능으로 해석할 수 없음"
+}

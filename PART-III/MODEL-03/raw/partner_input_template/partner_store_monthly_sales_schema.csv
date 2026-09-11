@@ -1,0 +1,13 @@
+field_name,required,data_type,description,known_before_opening,example
+brand_id,yes,string,브랜드 식별자,yes,BRAND_A
+store_id,yes,string,점포 식별자,yes,BRAND_A_001
+opening_date,yes,date,실제 개점일,yes,2024-03-15
+sales_month,yes,date,월매출 귀속월,no,2024-04-01
+monthly_sales_won,yes,float,부가세 기준을 통일한 월매출,no,85000000
+latitude,yes,float,점포 위도,yes,37.5141
+longitude,yes,float,점포 경도,yes,127.1025
+store_area_m2,recommended,float,전용 또는 영업 면적,yes,99.0
+monthly_rent_won,recommended,float,월 임차비,yes,7200000
+initial_investment_won,recommended,float,인테리어·설비 등 초기 투자비,yes,180000000
+closing_date,recommended,date,폐점일 또는 공란,not_always,2026-01-31
+operating_status,recommended,string,OPEN 또는 CLOSED,not_always,OPEN

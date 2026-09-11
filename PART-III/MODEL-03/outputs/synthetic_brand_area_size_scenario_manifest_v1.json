@@ -1,0 +1,9 @@
+{
+  "data_origin": "SYNTHETIC_DO_NOT_USE_FOR_BUSINESS",
+  "selected_model": "ridge_brand_aware_v1",
+  "prediction_target": "개점 후 첫 12개월 총매출",
+  "scenario_count": 27,
+  "interval_80_log_residual": 0.1283814972590136,
+  "interval_90_log_residual": 0.15900619387732462,
+  "business_use_restriction": "실제 파트너 데이터의 시간차단 검증 통과 전에는 출점 추천·실제 매출예측·투자수익률 판단에 사용할 수 없음"
+}

@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-09T14:40:20.229858+00:00",
+  "data_origin": [
+    "SYNTHETIC_DO_NOT_USE_FOR_BUSINESS"
+  ],
+  "store_rows": 360,
+  "monthly_sales_rows": 14255,
+  "global_last_sales_month": "2026-06-01",
+  "store_duplicate_count": 0,
+  "monthly_duplicate_count": 0,
+  "negative_sales_count": 0,
+  "missing_sales_count": 0,
+  "sales_before_opening_count": 0,
+  "sales_after_closing_count": 0,
+  "stores_with_monthly_gap": 0,
+  "overall_input_gate": "PASS",
+  "warning": "현재 결과는 합성 데이터 입력 검증 결과이며 실제 본사 데이터 성능을 의미하지 않음"
+}

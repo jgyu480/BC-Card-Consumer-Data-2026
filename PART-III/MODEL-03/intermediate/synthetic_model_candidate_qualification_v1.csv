@@ -1,0 +1,4 @@
+﻿prediction,overall_wape_pct,wape_difference_vs_baseline_pct_point,mae_won,spearman,winning_cohorts_out_of_5,bootstrap_diff_95pct_lower,bootstrap_diff_95pct_upper,bootstrap_probability_beats_baseline_pct,qualified_for_partner_model_pipeline
+baseline_brand_demand_band_prior_mean,22.80819620867774,0.0,127500053.51316734,0.707550646092769,0,0.0,0.0,0.0,False
+ridge_brand_aware_v1,7.215151766472252,-15.593044442205485,40333405.93504861,0.9721100854229815,5,-22.739906153319073,-8.634477462911846,100.0,True
+hist_gradient_boosting_brand_aware_v1,13.597025453014725,-9.211170755663014,76008705.68711136,0.8533081656601342,5,-14.197987896894112,-4.892066925310164,100.0,True

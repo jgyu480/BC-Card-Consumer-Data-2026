@@ -1,0 +1,13 @@
+{
+  "data_origin": "SYNTHETIC_DO_NOT_USE_FOR_BUSINESS",
+  "selected_model": "ridge_brand_aware_v1",
+  "method": "개점 코호트 순차 conformal interval. 각 검증 코호트는 이전 코호트의 로그 절대오차만 사용",
+  "nominal_levels": [
+    80,
+    90
+  ],
+  "future_partner_deployment_q80_log_residual": 0.1283814972590136,
+  "future_partner_deployment_q90_log_residual": 0.15900619387732462,
+  "interval_validation_store_count": 148,
+  "warning": "합성 데이터에서 계산된 구간 파라미터는 실제 브랜드 데이터에 재보정하지 않고 사용할 수 없음"
+}

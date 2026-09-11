@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-09-09T14:38:24.561718+00:00",
+  "data_origin": "SYNTHETIC_DO_NOT_USE_FOR_BUSINESS",
+  "random_seed": 20260910,
+  "purpose": "MODEL-03 파트너 데이터 입력·학습·검증 파이프라인 시험용 합성 데이터. 실제 성능·사업성 주장에 사용 금지.",
+  "brands": [
+    "BRAND_ALPHA",
+    "BRAND_BETA",
+    "BRAND_GAMMA"
+  ],
+  "store_count": 360,
+  "monthly_sales_row_count": 14255,
+  "area_count": 80,
+  "sales_period": "2021-01~2026-06",
+  "known_data_generating_relationships": [
+    "브랜드별 기본 매출 수준 차이",
+    "상권 수요와 유동인구 효과",
+    "브랜드-상권 적합도 효과",
+    "점포 면적 적합도 효과",
+    "경쟁 밀도 및 동일 브랜드 기존점 잠식 효과",
+    "개점 초기 매출 램프업과 계절성"
+  ]
+}
