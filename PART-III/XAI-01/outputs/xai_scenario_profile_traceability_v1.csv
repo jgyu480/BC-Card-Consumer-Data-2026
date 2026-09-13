@@ -1,0 +1,8 @@
+﻿field_name,availability,model_use,trace_status,interpretation,manifest_candidate_paths
+brand_id,개점 전,입력 허용,DIRECT,시나리오 파일에 실제 입력값이 직접 저장됨,
+area_id 및 개점 당시 상권 변수,개점 전,입력 허용,MISSING_TRACE,현재 파일만으로 시나리오별 실제 입력값을 추적할 수 없음,
+store_area_m2,개점 전,입력 허용,DIRECT,시나리오 파일에 실제 입력값이 직접 저장됨,
+monthly_rent_won 및 initial_investment_won,개점 전,입력 허용,MISSING_TRACE,현재 파일만으로 시나리오별 실제 입력값을 추적할 수 없음,
+same_brand_store_count_at_opening,개점 전,입력 허용,MANIFEST_CANDIDATE,시나리오 매니페스트에 입력값 또는 생성 규칙 후보가 존재함,scenario_count
+monthly_sales_won,개점 후,정답만 허용,MISSING_TRACE,현재 파일만으로 시나리오별 실제 입력값을 추적할 수 없음,
+closing_date 및 폐점 이후 상태,개점 후,입력 금지,MISSING_TRACE,현재 파일만으로 시나리오별 실제 입력값을 추적할 수 없음,

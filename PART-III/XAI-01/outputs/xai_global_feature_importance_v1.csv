@@ -1,0 +1,9 @@
+﻿feature,feature_korean,mean_absolute_log_contribution,mean_multiplicative_effect_pct
+brand_id,브랜드 기본 수준,0.23035876129502308,-0.9949968663503644
+area_demand_index_at_opening,상권 수요,0.16432284911420506,-12.108256142765887
+same_brand_store_count_at_opening,동일 브랜드 기존점 수,0.1461262544124121,15.734229839890812
+competition_density_index_at_opening,경쟁 밀도,0.025799651906654023,-0.06853728229991862
+store_area_m2,점포 면적,0.010683599059695069,0.5796569355898328
+monthly_rent_won,월 임대료,0.007133583509573365,-0.2094067716872224
+initial_investment_won,초기 투자비,0.002002928584991917,0.09286254020127356
+foot_traffic_index_at_opening,유동인구,6.0809355757282953e-05,0.003927670703067025

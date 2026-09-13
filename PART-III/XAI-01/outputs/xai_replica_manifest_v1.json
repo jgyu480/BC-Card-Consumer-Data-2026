@@ -1,0 +1,11 @@
+{
+  "model": "xai_replica_ridge_v1",
+  "data_origin": "SYNTHETIC_DO_NOT_USE_FOR_BUSINESS",
+  "selected_ridge_alpha": 0.07498942093324558,
+  "training_rows": 360,
+  "scenario_rows": 27,
+  "fidelity_status": "TRANSPARENT_XAI_REPLICA_ONLY",
+  "median_absolute_percentage_error": 0.189081978151839,
+  "prediction_correlation": 0.8374991384752056,
+  "restriction": "원래 시나리오 생성 코드가 남아 있지 않아 재현 가능한 XAI 보조모델로 해석함"
+}

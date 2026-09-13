@@ -1,0 +1,188 @@
+=== 1. 현재 작업 폴더의 시나리오 생성 코드 탐색 ===
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-40-  ],
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-41-  "input_paths": {
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-42-    "model03_training_data": "PART-III/MODEL-03/intermediate/synthetic_modeling_dataset_v1.parquet",
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-43-    "model03_selection": "PART-III/MODEL-03/intermediate/synthetic_model_selection_decision_v1.json",
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-44-    "model03_feature_contract": "PART-III/MODEL-03/outputs/model03_feature_availability_contract_v1.csv",
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json:45:    "model03_scenarios": "PART-III/MODEL-03/outputs/synthetic_brand_area_size_revenue_scenarios_v1.csv",
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-46-    "model03_scenario_manifest": "PART-III/MODEL-03/outputs/synthetic_brand_area_size_scenario_manifest_v1.json",
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-47-    "model02_observed_screen": "PART-III/MODEL-02/outputs/model02_executive_observed_market_screen_final_2026q2.csv"
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-48-  },
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-49-  "next_step": "MODEL-03 선택 모델을 원래의 특성 계약으로 재현 학습하고, 각 시나리오에 대한 예측값과 feature-level contribution을 생성"
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.json-50-}
+--
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-3-## 목적
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-4-- MODEL-03의 27개 시나리오가 실제로 어떤 모델 입력값으로 예측되었는지 확인한다.
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-5-- `MISSING_TRACE` 특성은 기여도 계산 전에 시나리오별 수치를 복원해야 한다.
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-6-
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-7-## 시나리오 프로필 관련 열
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md:8:- `scenario_id, scenario_profile, size_scenario, brand_scenario_rank_by_predicted_sales, brand_scenario_rank_by_efficiency`
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-9-
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-10-## 특성별 추적 결과
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-11-```text
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-12-                               field_name availability model_use       trace_status                   interpretation manifest_candidate_paths
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-13-                                 brand_id         개점 전     입력 허용             DIRECT          시나리오 파일에 실제 입력값이 직접 저장됨                         
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-14-                    area_id 및 개점 당시 상권 변수         개점 전     입력 허용      MISSING_TRACE  현재 파일만으로 시나리오별 실제 입력값을 추적할 수 없음                         
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-15-                            store_area_m2         개점 전     입력 허용             DIRECT          시나리오 파일에 실제 입력값이 직접 저장됨                         
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-16-monthly_rent_won 및 initial_investment_won         개점 전     입력 허용      MISSING_TRACE  현재 파일만으로 시나리오별 실제 입력값을 추적할 수 없음                         
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md:17:        same_brand_store_count_at_opening         개점 전     입력 허용 MANIFEST_CANDIDATE 시나리오 매니페스트에 입력값 또는 생성 규칙 후보가 존재함           scenario_count
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-18-                        monthly_sales_won         개점 후    정답만 허용      MISSING_TRACE  현재 파일만으로 시나리오별 실제 입력값을 추적할 수 없음                         
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-19-                  closing_date 및 폐점 이후 상태         개점 후     입력 금지      MISSING_TRACE  현재 파일만으로 시나리오별 실제 입력값을 추적할 수 없음                         
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-20-```
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-21-
+PART-III/XAI-01/outputs/xai_scenario_profile_traceability_v1.md-22-## 매니페스트에서 profile·demand·traffic·competition 관련 항목
+--
+PART-III/XAI-01/outputs/xai_input_audit.md-528-- 형식: JSON | 이름 관련성: 높음
+PART-III/XAI-01/outputs/xai_input_audit.md-529-
+PART-III/XAI-01/outputs/xai_input_audit.md-530-### `PART-III/MODEL-03/intermediate/synthetic_modeling_dataset_v1.parquet`
+PART-III/XAI-01/outputs/xai_input_audit.md-531-- 형식: Parquet | 이름 관련성: 높음
+PART-III/XAI-01/outputs/xai_input_audit.md-532-- 행 수: 360 | 열 수: 24
+PART-III/XAI-01/outputs/xai_input_audit.md:533:- 열: `data_origin, brand_id, store_id, opening_date, opening_month, area_id, area_name, latitude, longitude, store_area_m2, monthly_rent_won, initial_investment_won, area_demand_index_at_opening, foot_traffic_index_at_opening, competition_density_index_at_opening, same_brand_store_count_at_opening, brand_area_fit_score_at_opening, target_window, target_available_as_of, future_12m_sales_month_count, future_12m_sales_complete, y_first_12m_sales_won, y_first_12m_average_monthly_sales_won, model_eligible`
+PART-III/XAI-01/outputs/xai_input_audit.md-534-
+PART-III/XAI-01/outputs/xai_input_audit.md-535-### `PART-III/MODEL-03/intermediate/synthetic_new_store_12m_labels_v1.parquet`
+PART-III/XAI-01/outputs/xai_input_audit.md-536-- 형식: Parquet | 이름 관련성: 일반
+PART-III/XAI-01/outputs/xai_input_audit.md-537-- 행 수: 360 | 열 수: 11
+PART-III/XAI-01/outputs/xai_input_audit.md-538-- 열: `data_origin, brand_id, store_id, area_id, opening_month, target_window, target_available_as_of, future_12m_sales_month_count, future_12m_sales_complete, y_first_12m_sales_won, y_first_12m_average_monthly_sales_won`
+--
+PART-III/XAI-01/outputs/xai_input_audit.md-566-### `PART-III/MODEL-03/outputs/model03_feature_availability_contract_v1.csv`
+PART-III/XAI-01/outputs/xai_input_audit.md-567-- 형식: CSV | 이름 관련성: 높음
+PART-III/XAI-01/outputs/xai_input_audit.md-568-- 열 수: 4
+PART-III/XAI-01/outputs/xai_input_audit.md-569-- 열: `field_name, availability, model_use, reason`
+PART-III/XAI-01/outputs/xai_input_audit.md-570-
+PART-III/XAI-01/outputs/xai_input_audit.md:571:### `PART-III/MODEL-03/outputs/synthetic_brand_area_size_revenue_scenarios_v1.csv`
+PART-III/XAI-01/outputs/xai_input_audit.md-572-- 형식: CSV | 이름 관련성: 높음
+PART-III/XAI-01/outputs/xai_input_audit.md-573-- 열 수: 17
+PART-III/XAI-01/outputs/xai_input_audit.md:574:- 열: `scenario_id, brand_id, scenario_profile, size_scenario, store_area_m2, monthly_rent_won, initial_investment_won, predicted_first_12m_sales_won, interval_80_lower_won, interval_80_upper_won, interval_90_lower_won, interval_90_upper_won, sales_investment_efficiency, brand_scenario_rank_by_predicted_sales, brand_scenario_rank_by_efficiency, synthetic_only_notice, interpretation_limit`
+PART-III/XAI-01/outputs/xai_input_audit.md-575-
+PART-III/XAI-01/outputs/xai_input_audit.md-576-### `PART-III/MODEL-03/outputs/synthetic_brand_area_size_scenario_manifest_v1.json`
+PART-III/XAI-01/outputs/xai_input_audit.md-577-- 형식: JSON | 이름 관련성: 높음
+PART-III/XAI-01/outputs/xai_input_audit.md-578-
+PART-III/XAI-01/outputs/xai_input_audit.md-579-### `PART-III/MODEL-03/outputs/synthetic_brand_area_size_scenario_summary_v1.csv`
+--
+PART-III/XAI-01/outputs/xai_input_audit.md-608-- 열: `data_origin, brand_id, store_id, sales_month, monthly_sales_won, months_since_opening, store_area_m2, monthly_rent_won, initial_investment_won, area_id`
+PART-III/XAI-01/outputs/xai_input_audit.md-609-
+PART-III/XAI-01/outputs/xai_input_audit.md-610-### `PART-III/MODEL-03/raw/synthetic/synthetic_partner_store_master_v1.parquet`
+PART-III/XAI-01/outputs/xai_input_audit.md-611-- 형식: Parquet | 이름 관련성: 일반
+PART-III/XAI-01/outputs/xai_input_audit.md-612-- 행 수: 360 | 열 수: 19
+PART-III/XAI-01/outputs/xai_input_audit.md:613:- 열: `data_origin, brand_id, store_id, opening_date, opening_month, closing_date, operating_status_as_of_2026q2, area_id, area_name, latitude, longitude, store_area_m2, monthly_rent_won, initial_investment_won, area_demand_index_at_opening, foot_traffic_index_at_opening, competition_density_index_at_opening, same_brand_store_count_at_opening, brand_area_fit_score_at_opening`
+--
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-1-# XAI 특성 연결 감사
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-2-
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-3-## 1. 학습표본
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-4-- 행 수: 360
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-5-- 열 수: 24
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md:6:- 열: `data_origin, brand_id, store_id, opening_date, opening_month, area_id, area_name, latitude, longitude, store_area_m2, monthly_rent_won, initial_investment_won, area_demand_index_at_opening, foot_traffic_index_at_opening, competition_density_index_at_opening, same_brand_store_count_at_opening, brand_area_fit_score_at_opening, target_window, target_available_as_of, future_12m_sales_month_count, future_12m_sales_complete, y_first_12m_sales_won, y_first_12m_average_monthly_sales_won, model_eligible`
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-7-
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-8-## 2. 특성 계약 파일
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-9-- 행 수: 7
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-10-- 열: `field_name, availability, model_use, reason`
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-11-
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-12-## 3. MODEL-03 시나리오
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-13-- 행 수: 27
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-14-- 열 수: 17
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md:15:- 열: `scenario_id, brand_id, scenario_profile, size_scenario, store_area_m2, monthly_rent_won, initial_investment_won, predicted_first_12m_sales_won, interval_80_lower_won, interval_80_upper_won, interval_90_lower_won, interval_90_upper_won, sales_investment_efficiency, brand_scenario_rank_by_predicted_sales, brand_scenario_rank_by_efficiency, synthetic_only_notice, interpretation_limit`
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-16-
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-17-## 4. 학습표본과 시나리오에 공통으로 있는 열
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-18-- 공통 열 수: 4
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-19-- 공통 열: `brand_id, initial_investment_won, monthly_rent_won, store_area_m2`
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-20-
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-21-## 5. 타깃 후보 — XAI 입력에서 제외
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md:22:- `competition_density_index_at_opening, future_12m_sales_complete, future_12m_sales_month_count, monthly_rent_won, target_available_as_of, target_window, y_first_12m_average_monthly_sales_won, y_first_12m_sales_won`
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-23-
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-24-## 6. 식별자·기간 후보 — XAI 입력 여부를 별도 판단
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md:25:- `area_demand_index_at_opening, area_id, area_name, brand_area_fit_score_at_opening, brand_id, opening_date, same_brand_store_count_at_opening, store_area_m2, store_id`
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-26-
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-27-## 7. 학습표본에만 있는 열
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md:28:- `area_demand_index_at_opening, area_id, area_name, brand_area_fit_score_at_opening, competition_density_index_at_opening, data_origin, foot_traffic_index_at_opening, future_12m_sales_complete, future_12m_sales_month_count, latitude, longitude, model_eligible, opening_date, opening_month, same_brand_store_count_at_opening, store_id, target_available_as_of, target_window, y_first_12m_average_monthly_sales_won, y_first_12m_sales_won`
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-29-
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md-30-## 8. 시나리오에만 있는 열
+PART-III/XAI-01/outputs/xai_feature_join_audit_v1.md:31:- `brand_scenario_rank_by_efficiency, brand_scenario_rank_by_predicted_sales, interpretation_limit, interval_80_lower_won, interval_80_upper_won, interval_90_lower_won, interval_90_upper_won, predicted_first_12m_sales_won, sales_investment_efficiency, scenario_id, scenario_profile, size_scenario, synthetic_only_notice`
+--
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-17-
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-18-## 연결 파일
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-19-- `model03_training_data`: `PART-III/MODEL-03/intermediate/synthetic_modeling_dataset_v1.parquet`
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-20-- `model03_selection`: `PART-III/MODEL-03/intermediate/synthetic_model_selection_decision_v1.json`
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-21-- `model03_feature_contract`: `PART-III/MODEL-03/outputs/model03_feature_availability_contract_v1.csv`
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md:22:- `model03_scenarios`: `PART-III/MODEL-03/outputs/synthetic_brand_area_size_revenue_scenarios_v1.csv`
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-23-- `model03_scenario_manifest`: `PART-III/MODEL-03/outputs/synthetic_brand_area_size_scenario_manifest_v1.json`
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-24-- `model02_observed_screen`: `PART-III/MODEL-02/outputs/model02_executive_observed_market_screen_final_2026q2.csv`
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-25-
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-26-## 선택 모델 메타데이터
+PART-III/XAI-01/outputs/xai_scope_manifest_v1.md-27-```json
+--
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-16-    "latitude",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-17-    "longitude",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-18-    "store_area_m2",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-19-    "monthly_rent_won",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-20-    "initial_investment_won",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json:21:    "area_demand_index_at_opening",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json:22:    "foot_traffic_index_at_opening",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json:23:    "competition_density_index_at_opening",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json:24:    "same_brand_store_count_at_opening",
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-25-    "brand_area_fit_score_at_opening"
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-26-  ],
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-27-  "future_leakage_columns_in_inputs": [],
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-28-  "warning": "합성 데이터 파이프라인 시험 결과이며 실제 브랜드 매출 성능으로 해석할 수 없음"
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json-29-}
+
+=== 2. MODEL-03 파일 목록 ===
+PART-III/MODEL-03/intermediate/synthetic_baseline_metrics_by_fold_v1.csv
+PART-III/MODEL-03/intermediate/synthetic_baseline_metrics_overall_v1.csv
+PART-III/MODEL-03/intermediate/synthetic_baseline_predictions_v1.parquet
+PART-III/MODEL-03/intermediate/synthetic_brand_aware_model_metrics_by_fold_v1.csv
+PART-III/MODEL-03/intermediate/synthetic_brand_aware_model_metrics_overall_v1.csv
+PART-III/MODEL-03/intermediate/synthetic_brand_aware_model_predictions_v1.parquet
+PART-III/MODEL-03/intermediate/synthetic_model_candidate_qualification_v1.csv
+PART-III/MODEL-03/intermediate/synthetic_model_selection_decision_v1.json
+PART-III/MODEL-03/intermediate/synthetic_modeling_dataset_v1.parquet
+PART-III/MODEL-03/intermediate/synthetic_new_store_12m_labels_v1.parquet
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_coverage_v1.csv
+PART-III/MODEL-03/intermediate/synthetic_new_store_label_manifest_v1.json
+PART-III/MODEL-03/intermediate/synthetic_opening_cohort_folds_v1.csv
+PART-III/MODEL-03/intermediate/synthetic_ridge_conformal_calibration_v1.json
+PART-III/MODEL-03/intermediate/synthetic_ridge_conformal_coverage_by_cohort_v1.csv
+PART-III/MODEL-03/intermediate/synthetic_ridge_conformal_intervals_oof_v1.parquet
+PART-III/MODEL-03/outputs/model03_feature_availability_contract_v1.csv
+PART-III/MODEL-03/outputs/synthetic_brand_area_size_revenue_scenarios_v1.csv
+PART-III/MODEL-03/outputs/synthetic_brand_area_size_scenario_manifest_v1.json
+PART-III/MODEL-03/outputs/synthetic_brand_area_size_scenario_summary_v1.csv
+PART-III/MODEL-03/outputs/synthetic_partner_input_quality_report_v1.json
+PART-III/MODEL-03/outputs/synthetic_partner_store_input_quality_flags_v1.csv
+PART-III/MODEL-03/raw/partner_input_template/partner_store_monthly_sales_schema.csv
+PART-III/MODEL-03/raw/synthetic/synthetic_area_context_v1.csv
+PART-III/MODEL-03/raw/synthetic/synthetic_data_manifest_v1.json
+PART-III/MODEL-03/raw/synthetic/synthetic_partner_monthly_sales_v1.parquet
+PART-III/MODEL-03/raw/synthetic/synthetic_partner_store_master_v1.parquet
+PART-III/MODEL-03/README.md
+
+=== 3. 최신 커밋에서 MODEL-03 변경 파일 ===
+7130b03 Update project files
+ PART-III/MODEL-03/README.md                        |  96 ++++++
+ .../synthetic_baseline_metrics_by_fold_v1.csv      |  11 +
+ .../synthetic_baseline_metrics_overall_v1.csv      |   3 +
+ .../synthetic_baseline_predictions_v1.parquet      | Bin 0 -> 13307 bytes
+ ...thetic_brand_aware_model_metrics_by_fold_v1.csv |  21 ++
+ ...thetic_brand_aware_model_metrics_overall_v1.csv |   5 +
+ ...thetic_brand_aware_model_predictions_v1.parquet | Bin 0 -> 14368 bytes
+ .../synthetic_model_candidate_qualification_v1.csv |   4 +
+ .../synthetic_model_selection_decision_v1.json     |  12 +
+ .../synthetic_modeling_dataset_v1.parquet          | Bin 0 -> 47247 bytes
+ .../synthetic_new_store_12m_labels_v1.parquet      | Bin 0 -> 17774 bytes
+ .../synthetic_new_store_label_coverage_v1.csv      | 134 ++++++++
+ .../synthetic_new_store_label_manifest_v1.json     |  29 ++
+ .../synthetic_opening_cohort_folds_v1.csv          |   6 +
+ .../synthetic_ridge_conformal_calibration_v1.json  |  13 +
+ ...hetic_ridge_conformal_coverage_by_cohort_v1.csv |   5 +
+ ...thetic_ridge_conformal_intervals_oof_v1.parquet | Bin 0 -> 26159 bytes
+ .../model03_feature_availability_contract_v1.csv   |   8 +
+ ...thetic_brand_area_size_revenue_scenarios_v1.csv |  28 ++
+ ...hetic_brand_area_size_scenario_manifest_v1.json |   9 +
+ ...nthetic_brand_area_size_scenario_summary_v1.csv |   4 +
+ .../synthetic_partner_input_quality_report_v1.json |  18 +
+ ...thetic_partner_store_input_quality_flags_v1.csv | 361 +++++++++++++++++++++
+ .../partner_store_monthly_sales_schema.csv         |  13 +
+ .../raw/synthetic/synthetic_area_context_v1.csv    |  81 +++++
+ .../raw/synthetic/synthetic_data_manifest_v1.json  |  23 ++
+ .../synthetic_partner_monthly_sales_v1.parquet     | Bin 0 -> 135261 bytes
+ .../synthetic_partner_store_master_v1.parquet      | Bin 0 -> 37323 bytes
+ 28 files changed, 884 insertions(+)

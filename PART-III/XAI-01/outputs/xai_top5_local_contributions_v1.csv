@@ -1,0 +1,136 @@
+﻿scenario_id,feature,feature_korean,direction,log_sales_contribution,multiplicative_effect_pct
+BRAND_ALPHA_HIGH_L,brand_id,브랜드 기본 수준,상승 요인,0.3857774170833369,44.064527120523735
+BRAND_ALPHA_HIGH_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_HIGH_L,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_ALPHA_HIGH_L,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_ALPHA_HIGH_L,monthly_rent_won,월 임대료,하락 요인,-0.01975183212189328,-1.9558042681977361
+BRAND_ALPHA_HIGH_M,brand_id,브랜드 기본 수준,상승 요인,0.3857774170833369,44.064527120523735
+BRAND_ALPHA_HIGH_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_HIGH_M,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_ALPHA_HIGH_M,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_ALPHA_HIGH_M,monthly_rent_won,월 임대료,하락 요인,-0.008922017753847796,-0.8882334658901203
+BRAND_ALPHA_HIGH_S,brand_id,브랜드 기본 수준,상승 요인,0.3857774170833369,44.064527120523735
+BRAND_ALPHA_HIGH_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_HIGH_S,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_ALPHA_HIGH_S,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_ALPHA_HIGH_S,store_area_m2,점포 면적,하락 요인,-0.01279461719363829,-1.2713114049882068
+BRAND_ALPHA_LOW_L,brand_id,브랜드 기본 수준,상승 요인,0.40994417160092894,46.7174970710623
+BRAND_ALPHA_LOW_L,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_ALPHA_LOW_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_LOW_L,store_area_m2,점포 면적,상승 요인,0.029355819143639904,2.9790948626823743
+BRAND_ALPHA_LOW_L,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_ALPHA_LOW_M,brand_id,브랜드 기본 수준,상승 요인,0.40994417160092894,46.7174970710623
+BRAND_ALPHA_LOW_M,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_ALPHA_LOW_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_LOW_M,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_ALPHA_LOW_M,store_area_m2,점포 면적,상승 요인,0.015442830837610938,1.556268753049106
+BRAND_ALPHA_LOW_S,brand_id,브랜드 기본 수준,상승 요인,0.40994417160092894,46.7174970710623
+BRAND_ALPHA_LOW_S,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_ALPHA_LOW_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_LOW_S,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_ALPHA_LOW_S,monthly_rent_won,월 임대료,상승 요인,0.009128989304084859,0.917078561615492
+BRAND_ALPHA_MID_L,brand_id,브랜드 기본 수준,상승 요인,0.41564473602916896,47.35269267582698
+BRAND_ALPHA_MID_L,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_ALPHA_MID_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_MID_L,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_ALPHA_MID_L,store_area_m2,점포 면적,상승 요인,0.017969883091108453,1.8132312929943772
+BRAND_ALPHA_MID_M,brand_id,브랜드 기본 수준,상승 요인,0.41564473602916896,47.35269267582698
+BRAND_ALPHA_MID_M,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_ALPHA_MID_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_MID_M,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_ALPHA_MID_M,store_area_m2,점포 면적,상승 요인,0.006684418489509821,0.670680907632959
+BRAND_ALPHA_MID_S,brand_id,브랜드 기본 수준,상승 요인,0.41564473602916896,47.35269267582698
+BRAND_ALPHA_MID_S,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_ALPHA_MID_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_ALPHA_MID_S,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_ALPHA_MID_S,monthly_rent_won,월 임대료,상승 요인,0.00894102440484703,0.8981114757413255
+BRAND_BETA_HIGH_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_HIGH_L,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_BETA_HIGH_L,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_BETA_HIGH_L,monthly_rent_won,월 임대료,하락 요인,-0.01975183212189328,-1.9558042681977361
+BRAND_BETA_HIGH_L,brand_id,브랜드 기본 수준,하락 요인,-0.004223401016454242,-0.4214495000684826
+BRAND_BETA_HIGH_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_HIGH_M,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_BETA_HIGH_M,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_BETA_HIGH_M,monthly_rent_won,월 임대료,하락 요인,-0.008922017753847796,-0.8882334658901203
+BRAND_BETA_HIGH_M,store_area_m2,점포 면적,하락 요인,-0.0050206830555608655,-0.5008100492882472
+BRAND_BETA_HIGH_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_HIGH_S,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_BETA_HIGH_S,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_BETA_HIGH_S,store_area_m2,점포 면적,하락 요인,-0.01279461719363829,-1.2713114049882068
+BRAND_BETA_HIGH_S,brand_id,브랜드 기본 수준,하락 요인,-0.004223401016454242,-0.4214495000684826
+BRAND_BETA_LOW_L,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_BETA_LOW_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_LOW_L,brand_id,브랜드 기본 수준,상승 요인,0.09306550455992006,9.753362637065166
+BRAND_BETA_LOW_L,store_area_m2,점포 면적,상승 요인,0.029355819143639904,2.9790948626823743
+BRAND_BETA_LOW_L,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_BETA_LOW_M,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_BETA_LOW_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_LOW_M,brand_id,브랜드 기본 수준,상승 요인,0.09306550455992006,9.753362637065166
+BRAND_BETA_LOW_M,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_BETA_LOW_M,store_area_m2,점포 면적,상승 요인,0.015442830837610938,1.556268753049106
+BRAND_BETA_LOW_S,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_BETA_LOW_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_LOW_S,brand_id,브랜드 기본 수준,상승 요인,0.09306550455992006,9.753362637065166
+BRAND_BETA_LOW_S,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_BETA_LOW_S,monthly_rent_won,월 임대료,상승 요인,0.009128989304084859,0.917078561615492
+BRAND_BETA_MID_L,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_BETA_MID_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_MID_L,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_BETA_MID_L,store_area_m2,점포 면적,상승 요인,0.017969883091108453,1.8132312929943772
+BRAND_BETA_MID_L,brand_id,브랜드 기본 수준,하락 요인,-0.008067491736614503,-0.8051206662397559
+BRAND_BETA_MID_M,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_BETA_MID_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_MID_M,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_BETA_MID_M,brand_id,브랜드 기본 수준,하락 요인,-0.008067491736614503,-0.8051206662397559
+BRAND_BETA_MID_M,store_area_m2,점포 면적,상승 요인,0.006684418489509821,0.670680907632959
+BRAND_BETA_MID_S,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_BETA_MID_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_BETA_MID_S,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_BETA_MID_S,monthly_rent_won,월 임대료,상승 요인,0.00894102440484703,0.8981114757413255
+BRAND_BETA_MID_S,brand_id,브랜드 기본 수준,하락 요인,-0.008067491736614503,-0.8051206662397559
+BRAND_GAMMA_HIGH_L,brand_id,브랜드 기본 수준,하락 요인,-0.4196249930236743,-37.18736814994419
+BRAND_GAMMA_HIGH_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_HIGH_L,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_GAMMA_HIGH_L,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_GAMMA_HIGH_L,monthly_rent_won,월 임대료,하락 요인,-0.01975183212189328,-1.9558042681977361
+BRAND_GAMMA_HIGH_M,brand_id,브랜드 기본 수준,하락 요인,-0.4196249930236743,-37.18736814994419
+BRAND_GAMMA_HIGH_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_HIGH_M,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_GAMMA_HIGH_M,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_GAMMA_HIGH_M,monthly_rent_won,월 임대료,하락 요인,-0.008922017753847796,-0.8882334658901203
+BRAND_GAMMA_HIGH_S,brand_id,브랜드 기본 수준,하락 요인,-0.4196249930236743,-37.18736814994419
+BRAND_GAMMA_HIGH_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_HIGH_S,competition_density_index_at_opening,경쟁 밀도,하락 요인,-0.040301533098602405,-3.9500226990209386
+BRAND_GAMMA_HIGH_S,area_demand_index_at_opening,상권 수요,상승 요인,0.03937915300549322,4.016479050064703
+BRAND_GAMMA_HIGH_S,store_area_m2,점포 면적,하락 요인,-0.01279461719363829,-1.2713114049882068
+BRAND_GAMMA_LOW_L,brand_id,브랜드 기본 수준,하락 요인,-0.7411914066485967,-61.59486741164443
+BRAND_GAMMA_LOW_L,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_GAMMA_LOW_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_LOW_L,store_area_m2,점포 면적,상승 요인,0.029355819143639904,2.9790948626823743
+BRAND_GAMMA_LOW_L,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_GAMMA_LOW_M,brand_id,브랜드 기본 수준,하락 요인,-0.7411914066485967,-61.59486741164443
+BRAND_GAMMA_LOW_M,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_GAMMA_LOW_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_LOW_M,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_GAMMA_LOW_M,store_area_m2,점포 면적,상승 요인,0.015442830837610938,1.556268753049106
+BRAND_GAMMA_LOW_S,brand_id,브랜드 기본 수준,하락 요인,-0.7411914066485967,-61.59486741164443
+BRAND_GAMMA_LOW_S,area_demand_index_at_opening,상권 수요,하락 요인,-0.28187350937347877,-24.56309008815879
+BRAND_GAMMA_LOW_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_LOW_S,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.017852312868446903,1.8012617923635732
+BRAND_GAMMA_LOW_S,monthly_rent_won,월 임대료,상승 요인,0.009128989304084859,0.917078561615492
+BRAND_GAMMA_MID_L,brand_id,브랜드 기본 수준,하락 요인,-0.7411914066485967,-61.59486741164443
+BRAND_GAMMA_MID_L,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_GAMMA_MID_L,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_MID_L,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_GAMMA_MID_L,store_area_m2,점포 면적,상승 요인,0.017969883091108453,1.8132312929943772
+BRAND_GAMMA_MID_M,brand_id,브랜드 기본 수준,하락 요인,-0.7411914066485967,-61.59486741164443
+BRAND_GAMMA_MID_M,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_GAMMA_MID_M,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_MID_M,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_GAMMA_MID_M,store_area_m2,점포 면적,상승 요인,0.006684418489509821,0.670680907632959
+BRAND_GAMMA_MID_S,brand_id,브랜드 기본 수준,하락 요인,-0.7411914066485967,-61.59486741164443
+BRAND_GAMMA_MID_S,area_demand_index_at_opening,상권 수요,하락 요인,-0.17171588496364323,-15.778157390203573
+BRAND_GAMMA_MID_S,same_brand_store_count_at_opening,동일 브랜드 기존점 수,상승 요인,0.1461262544124121,15.734229839890812
+BRAND_GAMMA_MID_S,competition_density_index_at_opening,경쟁 밀도,상승 요인,0.019245109752912753,1.9431490597576095
+BRAND_GAMMA_MID_S,monthly_rent_won,월 임대료,상승 요인,0.00894102440484703,0.8981114757413255

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "created_at_utc": "2026-09-12T12:33:26.794074+00:00",
+  "xai_primary_target": {
+    "model_id": "MODEL-03",
+    "model_role": "브랜드×입지환경×규모별 매출 시나리오 예측",
+    "explanation_unit": "브랜드 1개 × 입지환경 1개 × 매장규모 1개",
+    "selected_model_metadata": {
+      "data_origin": "SYNTHETIC_DO_NOT_USE_FOR_BUSINESS",
+      "validation_method": "개점 코호트 시간차단 검증 + 코호트 블록 부트스트랩 10,000회",
+      "qualification_rule": "기준선보다 낮은 WAPE, 부트스트랩 차이 95% 구간 전체 0 미만, 5개 중 4개 이상 코호트 승리, 양의 순위상관",
+      "qualified_models": [
+        "ridge_brand_aware_v1",
+        "hist_gradient_boosting_brand_aware_v1"
+      ],
+      "selected_model_for_synthetic_prototype": "ridge_brand_aware_v1",
+      "production_status": "NOT_DEPLOYABLE_UNTIL_REAL_PARTNER_DATA_VALIDATION",
+      "warning": "합성 데이터에서 통과한 모델은 실제 본사 데이터에서 동일 검증을 통과하기 전까지 배포할 수 없음"
+    },
+    "data_basis": "synthetic_partner_monthly_sales 기반 합성 학습표본",
+    "mandatory_display_label": "합성 학습자료 기반 매출 시나리오이며, 실제 신규 점포 매출 보증값이 아님"
+  },
+  "model02_handling": {
+    "role": "관측 시장 스크리닝",
+    "xai_method": "SHAP 적용 제외",
+    "reason": "최종 공개 산출물은 forecast_available이 아닌 실제 최근 4개 분기 시장 관측값이므로, 모델 설명이 아니라 지표 근거 설명으로 제공",
+    "explain_with": [
+      "최근 4개 분기 점포당 매출",
+      "서울 내 관측 백분위",
+      "전년 동기 대비 변화율",
+      "평균 점포 수",
+      "현장 확인 우선순위와 위험 요인"
+    ]
+  },
+  "prohibited_claims": [
+    "MODEL-02 관측 시장 화면을 미래 매출 예측으로 해석하지 않음",
+    "MODEL-03 시나리오를 실제 출점 후 확정 매출로 표현하지 않음",
+    "타깃값·미래 기간 정보·사후 관측값을 설명 변수로 사용하지 않음",
+    "SHAP 기여도를 인과효과로 표현하지 않음"
+  ],
+  "input_paths": {
+    "model03_training_data": "PART-III/MODEL-03/intermediate/synthetic_modeling_dataset_v1.parquet",
+    "model03_selection": "PART-III/MODEL-03/intermediate/synthetic_model_selection_decision_v1.json",
+    "model03_feature_contract": "PART-III/MODEL-03/outputs/model03_feature_availability_contract_v1.csv",
+    "model03_scenarios": "PART-III/MODEL-03/outputs/synthetic_brand_area_size_revenue_scenarios_v1.csv",
+    "model03_scenario_manifest": "PART-III/MODEL-03/outputs/synthetic_brand_area_size_scenario_manifest_v1.json",
+    "model02_observed_screen": "PART-III/MODEL-02/outputs/model02_executive_observed_market_screen_final_2026q2.csv"
+  },
+  "next_step": "MODEL-03 선택 모델을 원래의 특성 계약으로 재현 학습하고, 각 시나리오에 대한 예측값과 feature-level contribution을 생성"
+}
