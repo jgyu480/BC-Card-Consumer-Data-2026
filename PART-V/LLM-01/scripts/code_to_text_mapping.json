@@ -1,0 +1,26 @@
+{
+  "_사용법": "positive_drivers 값은 원본 percentile(0~1)을 (1-p)*100으로 뒤집어 '상위 X%'로 표시한다. area는 상권명을 넣을 자리. caution_flags는 null이면 문장에서 제외한다.",
+
+  "positive_drivers": {
+    "brand_environment_fit": {
+      "template": "이 브랜드가 기존에 입점해온 소비환경과의 적합도가 상위 {pct:.2f}% 수준으로 높습니다"
+    },
+    "brand_specific_advantage": {
+      "template": "{area}에서는 다른 브랜드 대비 상위 {pct:.2f}% 수준의 강점을 보입니다"
+    },
+    "market_opportunity": {
+      "template": "제과 시장 규모가 상위 {pct:.2f}% 수준으로 높습니다"
+    },
+    "low_competition_risk": {
+      "template": "주변 경쟁 강도가 낮아 상위 {pct:.2f}% 수준으로 유리합니다"
+    }
+  },
+
+  "caution_flags": {
+    "competition_risk_elevated_but_below_exclusion": "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다",
+    "competition_risk_moderate": "주변 경쟁 강도가 중간 수준으로 확인됩니다",
+    "no_model_level_caution_flag": null,
+    "profile_stability_moderate": "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+    "same_brand_distance_750m_to_1000m_review": "인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다"
+  }
+}

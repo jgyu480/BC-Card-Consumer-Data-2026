@@ -1,0 +1,1852 @@
+[
+  {
+    "brand_name": "곤트란쉐리에(Gontran Cherrier)",
+    "facts": {
+      "brand_name": "곤트란쉐리에(Gontran Cherrier)",
+      "areas": [
+        {
+          "area_name": "법제교육센터(버들어린이공원)",
+          "rank": 1,
+          "final_score_100": 73.86,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 3.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 4.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 14.5
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        },
+        {
+          "area_name": "쌍문역동측상점가",
+          "rank": 2,
+          "final_score_100": 73.42,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 18.9
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.7
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 6.0
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        },
+        {
+          "area_name": "보라매공원",
+          "rank": 3,
+          "final_score_100": 71.17,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.9
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 19.5
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "곤트란쉐리에(Gontran Cherrier) 브랜드는 법제교육센터(버들어린이공원)가 1위, 쌍문역동측상점가가 2위, 보라매공원이 3위로 추천됩니다.\n\n법제교육센터(버들어린이공원)는 1위이며, 최종 적합도 73.86점입니다. 소비환경과의 적합도는 상위 3.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 4.8% 수준입니다. 아울러 제과 시장 규모는 상위 14.5% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.\n\n쌍문역동측상점가는 2위이며, 최종 적합도 73.42점입니다. 소비환경과의 적합도는 상위 18.9% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 0.7% 수준입니다. 아울러 제과 시장 규모는 상위 6.0% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.\n\n보라매공원은 3위이며, 최종 적합도 71.17점입니다. 소비환경과의 적합도는 상위 0.9% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 5.8% 수준입니다. 아울러 제과 시장 규모는 상위 19.5% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "더베이크",
+    "facts": {
+      "brand_name": "더베이크",
+      "areas": [
+        {
+          "area_name": "약수역",
+          "rank": 1,
+          "final_score_100": 71.02,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 1.4
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 3.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.0
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "방화역 1번",
+          "rank": 2,
+          "final_score_100": 70.22,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 12.7
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.1
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 18.0
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 0.9
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "길동역",
+          "rank": 2,
+          "final_score_100": 70.05,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 1.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.3
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 11.3
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "더베이크 브랜드는 약수역이 1위, 방화역 1번과 길동역이 2위로 추천됩니다.\n\n약수역은 1위이며, 최종 적합도 71.02점입니다. 소비환경과의 적합도가 상위 1.4% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 3.5% 수준입니다. 아울러 제과 시장 규모가 상위 3.0% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n방화역 1번은 2위이며, 최종 적합도 70.22점입니다. 소비환경과의 적합도가 상위 12.7% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 2.1% 수준입니다. 아울러 제과 시장 규모가 상위 18.0% 수준입니다. 또한 경쟁 우위가 상위 0.9% 수준입니다. 특별히 확인된 주의 요인은 없습니다.\n\n길동역은 2위이며, 최종 적합도 70.05점입니다. 소비환경과의 적합도가 상위 1.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 2.3% 수준입니다. 아울러 제과 시장 규모가 상위 11.3% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "던킨/던킨도너츠",
+    "facts": {
+      "brand_name": "던킨/던킨도너츠",
+      "areas": [
+        {
+          "area_name": "압구정역",
+          "rank": 1,
+          "final_score_100": 77.54,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.01
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 2.5
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "까치산역",
+          "rank": 2,
+          "final_score_100": 64.81,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.9
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 1.2
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "공덕역(공덕오거리)",
+          "rank": 3,
+          "final_score_100": 63.77,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 2.8
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 10.2
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "던킨/던킨도너츠 브랜드는 압구정역이 1위, 까치산역이 2위, 공덕역(공덕오거리)이 3위로 추천됩니다.\n\n압구정역은 1위이며, 최종 적합도 77.54점입니다. 소비환경과의 적합도가 상위 0.01% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 0.5% 수준이며, 제과 시장 규모가 상위 2.5% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n까치산역은 2위이며, 최종 적합도 64.81점입니다. 소비환경과의 적합도가 상위 0.9% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 1.2% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n공덕역(공덕오거리)은 3위이며, 최종 적합도 63.77점입니다. 소비환경과의 적합도가 상위 2.8% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 5.8% 수준이며, 제과 시장 규모가 상위 10.2% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "디에그",
+    "facts": {
+      "brand_name": "디에그",
+      "areas": [
+        {
+          "area_name": "노량진역(노량진)",
+          "rank": 1,
+          "final_score_100": 73.24,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 17.6
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 4.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 20.3
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 4.4
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "동대문역사문화공원역",
+          "rank": 2,
+          "final_score_100": 72.43,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 8.1
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 11.1
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 9.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 16.9
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "서울대입구역",
+          "rank": 2,
+          "final_score_100": 72.39,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 2.3
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 23.8
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "디에그 브랜드는 노량진역이 1위, 동대문역사문화공원역과 서울대입구역이 2위로 추천됩니다.\n\n노량진역은 1위이며, 최종 적합도 73.24점입니다. 소비환경과의 적합도가 상위 17.6% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 4.8% 수준입니다. 제과 시장 규모는 상위 20.3% 수준입니다. 아울러 경쟁 우위가 상위 4.4% 수준입니다.\n\n동대문역사문화공원역은 2위이며, 최종 적합도 72.43점입니다. 소비환경과의 적합도가 상위 8.1% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 11.1% 수준입니다. 제과 시장 규모는 상위 9.5% 수준입니다. 아울러 경쟁 우위가 상위 16.9% 수준입니다.\n\n서울대입구역은 2위이며, 최종 적합도 72.39점입니다. 소비환경과의 적합도가 상위 2.3% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 5.5% 수준입니다. 제과 시장 규모는 상위 23.8% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "뚜레쥬르",
+    "facts": {
+      "brand_name": "뚜레쥬르",
+      "areas": [
+        {
+          "area_name": "까치산역",
+          "rank": 1,
+          "final_score_100": 63.53,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 1.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.01
+            }
+          ],
+          "caution_facts": [
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다",
+            "인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다"
+          ]
+        },
+        {
+          "area_name": "방배역",
+          "rank": 2,
+          "final_score_100": 60.58,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 9.0
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 17.1
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "영등포구청역",
+          "rank": 3,
+          "final_score_100": 60.06,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 2.1
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.7
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다",
+            "인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "뚜레쥬르는 까치산역이 1위, 방배역이 2위, 영등포구청역이 3위로 추천됩니다.\n\n까치산역은 1위이며, 최종 적합도 63.53점입니다. 소비환경과의 적합도가 상위 1.2% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 0.01% 수준입니다. 다만, 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다. 아울러 인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다.\n\n방배역은 2위이며, 최종 적합도 60.58점입니다. 소비환경과의 적합도가 상위 9.0% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 6.5% 수준이며, 제과 시장 규모가 상위 3.5% 수준입니다. 아울러 경쟁 우위가 상위 17.1% 수준입니다. 특별히 확인된 주의 요인은 없습니다.\n\n영등포구청역은 3위이며, 최종 적합도 60.06점입니다. 소비환경과의 적합도가 상위 2.1% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 0.7% 수준입니다. 다만, 주변 경쟁 강도가 중간 수준으로 확인됩니다. 아울러 인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "롤링핀",
+    "facts": {
+      "brand_name": "롤링핀",
+      "areas": [
+        {
+          "area_name": "동대문역사문화공원역",
+          "rank": 1,
+          "final_score_100": 78.41,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 2.1
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 11.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 9.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 16.9
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "국회의사당역(국회의사당)",
+          "rank": 2,
+          "final_score_100": 73.68,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 20.3
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 8.3
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 18.2
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 7.2
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "노량진역(노량진)",
+          "rank": 3,
+          "final_score_100": 73.1,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 15.0
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 10.4
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 20.3
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 4.4
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "롤링핀 브랜드는 동대문역사문화공원역이 1위, 국회의사당역(국회의사당)과 노량진역(노량진)이 2위로 추천됩니다.\n\n동대문역사문화공원역은 1위이며, 최종 적합도 78.41점입니다. 소비환경과의 적합도가 상위 2.1% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 11.5% 수준입니다. 제과 시장 규모가 상위 9.5% 수준이며, 경쟁 우위가 상위 16.9% 수준입니다. 다만, 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n국회의사당역(국회의사당)은 2위이며, 최종 적합도 73.68점입니다. 소비환경과의 적합도가 상위 20.3% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 8.3% 수준입니다. 제과 시장 규모가 상위 18.2% 수준이며, 경쟁 우위가 상위 7.2% 수준입니다. 다만, 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n노량진역(노량진)은 3위이며, 최종 적합도 73.1점입니다. 소비환경과의 적합도가 상위 15.0% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 10.4% 수준입니다. 제과 시장 규모가 상위 20.3% 수준이며, 경쟁 우위가 상위 4.4% 수준입니다. 다만, 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "명랑시대쌀핫도그",
+    "facts": {
+      "brand_name": "명랑시대쌀핫도그",
+      "areas": [
+        {
+          "area_name": "마들역",
+          "rank": 1,
+          "final_score_100": 70.91,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 9.0
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.3
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 9.9
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다",
+            "인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다"
+          ]
+        },
+        {
+          "area_name": "상봉역",
+          "rank": 2,
+          "final_score_100": 68.21,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 5.1
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 7.9
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.9
+            }
+          ],
+          "caution_facts": [
+            "인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다"
+          ]
+        },
+        {
+          "area_name": "쌍문시장(쌍문역골목시장)",
+          "rank": 2,
+          "final_score_100": 67.92,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 1.8
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.5
+            }
+          ],
+          "caution_facts": [
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "명랑시대쌀핫도그 브랜드는 마들역이 1위, 상봉역과 쌍문시장(쌍문역골목시장)이 2위로 추천됩니다.\n\n마들역은 1위이며, 최종 적합도 70.91점입니다. 소비환경과의 적합도가 상위 9.0% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 2.3% 수준이며, 제과 시장 규모가 상위 9.9% 수준입니다. 다만, 주변 경쟁 강도가 중간 수준으로 확인됩니다. 아울러 인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다.\n\n상봉역은 2위이며, 최종 적합도 68.21점입니다. 소비환경과의 적합도가 상위 5.1% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 7.9% 수준이며, 제과 시장 규모가 상위 3.9% 수준입니다. 다만, 인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다.\n\n쌍문시장(쌍문역골목시장)은 2위이며, 최종 적합도 67.92점입니다. 소비환경과의 적합도가 상위 1.8% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 0.5% 수준입니다. 다만, 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "못난이꽈배기",
+    "facts": {
+      "brand_name": "못난이꽈배기",
+      "areas": [
+        {
+          "area_name": "서대문소방서",
+          "rank": 1,
+          "final_score_100": 71.75,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 18.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 22.6
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 8.3
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "길동역",
+          "rank": 2,
+          "final_score_100": 69.93,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.9
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 18.7
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 11.3
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "약수역",
+          "rank": 2,
+          "final_score_100": 69.76,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 1.6
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 23.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.0
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "못난이꽈배기는 서대문소방서가 1위, 길동역과 약수역이 2위로 추천됩니다.\n\n서대문소방서는 1위이며, 최종 적합도 71.75점입니다. 소비환경과의 적합도는 상위 18.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 2.5% 수준입니다. 아울러 제과 시장 규모는 상위 22.6% 수준입니다. 경쟁 우위는 상위 8.3% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n길동역은 2위이며, 최종 적합도 69.93점입니다. 소비환경과의 적합도는 상위 0.9% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 18.7% 수준입니다. 아울러 제과 시장 규모는 상위 11.3% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 또한 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n약수역은 2위이며, 최종 적합도 69.76점입니다. 소비환경과의 적합도는 상위 1.6% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 23.8% 수준입니다. 아울러 제과 시장 규모는 상위 3.0% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 또한 주변 경쟁 강도가 중간 수준으로 확인됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "보리원",
+    "facts": {
+      "brand_name": "보리원",
+      "areas": [
+        {
+          "area_name": "방배역",
+          "rank": 1,
+          "final_score_100": 76.65,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 4.4
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 9.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 16.3
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "서울시흥동우체국(홈플러스시흥점)",
+          "rank": 2,
+          "final_score_100": 74.4,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.7
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.3
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 18.9
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "서일대학교",
+          "rank": 3,
+          "final_score_100": 73.68,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 5.8
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.2
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 26.3
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 9.7
+            }
+          ],
+          "caution_facts": []
+        }
+      ]
+    },
+    "explanation": "보리원 브랜드는 방배역이 1위, 서울시흥동우체국(홈플러스시흥점)이 2위, 서일대학교가 3위로 추천됩니다.\n\n방배역은 1위이며, 최종 적합도 76.65점입니다. 소비환경과의 적합도가 상위 4.4% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 9.5% 수준입니다. 아울러 제과 시장 규모가 상위 3.5% 수준입니다. 마지막으로 경쟁 우위가 상위 16.3% 수준입니다.\n\n서울시흥동우체국(홈플러스시흥점)은 2위이며, 최종 적합도 74.4점입니다. 소비환경과의 적합도가 상위 0.7% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 5.3% 수준입니다. 아울러 제과 시장 규모가 상위 18.9% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n서일대학교는 3위이며, 최종 적합도 73.68점입니다. 소비환경과의 적합도가 상위 5.8% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 6.2% 수준입니다. 아울러 제과 시장 규모가 상위 26.3% 수준입니다. 마지막으로 경쟁 우위가 상위 9.7% 수준입니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "복호두",
+    "facts": {
+      "brand_name": "복호두",
+      "areas": [
+        {
+          "area_name": "양평역 2번",
+          "rank": 1,
+          "final_score_100": 79.46,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 3.7
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.1
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "코엑스",
+          "rank": 2,
+          "final_score_100": 72.03,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 20.1
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.0
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 12.9
+            }
+          ],
+          "caution_facts": [
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        },
+        {
+          "area_name": "동대문역사문화공원역",
+          "rank": 3,
+          "final_score_100": 71.7,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 8.5
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 13.4
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 9.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 17.0
+            }
+          ],
+          "caution_facts": []
+        }
+      ]
+    },
+    "explanation": "복호두 브랜드는 양평역 2번이 1위, 코엑스가 2위, 동대문역사문화공원역이 3위로 추천됩니다.\n\n양평역 2번은 1위이며, 최종 적합도 79.46점입니다. 소비환경과의 적합도가 상위 3.7% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 2.1% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n코엑스는 2위이며, 최종 적합도 72.03점입니다. 소비환경과의 적합도가 상위 20.1% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 6.0% 수준입니다. 아울러 제과 시장 규모가 상위 12.9% 수준입니다. 다만 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.\n\n동대문역사문화공원역은 3위이며, 최종 적합도 71.7점입니다. 소비환경과의 적합도가 상위 8.5% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 13.4% 수준입니다. 아울러 제과 시장 규모가 상위 9.5% 수준입니다. 또한 경쟁 우위가 상위 17.0% 수준입니다. 특별히 확인된 주의 요인은 없습니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "브레댄코(bread&co.DAILY-NEW)",
+    "facts": {
+      "brand_name": "브레댄코(bread&co.DAILY-NEW)",
+      "areas": [
+        {
+          "area_name": "방화역 1번",
+          "rank": 1,
+          "final_score_100": 75.52,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 11.3
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.1
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 18.0
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 0.9
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "독립문역 1번",
+          "rank": 1,
+          "final_score_100": 75.4,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 24.9
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.01
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 5.8
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "경찰병원역",
+          "rank": 2,
+          "final_score_100": 68.08,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 12.5
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 23.9
+            }
+          ],
+          "caution_facts": []
+        }
+      ]
+    },
+    "explanation": "브레댄코(bread&co.DAILY-NEW) 브랜드는 방화역 1번과 독립문역 1번이 1위, 경찰병원역이 2위로 추천됩니다.\n\n방화역 1번은 1위이며, 최종 적합도 75.52점입니다. 소비환경과의 적합도가 상위 11.3% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 2.1% 수준이며, 제과 시장 규모가 상위 18.0% 수준입니다. 아울러 경쟁 우위가 상위 0.9% 수준입니다.\n\n독립문역 1번은 1위이며, 최종 적합도 75.4점입니다. 소비환경과의 적합도가 상위 24.9% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 0.01% 수준이며, 경쟁 우위가 상위 5.8% 수준입니다. \n\n경찰병원역은 2위이며, 최종 적합도 68.08점입니다. 소비환경과의 적합도가 상위 12.5% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 0.5% 수준이며, 경쟁 우위가 상위 23.9% 수준입니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "빵굼터",
+    "facts": {
+      "brand_name": "빵굼터",
+      "areas": [
+        {
+          "area_name": "등촌역",
+          "rank": 1,
+          "final_score_100": 81.28,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.5
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.7
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "신월3동주민센터",
+          "rank": 2,
+          "final_score_100": 80.1,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 12.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.7
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 1.2
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "장한평역(장한평)",
+          "rank": 3,
+          "final_score_100": 77.81,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 5.8
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 21.2
+            }
+          ],
+          "caution_facts": []
+        }
+      ]
+    },
+    "explanation": "빵굼터 브랜드는 등촌역이 1위, 신월3동주민센터가 2위, 장한평역(장한평)이 3위로 추천됩니다.\n\n등촌역은 1위이며, 최종 적합도 81.28점입니다. 소비환경과의 적합도가 상위 0.5% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 2.7% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n신월3동주민센터는 2위이며, 최종 적합도 80.1점입니다. 소비환경과의 적합도가 상위 12.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 2.7% 수준입니다. 아울러 경쟁 우위가 상위 1.2% 수준입니다. 특별히 확인된 주의 요인은 없습니다.\n\n장한평역(장한평)은 3위이며, 최종 적합도 77.81점입니다. 소비환경과의 적합도가 상위 5.8% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 5.5% 수준입니다. 아울러 경쟁 우위가 상위 21.2% 수준입니다. 특별히 확인된 주의 요인은 없습니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "빵장수단팥빵",
+    "facts": {
+      "brand_name": "빵장수단팥빵",
+      "areas": [
+        {
+          "area_name": "녹두거리(대학동)",
+          "rank": 1,
+          "final_score_100": 79.44,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 2.1
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 18.7
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 21.0
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "상봉역",
+          "rank": 2,
+          "final_score_100": 74.28,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 2.3
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 14.1
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.9
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "홍대땡땡거리",
+          "rank": 3,
+          "final_score_100": 72.33,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 2.8
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.7
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 25.2
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "빵장수단팥빵 브랜드는 녹두거리(대학동)가 1위, 상봉역이 2위, 홍대땡땡거리가 3위로 추천됩니다.\n\n녹두거리(대학동)는 1위이며, 최종 적합도 79.44점입니다. 소비환경과의 적합도가 상위 2.1% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 5.8% 수준입니다. 제과 시장 규모가 상위 18.7% 수준이며, 경쟁 우위가 상위 21.0% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n상봉역은 2위이며, 최종 적합도 74.28점입니다. 소비환경과의 적합도가 상위 2.3% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 14.1% 수준입니다. 제과 시장 규모는 상위 3.9% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n홍대땡땡거리는 3위이며, 최종 적합도 72.33점입니다. 소비환경과의 적합도가 상위 2.8% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 6.7% 수준입니다. 제과 시장 규모가 상위 25.2% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "삼송빵집",
+    "facts": {
+      "brand_name": "삼송빵집",
+      "areas": [
+        {
+          "area_name": "석촌고분역",
+          "rank": 1,
+          "final_score_100": 76.82,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.7
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 25.4
+            }
+          ],
+          "caution_facts": [
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        },
+        {
+          "area_name": "중곡역 3번",
+          "rank": 2,
+          "final_score_100": 72.36,
+          "positive_facts": [
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 1.4
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 23.1
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 1.4
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "오류시장",
+          "rank": 3,
+          "final_score_100": 71.11,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 3.5
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 3.0
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 17.8
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "삼송빵집은 석촌고분역이 1위, 중곡역 3번이 2위, 오류시장이 3위로 추천됩니다.\n\n석촌고분역은 1위이며, 최종 적합도 76.82점입니다. 소비환경과의 적합도가 상위 0.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 0.7% 수준입니다. 아울러 제과 시장 규모가 상위 25.4% 수준입니다. 다만, 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.\n\n중곡역 3번은 2위이며, 최종 적합도 72.36점입니다. 다른 브랜드 대비 상대적 강점이 상위 1.4% 수준입니다. 또한 제과 시장 규모가 상위 23.1% 수준입니다. 아울러 경쟁 우위가 상위 1.4% 수준입니다. 특별히 확인된 주의 요인은 없습니다.\n\n오류시장은 3위이며, 최종 적합도 71.11점입니다. 소비환경과의 적합도가 상위 3.5% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 3.0% 수준입니다. 아울러 제과 시장 규모가 상위 17.8% 수준입니다. 다만, 주변 경쟁 강도가 중간 수준으로 확인됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "소림사",
+    "facts": {
+      "brand_name": "소림사",
+      "areas": [
+        {
+          "area_name": "노량진역(노량진)",
+          "rank": 1,
+          "final_score_100": 77.86,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 11.3
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.9
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 20.3
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 4.4
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "강남 마이스 관광특구",
+          "rank": 2,
+          "final_score_100": 75.63,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 16.4
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 7.2
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 4.4
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "동대문역사문화공원역",
+          "rank": 3,
+          "final_score_100": 74.36,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 5.3
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 19.6
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 9.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 16.9
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "소림사 브랜드는 노량진역이 1위, 강남 마이스 관광특구가 2위, 동대문역사문화공원역이 3위로 추천됩니다.\n\n노량진역은 1위이며, 최종 적합도 77.86점입니다. 소비환경과의 적합도는 상위 11.3% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점은 상위 6.9% 수준입니다. 제과 시장 규모는 상위 20.3% 수준입니다. 아울러, 경쟁 우위는 상위 4.4% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n강남 마이스 관광특구는 2위이며, 최종 적합도 75.63점입니다. 소비환경과의 적합도는 상위 16.4% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점은 상위 7.2% 수준입니다. 제과 시장 규모는 상위 4.4% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 아울러, 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n동대문역사문화공원역은 3위이며, 최종 적합도 74.36점입니다. 소비환경과의 적합도는 상위 5.3% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점은 상위 19.6% 수준입니다. 제과 시장 규모는 상위 9.5% 수준입니다. 아울러, 경쟁 우위는 상위 16.9% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "스트릿츄러스",
+    "facts": {
+      "brand_name": "스트릿츄러스",
+      "areas": [
+        {
+          "area_name": "방배역",
+          "rank": 1,
+          "final_score_100": 79.84,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 3.5
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.01
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 16.2
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "압구정역",
+          "rank": 2,
+          "final_score_100": 74.48,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.5
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.2
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 2.5
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "상봉역",
+          "rank": 3,
+          "final_score_100": 71.47,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 3.9
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 1.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.9
+            }
+          ],
+          "caution_facts": []
+        }
+      ]
+    },
+    "explanation": "스트릿츄러스 브랜드는 방배역이 1위, 압구정역이 2위, 상봉역이 3위로 추천됩니다.\n\n방배역은 1위이며, 최종 적합도 79.84점입니다. 소비환경과의 적합도가 상위 3.5% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 0.01% 수준입니다. 제과 시장 규모가 상위 3.5% 수준이며, 경쟁 우위가 상위 16.2% 수준입니다.\n\n압구정역은 2위이며, 최종 적합도 74.48점입니다. 소비환경과의 적합도가 상위 0.5% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 0.2% 수준입니다. 제과 시장 규모가 상위 2.5% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n상봉역은 3위이며, 최종 적합도 71.47점입니다. 소비환경과의 적합도가 상위 3.9% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 1.8% 수준입니다. 제과 시장 규모가 상위 3.9% 수준입니다. 특별히 확인된 주의 요인은 없습니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "심봉사도로케",
+    "facts": {
+      "brand_name": "심봉사도로케",
+      "areas": [
+        {
+          "area_name": "길동역",
+          "rank": 1,
+          "final_score_100": 70.07,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 1.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 1.2
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 11.3
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "약수역",
+          "rank": 2,
+          "final_score_100": 69.03,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 1.8
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 4.6
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.0
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "석촌고분역",
+          "rank": 3,
+          "final_score_100": 66.71,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 1.6
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.9
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 25.4
+            }
+          ],
+          "caution_facts": [
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "심봉사도로케 브랜드는 길동역이 1위, 약수역이 2위, 석촌고분역이 3위로 추천됩니다.\n\n길동역은 1위이며, 최종 적합도 70.07점입니다. 소비환경과의 적합도가 상위 1.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 1.2% 수준입니다. 아울러 제과 시장 규모가 상위 11.3% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n약수역은 2위이며, 최종 적합도 69.03점입니다. 소비환경과의 적합도가 상위 1.8% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 4.6% 수준입니다. 아울러 제과 시장 규모가 상위 3.0% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n석촌고분역은 3위이며, 최종 적합도 66.71점입니다. 소비환경과의 적합도가 상위 1.6% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 0.9% 수준입니다. 아울러 제과 시장 규모가 상위 25.4% 수준입니다. 다만 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "올드몬트베이글",
+    "facts": {
+      "brand_name": "올드몬트베이글",
+      "areas": [
+        {
+          "area_name": "창동역",
+          "rank": 1,
+          "final_score_100": 81.89,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 3.0
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.2
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 15.9
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "마들역",
+          "rank": 2,
+          "final_score_100": 81.24,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 5.1
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 9.0
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 9.9
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "상계역",
+          "rank": 3,
+          "final_score_100": 78.94,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 10.6
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 4.2
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 16.6
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "올드몬트베이글 브랜드는 창동역이 1위, 마들역과 상계역이 2위로 추천됩니다.\n\n창동역은 1위이며, 최종 적합도 81.89점입니다. 소비환경과의 적합도가 상위 3% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 6.2% 수준입니다. 아울러 제과 시장 규모가 상위 15.9% 수준입니다.\n\n마들역은 2위이며, 최종 적합도 81.24점입니다. 소비환경과의 적합도가 상위 5.1% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 9.0% 수준입니다. 아울러 제과 시장 규모가 상위 9.9% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n상계역은 3위이며, 최종 적합도 78.94점입니다. 소비환경과의 적합도가 상위 10.6% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 4.2% 수준입니다. 아울러 제과 시장 규모가 상위 16.6% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "크리스피크림",
+    "facts": {
+      "brand_name": "크리스피크림",
+      "areas": [
+        {
+          "area_name": "동대문역사문화공원역",
+          "rank": 1,
+          "final_score_100": 75.28,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 6.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 8.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 9.5
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 16.9
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "동대문패션타운 관광특구",
+          "rank": 2,
+          "final_score_100": 73.54,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 7.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 3.7
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 24.9
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "발산역(마곡)",
+          "rank": 3,
+          "final_score_100": 72.97,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 23.1
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 2.1
+            }
+          ],
+          "caution_facts": [
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "크리스피크림 브랜드는 동대문역사문화공원역이 1위, 동대문패션타운 관광특구가 2위, 발산역(마곡)이 3위로 추천됩니다.\n\n동대문역사문화공원역은 1위이며, 최종 적합도 75.28점입니다. 소비환경과의 적합도가 상위 6.2% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 8.5% 수준입니다. 아울러, 제과 시장 규모가 상위 9.5% 수준이며, 경쟁 우위가 상위 16.9% 수준입니다.\n\n동대문패션타운 관광특구는 2위이며, 최종 적합도 73.54점입니다. 소비환경과의 적합도가 상위 7.2% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 3.7% 수준입니다. 아울러, 경쟁 우위가 상위 24.9% 수준입니다.\n\n발산역(마곡)은 3위이며, 최종 적합도 72.97점입니다. 소비환경과의 적합도가 상위 23.1% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 2.8% 수준입니다. 아울러, 제과 시장 규모가 상위 2.1% 수준입니다. 다만, 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "파리바게뜨",
+    "facts": {
+      "brand_name": "파리바게뜨",
+      "areas": [
+        {
+          "area_name": "약수역",
+          "rank": 1,
+          "final_score_100": 62.74,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 3.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 3.0
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다",
+            "인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다"
+          ]
+        },
+        {
+          "area_name": "석촌역(석촌호수)",
+          "rank": 2,
+          "final_score_100": 54.86,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.7
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 11.5
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 24.7
+            }
+          ],
+          "caution_facts": [
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다",
+            "인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다"
+          ]
+        },
+        {
+          "area_name": "서래마을카페거리(서래마을)",
+          "rank": 3,
+          "final_score_100": 47.82,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 23.3
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 1.2
+            }
+          ],
+          "caution_facts": [
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다",
+            "인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "파리바게뜨 브랜드는 약수역이 1위, 석촌역(석촌호수)이 2위, 서래마을카페거리가 3위로 추천됩니다.\n\n약수역은 1위이며, 최종 적합도 62.74점입니다. 소비환경과의 적합도가 상위 3.2% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 5.5% 수준입니다. 아울러, 제과 시장 규모가 상위 3.0% 수준입니다. 다만, 주변 경쟁 강도가 중간 수준으로 확인됩니다. 또한, 인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다.\n\n석촌역(석촌호수)은 2위이며, 최종 적합도 54.86점입니다. 소비환경과의 적합도가 상위 0.7% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 11.5% 수준입니다. 아울러, 제과 시장 규모가 상위 24.7% 수준입니다. 다만, 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다. 또한, 인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다.\n\n서래마을카페거리는 3위이며, 최종 적합도 47.82점입니다. 소비환경과의 적합도가 상위 23.3% 수준입니다. 또한, 제과 시장 규모가 상위 1.2% 수준입니다. 다만, 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다. 또한, 인근 750m~1000m 내에 이 브랜드의 기존 점포가 있어, 상권 잠식 가능성을 검토해볼 필요가 있습니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "핫브레드",
+    "facts": {
+      "brand_name": "핫브레드",
+      "areas": [
+        {
+          "area_name": "숭실대입구역 1번",
+          "rank": 1,
+          "final_score_100": 71.09,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 18.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 0.01
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 21.0
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 15.7
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "신설동역",
+          "rank": 2,
+          "final_score_100": 66.07,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 13.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 3.2
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 22.2
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 10.2
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "성동용답상가시장",
+          "rank": 2,
+          "final_score_100": 65.95,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.01
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.3
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 9.0
+            }
+          ],
+          "caution_facts": []
+        }
+      ]
+    },
+    "explanation": "핫브레드 브랜드는 숭실대입구역 1번이 1위, 신설동역과 성동용답상가시장이 2위로 추천됩니다.\n\n숭실대입구역 1번은 1위이며, 최종 적합도 71.09점입니다. 소비환경과의 적합도는 상위 18.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 0.01% 수준입니다. 아울러 제과 시장 규모는 상위 21.0% 수준입니다. 또한 경쟁 우위는 상위 15.7% 수준입니다.\n\n신설동역은 2위이며, 최종 적합도 66.07점입니다. 소비환경과의 적합도는 상위 13.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 3.2% 수준입니다. 아울러 제과 시장 규모는 상위 22.2% 수준입니다. 또한 경쟁 우위는 상위 10.2% 수준입니다.\n\n성동용답상가시장은 2위이며, 최종 적합도 65.95점입니다. 소비환경과의 적합도는 상위 0.01% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 5.3% 수준입니다. 아울러 경쟁 우위는 상위 9.0% 수준입니다. 특별히 확인된 주의 요인은 없습니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "호두당",
+    "facts": {
+      "brand_name": "호두당",
+      "areas": [
+        {
+          "area_name": "신설동역",
+          "rank": 1,
+          "final_score_100": 79.64,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 5.8
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.1
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 22.2
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 9.5
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "청담사거리(청담동명품거리)",
+          "rank": 2,
+          "final_score_100": 76.71,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 15.9
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.1
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 13.4
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 14.4
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "법제교육센터(버들어린이공원)",
+          "rank": 3,
+          "final_score_100": 75.51,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 2.5
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 14.8
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 14.5
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "호두당 브랜드는 신설동역이 1위, 청담사거리(청담동명품거리)와 법제교육센터(버들어린이공원)가 2위로 추천됩니다.\n\n신설동역은 1위이며, 최종 적합도 79.64점입니다. 소비환경과의 적합도가 상위 5.8% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 6.1% 수준입니다. 제과 시장 규모는 상위 22.2% 수준입니다. 아울러 경쟁 우위가 상위 9.5% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n청담사거리(청담동명품거리)는 2위이며, 최종 적합도 76.71점입니다. 소비환경과의 적합도가 상위 15.9% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 6.1% 수준입니다. 제과 시장 규모는 상위 13.4% 수준입니다. 아울러 경쟁 우위가 상위 14.4% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n법제교육센터(버들어린이공원)는 3위이며, 최종 적합도 75.51점입니다. 소비환경과의 적합도가 상위 2.5% 수준입니다. 또한 다른 브랜드 대비 상대적 강점이 상위 14.8% 수준입니다. 제과 시장 규모는 상위 14.5% 수준입니다. 다만 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장되며, 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "호밀호두",
+    "facts": {
+      "brand_name": "호밀호두",
+      "areas": [
+        {
+          "area_name": "보라매공원",
+          "rank": 1,
+          "final_score_100": 72.79,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.5
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 5.1
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 19.5
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다"
+          ]
+        },
+        {
+          "area_name": "강일동주민센터",
+          "rank": 2,
+          "final_score_100": 68.97,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 21.0
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 2.1
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 20.8
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다"
+          ]
+        },
+        {
+          "area_name": "개봉중앙시장",
+          "rank": 2,
+          "final_score_100": 68.86,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 4.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 4.6
+            }
+          ],
+          "caution_facts": [
+            "이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다",
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        }
+      ]
+    },
+    "explanation": "호밀호두 브랜드는 보라매공원이 1위, 강일동주민센터와 개봉중앙시장이 2위로 추천됩니다.\n\n보라매공원은 1위이며, 최종 적합도 72.79점입니다. 소비환경과의 적합도가 상위 0.5% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 5.1% 수준입니다. 아울러, 제과 시장 규모가 상위 19.5% 수준입니다. 다만, 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 또한, 경쟁 강도가 다소 높은 편이나, 출점을 배제할 정도로 심각한 수준은 아닙니다.\n\n강일동주민센터는 2위이며, 최종 적합도 68.97점입니다. 소비환경과의 적합도가 상위 21.0% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 2.1% 수준입니다. 아울러, 경쟁 우위가 상위 20.8% 수준입니다. 다만, 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다.\n\n개봉중앙시장은 2위이며, 최종 적합도 68.86점입니다. 소비환경과의 적합도가 상위 4.2% 수준입니다. 또한, 다른 브랜드 대비 상대적 강점이 상위 4.6% 수준입니다. 다만, 이 상권 데이터의 안정성이 보통 수준이라, 실제 현장 조건을 한 번 더 확인하는 것이 권장됩니다. 또한, 주변 경쟁 강도가 중간 수준으로 확인됩니다.",
+    "status": "success"
+  },
+  {
+    "brand_name": "화이트리에",
+    "facts": {
+      "brand_name": "화이트리에",
+      "areas": [
+        {
+          "area_name": "서래마을카페거리(서래마을)",
+          "rank": 1,
+          "final_score_100": 86.78,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 4.6
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.4
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 1.2
+            }
+          ],
+          "caution_facts": [
+            "주변 경쟁 강도가 중간 수준으로 확인됩니다"
+          ]
+        },
+        {
+          "area_name": "거여역",
+          "rank": 2,
+          "final_score_100": 82.77,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 3.2
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.4
+            },
+            {
+              "factor": "market_opportunity",
+              "top_percent": 29.3
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 21.6
+            }
+          ],
+          "caution_facts": []
+        },
+        {
+          "area_name": "한남오거리",
+          "rank": 3,
+          "final_score_100": 80.53,
+          "positive_facts": [
+            {
+              "factor": "brand_environment_fit",
+              "top_percent": 0.7
+            },
+            {
+              "factor": "brand_specific_advantage",
+              "top_percent": 6.4
+            },
+            {
+              "factor": "low_competition_risk",
+              "top_percent": 25.8
+            }
+          ],
+          "caution_facts": []
+        }
+      ]
+    },
+    "explanation": "화이트리에 브랜드는 서래마을카페거리가 1위, 거여역이 2위, 한남오거리가 3위로 추천됩니다.\n\n서래마을카페거리는 1위이며, 최종 적합도 86.78점입니다. 소비환경과의 적합도는 상위 4.6% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 6.4% 수준입니다. 아울러 제과 시장 규모는 상위 1.2% 수준입니다. 다만 주변 경쟁 강도가 중간 수준으로 확인됩니다.\n\n거여역은 2위이며, 최종 적합도 82.77점입니다. 소비환경과의 적합도는 상위 3.2% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 6.4% 수준입니다. 아울러 제과 시장 규모는 상위 29.3% 수준입니다. 또한 경쟁 우위는 상위 21.6% 수준입니다. 특별히 확인된 주의 요인은 없습니다.\n\n한남오거리는 3위이며, 최종 적합도 80.53점입니다. 소비환경과의 적합도는 상위 0.7% 수준입니다. 또한 다른 브랜드 대비 상대적 강점은 상위 6.4% 수준입니다. 아울러 경쟁 우위는 상위 25.8% 수준입니다. 특별히 확인된 주의 요인은 없습니다.",
+    "status": "success"
+  }
+]
