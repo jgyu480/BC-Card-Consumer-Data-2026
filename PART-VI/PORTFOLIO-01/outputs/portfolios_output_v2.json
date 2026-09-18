@@ -1,0 +1,6824 @@
+{
+  "BRD_20080100039": {
+    "brand_name": "뚜레쥬르",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120121"
+        ],
+        "area_names": [
+          "까치산역"
+        ],
+        "portfolio_score": 63.53,
+        "score_components": {
+          "average_area_score": 63.53,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120166"
+        ],
+        "area_names": [
+          "방배역"
+        ],
+        "portfolio_score": 60.58,
+        "score_components": {
+          "average_area_score": 60.58,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 60.6점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120136"
+        ],
+        "area_names": [
+          "영등포구청역"
+        ],
+        "portfolio_score": 60.06,
+        "score_components": {
+          "average_area_score": 60.06,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 60.1점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120136",
+          "3120080"
+        ],
+        "area_names": [
+          "영등포구청역",
+          "마들역"
+        ],
+        "portfolio_score": 51.04,
+        "score_components": {
+          "average_area_score": 55.44,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.41,
+          "overlap_risk_score": 78.59
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 55.4점",
+          "상권 간 최소 거리 21.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120121",
+          "3120080"
+        ],
+        "area_names": [
+          "까치산역",
+          "마들역"
+        ],
+        "portfolio_score": 47.61,
+        "score_components": {
+          "average_area_score": 57.17,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 16.54,
+          "overlap_risk_score": 83.46
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 57.2점",
+          "상권 간 최소 거리 23.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120051",
+          "3110274"
+        ],
+        "area_names": [
+          "뚝섬역",
+          "서일대학교"
+        ],
+        "portfolio_score": 46.43,
+        "score_components": {
+          "average_area_score": 51.82,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.0,
+          "overlap_risk_score": 81.0
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 51.8점",
+          "상권 간 최소 거리 6.5km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120136",
+          "3120051",
+          "3120080"
+        ],
+        "area_names": [
+          "영등포구청역",
+          "뚝섬역",
+          "마들역"
+        ],
+        "portfolio_score": 50.81,
+        "score_components": {
+          "average_area_score": 55.09,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.03,
+          "overlap_risk_score": 84.97
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 55.1점",
+          "상권 간 최소 거리 13.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120121",
+          "3120051",
+          "3120080"
+        ],
+        "area_names": [
+          "까치산역",
+          "뚝섬역",
+          "마들역"
+        ],
+        "portfolio_score": 49.87,
+        "score_components": {
+          "average_area_score": 56.25,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.76,
+          "overlap_risk_score": 86.24
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 56.2점",
+          "상권 간 최소 거리 13.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120136",
+          "3120158",
+          "3120080"
+        ],
+        "area_names": [
+          "영등포구청역",
+          "녹두거리(대학동)",
+          "마들역"
+        ],
+        "portfolio_score": 49.55,
+        "score_components": {
+          "average_area_score": 54.67,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.29,
+          "overlap_risk_score": 85.71
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 54.7점",
+          "상권 간 최소 거리 7.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20080100675": {
+    "brand_name": "호밀호두",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120151"
+        ],
+        "area_names": [
+          "보라매공원"
+        ],
+        "portfolio_score": 72.79,
+        "score_components": {
+          "average_area_score": 72.79,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 72.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3111090"
+        ],
+        "area_names": [
+          "강일동주민센터"
+        ],
+        "portfolio_score": 68.97,
+        "score_components": {
+          "average_area_score": 68.97,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.0점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3130225"
+        ],
+        "area_names": [
+          "개봉중앙시장"
+        ],
+        "portfolio_score": 68.86,
+        "score_components": {
+          "average_area_score": 68.86,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120107",
+          "3130147"
+        ],
+        "area_names": [
+          "공덕역(공덕오거리)",
+          "쌍문역동측상점가"
+        ],
+        "portfolio_score": 58.63,
+        "score_components": {
+          "average_area_score": 67.12,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 39.14,
+          "overlap_risk_score": 60.86
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.1점",
+          "상권 간 최소 거리 13.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120107",
+          "3110409"
+        ],
+        "area_names": [
+          "공덕역(공덕오거리)",
+          "창동역 2번"
+        ],
+        "portfolio_score": 57.45,
+        "score_components": {
+          "average_area_score": 65.31,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 39.14,
+          "overlap_risk_score": 60.86
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.3점",
+          "상권 간 최소 거리 14.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130139",
+          "3120107"
+        ],
+        "area_names": [
+          "강북종합전통시장(강북종합골목시장)",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 57.36,
+        "score_components": {
+          "average_area_score": 68.44,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 34.97,
+          "overlap_risk_score": 65.03
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.4점",
+          "상권 간 최소 거리 12.8km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3111090",
+          "3130139",
+          "3120107"
+        ],
+        "area_names": [
+          "강일동주민센터",
+          "강북종합전통시장(강북종합골목시장)",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 57.33,
+        "score_components": {
+          "average_area_score": 68.61,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.16,
+          "overlap_risk_score": 76.84
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.6점",
+          "상권 간 최소 거리 12.8km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3111090",
+          "3120107",
+          "3130147"
+        ],
+        "area_names": [
+          "강일동주민센터",
+          "공덕역(공덕오거리)",
+          "쌍문역동측상점가"
+        ],
+        "portfolio_score": 56.79,
+        "score_components": {
+          "average_area_score": 67.74,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.19,
+          "overlap_risk_score": 76.81
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.7점",
+          "상권 간 최소 거리 13.7km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120107",
+          "3120066",
+          "3130147"
+        ],
+        "area_names": [
+          "공덕역(공덕오거리)",
+          "장한평역(장한평)",
+          "쌍문역동측상점가"
+        ],
+        "portfolio_score": 56.36,
+        "score_components": {
+          "average_area_score": 67.21,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.08,
+          "overlap_risk_score": 76.92
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.2점",
+          "상권 간 최소 거리 9.8km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20080200064": {
+    "brand_name": "파리바게뜨",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120038"
+        ],
+        "area_names": [
+          "약수역"
+        ],
+        "portfolio_score": 62.74,
+        "score_components": {
+          "average_area_score": 62.74,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 62.7점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120228"
+        ],
+        "area_names": [
+          "석촌역(석촌호수)"
+        ],
+        "portfolio_score": 54.86,
+        "score_components": {
+          "average_area_score": 54.86,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 54.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120165"
+        ],
+        "area_names": [
+          "서래마을카페거리(서래마을)"
+        ],
+        "portfolio_score": 47.82,
+        "score_components": {
+          "average_area_score": 47.82,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 47.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120228",
+          "3120076"
+        ],
+        "area_names": [
+          "석촌역(석촌호수)",
+          "수유역"
+        ],
+        "portfolio_score": 44.04,
+        "score_components": {
+          "average_area_score": 49.62,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 20.09,
+          "overlap_risk_score": 79.91
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 49.6점",
+          "상권 간 최소 거리 16.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120076",
+          "3110002"
+        ],
+        "area_names": [
+          "수유역",
+          "독립문역 1번"
+        ],
+        "portfolio_score": 43.5,
+        "score_components": {
+          "average_area_score": 43.85,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.93,
+          "overlap_risk_score": 76.07
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 43.9점",
+          "상권 간 최소 거리 9.1km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120038",
+          "3120076"
+        ],
+        "area_names": [
+          "약수역",
+          "수유역"
+        ],
+        "portfolio_score": 42.38,
+        "score_components": {
+          "average_area_score": 53.56,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.03,
+          "overlap_risk_score": 84.97
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 53.6점",
+          "상권 간 최소 거리 9.4km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120038",
+          "3120228",
+          "3120076"
+        ],
+        "area_names": [
+          "약수역",
+          "석촌역(석촌호수)",
+          "수유역"
+        ],
+        "portfolio_score": 49.07,
+        "score_components": {
+          "average_area_score": 53.99,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.52,
+          "overlap_risk_score": 85.48
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 54.0점",
+          "상권 간 최소 거리 9.4km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120038",
+          "3120076",
+          "3110002"
+        ],
+        "area_names": [
+          "약수역",
+          "수유역",
+          "독립문역 1번"
+        ],
+        "portfolio_score": 47.6,
+        "score_components": {
+          "average_area_score": 50.15,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.27,
+          "overlap_risk_score": 84.73
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 50.1점",
+          "상권 간 최소 거리 5.2km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120038",
+          "3120165",
+          "3120076"
+        ],
+        "area_names": [
+          "약수역",
+          "서래마을카페거리(서래마을)",
+          "수유역"
+        ],
+        "portfolio_score": 46.48,
+        "score_components": {
+          "average_area_score": 51.65,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.74,
+          "overlap_risk_score": 86.26
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 51.6점",
+          "상권 간 최소 거리 6.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20080200287": {
+    "brand_name": "브레댄코(bread&co.DAILY-NEW)",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110640"
+        ],
+        "area_names": [
+          "방화역 1번"
+        ],
+        "portfolio_score": 75.52,
+        "score_components": {
+          "average_area_score": 75.52,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110002"
+        ],
+        "area_names": [
+          "독립문역 1번"
+        ],
+        "portfolio_score": 75.4,
+        "score_components": {
+          "average_area_score": 75.4,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120237"
+        ],
+        "area_names": [
+          "경찰병원역"
+        ],
+        "portfolio_score": 68.08,
+        "score_components": {
+          "average_area_score": 68.08,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.1점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130139",
+          "3130072"
+        ],
+        "area_names": [
+          "강북종합전통시장(강북종합골목시장)",
+          "성동용답상가시장"
+        ],
+        "portfolio_score": 58.37,
+        "score_components": {
+          "average_area_score": 66.72,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 34.04,
+          "overlap_risk_score": 65.96
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.7점",
+          "상권 간 최소 거리 9.0km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110640",
+          "3130139"
+        ],
+        "area_names": [
+          "방화역 1번",
+          "강북종합전통시장(강북종합골목시장)"
+        ],
+        "portfolio_score": 57.01,
+        "score_components": {
+          "average_area_score": 71.5,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 26.44,
+          "overlap_risk_score": 73.56
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.5점",
+          "상권 간 최소 거리 19.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130072",
+          "3120076"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "수유역"
+        ],
+        "portfolio_score": 56.51,
+        "score_components": {
+          "average_area_score": 63.86,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 34.04,
+          "overlap_risk_score": 65.96
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.9점",
+          "상권 간 최소 거리 8.6km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110640",
+          "3130139",
+          "3130072"
+        ],
+        "area_names": [
+          "방화역 1번",
+          "강북종합전통시장(강북종합골목시장)",
+          "성동용답상가시장"
+        ],
+        "portfolio_score": 59.05,
+        "score_components": {
+          "average_area_score": 69.66,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.58,
+          "overlap_risk_score": 76.42
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.7점",
+          "상권 간 최소 거리 9.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110640",
+          "3130072",
+          "3120076"
+        ],
+        "area_names": [
+          "방화역 1번",
+          "성동용답상가시장",
+          "수유역"
+        ],
+        "portfolio_score": 57.81,
+        "score_components": {
+          "average_area_score": 67.75,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.58,
+          "overlap_risk_score": 76.42
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.8점",
+          "상권 간 최소 거리 8.6km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3130139",
+          "3130072",
+          "3120136"
+        ],
+        "area_names": [
+          "강북종합전통시장(강북종합골목시장)",
+          "성동용답상가시장",
+          "영등포구청역"
+        ],
+        "portfolio_score": 57.25,
+        "score_components": {
+          "average_area_score": 65.0,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 25.05,
+          "overlap_risk_score": 74.95
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.0점",
+          "상권 간 최소 거리 9.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20080500016": {
+    "brand_name": "던킨/던킨도너츠",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120188"
+        ],
+        "area_names": [
+          "압구정역"
+        ],
+        "portfolio_score": 77.54,
+        "score_components": {
+          "average_area_score": 77.54,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 77.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120121"
+        ],
+        "area_names": [
+          "까치산역"
+        ],
+        "portfolio_score": 64.81,
+        "score_components": {
+          "average_area_score": 64.81,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 64.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120107"
+        ],
+        "area_names": [
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 63.77,
+        "score_components": {
+          "average_area_score": 63.77,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120107",
+          "3110274"
+        ],
+        "area_names": [
+          "공덕역(공덕오거리)",
+          "서일대학교"
+        ],
+        "portfolio_score": 54.07,
+        "score_components": {
+          "average_area_score": 60.11,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.4,
+          "overlap_risk_score": 80.6
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 60.1점",
+          "상권 간 최소 거리 13.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120107",
+          "3110243"
+        ],
+        "area_names": [
+          "공덕역(공덕오거리)",
+          "중랑노인종합복지관"
+        ],
+        "portfolio_score": 53.92,
+        "score_components": {
+          "average_area_score": 59.88,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.4,
+          "overlap_risk_score": 80.6
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 59.9점",
+          "상권 간 최소 거리 12.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130072",
+          "3110274"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "서일대학교"
+        ],
+        "portfolio_score": 51.62,
+        "score_components": {
+          "average_area_score": 57.17,
+          "geographic_diversification_score": 99.14,
+          "consumer_diversification_score": 19.0,
+          "overlap_risk_score": 81.0
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 57.2점",
+          "상권 간 최소 거리 4.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120107",
+          "3120139",
+          "3110274"
+        ],
+        "area_names": [
+          "공덕역(공덕오거리)",
+          "대림3동사거리",
+          "서일대학교"
+        ],
+        "portfolio_score": 54.72,
+        "score_components": {
+          "average_area_score": 61.29,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.75,
+          "overlap_risk_score": 86.25
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 61.3점",
+          "상권 간 최소 거리 6.7km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120107",
+          "3120139",
+          "3110243"
+        ],
+        "area_names": [
+          "공덕역(공덕오거리)",
+          "대림3동사거리",
+          "중랑노인종합복지관"
+        ],
+        "portfolio_score": 54.62,
+        "score_components": {
+          "average_area_score": 61.14,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.75,
+          "overlap_risk_score": 86.25
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 61.1점",
+          "상권 간 최소 거리 6.7km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120188",
+          "3120107",
+          "3110274"
+        ],
+        "area_names": [
+          "압구정역",
+          "공덕역(공덕오거리)",
+          "서일대학교"
+        ],
+        "portfolio_score": 54.27,
+        "score_components": {
+          "average_area_score": 65.92,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 11.4,
+          "overlap_risk_score": 88.6
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.9점",
+          "상권 간 최소 거리 7.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20120100621": {
+    "brand_name": "더베이크",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120038"
+        ],
+        "area_names": [
+          "약수역"
+        ],
+        "portfolio_score": 71.02,
+        "score_components": {
+          "average_area_score": 71.02,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.0점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110640"
+        ],
+        "area_names": [
+          "방화역 1번"
+        ],
+        "portfolio_score": 70.22,
+        "score_components": {
+          "average_area_score": 70.22,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.2점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120246"
+        ],
+        "area_names": [
+          "길동역"
+        ],
+        "portfolio_score": 70.05,
+        "score_components": {
+          "average_area_score": 70.05,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.0점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120246",
+          "3130072"
+        ],
+        "area_names": [
+          "길동역",
+          "성동용답상가시장"
+        ],
+        "portfolio_score": 55.96,
+        "score_components": {
+          "average_area_score": 68.01,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.92,
+          "overlap_risk_score": 84.08
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.0점",
+          "상권 간 최소 거리 8.1km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130072",
+          "3120068"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "사가정역"
+        ],
+        "portfolio_score": 55.3,
+        "score_components": {
+          "average_area_score": 65.77,
+          "geographic_diversification_score": 83.66,
+          "consumer_diversification_score": 19.0,
+          "overlap_risk_score": 81.0
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.8점",
+          "상권 간 최소 거리 3.6km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110640",
+          "3120075"
+        ],
+        "area_names": [
+          "방화역 1번",
+          "월곡역"
+        ],
+        "portfolio_score": 53.99,
+        "score_components": {
+          "average_area_score": 66.63,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.9,
+          "overlap_risk_score": 85.1
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.6점",
+          "상권 간 최소 거리 20.1km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120246",
+          "3130072",
+          "3120075"
+        ],
+        "area_names": [
+          "길동역",
+          "성동용답상가시장",
+          "월곡역"
+        ],
+        "portfolio_score": 57.04,
+        "score_components": {
+          "average_area_score": 66.35,
+          "geographic_diversification_score": 93.63,
+          "consumer_diversification_score": 13.48,
+          "overlap_risk_score": 86.52
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.3점",
+          "상권 간 최소 거리 4.5km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110640",
+          "3130072",
+          "3120075"
+        ],
+        "area_names": [
+          "방화역 1번",
+          "성동용답상가시장",
+          "월곡역"
+        ],
+        "portfolio_score": 56.59,
+        "score_components": {
+          "average_area_score": 66.41,
+          "geographic_diversification_score": 93.63,
+          "consumer_diversification_score": 13.15,
+          "overlap_risk_score": 86.85
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.4점",
+          "상권 간 최소 거리 4.5km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120246",
+          "3130072",
+          "3120068"
+        ],
+        "area_names": [
+          "길동역",
+          "성동용답상가시장",
+          "사가정역"
+        ],
+        "portfolio_score": 56.22,
+        "score_components": {
+          "average_area_score": 67.19,
+          "geographic_diversification_score": 83.66,
+          "consumer_diversification_score": 13.57,
+          "overlap_risk_score": 86.43
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.2점",
+          "상권 간 최소 거리 3.6km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20140288": {
+    "brand_name": "스트릿츄러스",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120166"
+        ],
+        "area_names": [
+          "방배역"
+        ],
+        "portfolio_score": 79.84,
+        "score_components": {
+          "average_area_score": 79.84,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 79.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120188"
+        ],
+        "area_names": [
+          "압구정역"
+        ],
+        "portfolio_score": 74.48,
+        "score_components": {
+          "average_area_score": 74.48,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120069"
+        ],
+        "area_names": [
+          "상봉역"
+        ],
+        "portfolio_score": 71.47,
+        "score_components": {
+          "average_area_score": 71.47,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120188",
+          "3120079"
+        ],
+        "area_names": [
+          "압구정역",
+          "창동역"
+        ],
+        "portfolio_score": 59.15,
+        "score_components": {
+          "average_area_score": 68.39,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.33,
+          "overlap_risk_score": 76.67
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.4점",
+          "상권 간 최소 거리 14.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120166",
+          "3120079"
+        ],
+        "area_names": [
+          "방배역",
+          "창동역"
+        ],
+        "portfolio_score": 58.13,
+        "score_components": {
+          "average_area_score": 71.08,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 20.05,
+          "overlap_risk_score": 79.95
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.1점",
+          "상권 간 최소 거리 19.5km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120121",
+          "3120079"
+        ],
+        "area_names": [
+          "까치산역",
+          "창동역"
+        ],
+        "portfolio_score": 55.95,
+        "score_components": {
+          "average_area_score": 63.0,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.69,
+          "overlap_risk_score": 76.31
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.0점",
+          "상권 간 최소 거리 22.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120166",
+          "3120188",
+          "3120079"
+        ],
+        "area_names": [
+          "방배역",
+          "압구정역",
+          "창동역"
+        ],
+        "portfolio_score": 58.22,
+        "score_components": {
+          "average_area_score": 72.21,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.58,
+          "overlap_risk_score": 85.42
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 72.2점",
+          "상권 간 최소 거리 5.6km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120166",
+          "3120121",
+          "3120079"
+        ],
+        "area_names": [
+          "방배역",
+          "까치산역",
+          "창동역"
+        ],
+        "portfolio_score": 57.0,
+        "score_components": {
+          "average_area_score": 68.62,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.58,
+          "overlap_risk_score": 84.42
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.6점",
+          "상권 간 최소 거리 14.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120188",
+          "3120121",
+          "3120079"
+        ],
+        "area_names": [
+          "압구정역",
+          "까치산역",
+          "창동역"
+        ],
+        "portfolio_score": 56.64,
+        "score_components": {
+          "average_area_score": 66.83,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 16.3,
+          "overlap_risk_score": 83.7
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.8점",
+          "상권 간 최소 거리 14.2km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20140306": {
+    "brand_name": "롤링핀",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120037"
+        ],
+        "area_names": [
+          "동대문역사문화공원역"
+        ],
+        "portfolio_score": 78.41,
+        "score_components": {
+          "average_area_score": 78.41,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 78.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120148"
+        ],
+        "area_names": [
+          "국회의사당역(국회의사당)"
+        ],
+        "portfolio_score": 73.68,
+        "score_components": {
+          "average_area_score": 73.68,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.7점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120153"
+        ],
+        "area_names": [
+          "노량진역(노량진)"
+        ],
+        "portfolio_score": 73.1,
+        "score_components": {
+          "average_area_score": 73.1,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.1점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120148",
+          "3120075"
+        ],
+        "area_names": [
+          "국회의사당역(국회의사당)",
+          "월곡역"
+        ],
+        "portfolio_score": 61.02,
+        "score_components": {
+          "average_area_score": 70.8,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.54,
+          "overlap_risk_score": 80.46
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.8점",
+          "상권 간 최소 거리 13.5km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110892",
+          "3130318"
+        ],
+        "area_names": [
+          "관악구 중앙길",
+          "로데오거리상점가"
+        ],
+        "portfolio_score": 54.65,
+        "score_components": {
+          "average_area_score": 70.56,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.47,
+          "overlap_risk_score": 86.53
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.6점",
+          "상권 간 최소 거리 16.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120075",
+          "3120119"
+        ],
+        "area_names": [
+          "월곡역",
+          "발산역(마곡)"
+        ],
+        "portfolio_score": 54.1,
+        "score_components": {
+          "average_area_score": 67.46,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.9,
+          "overlap_risk_score": 85.1
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.5점",
+          "상권 간 최소 거리 18.8km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120037",
+          "3120148",
+          "3120075"
+        ],
+        "area_names": [
+          "동대문역사문화공원역",
+          "국회의사당역(국회의사당)",
+          "월곡역"
+        ],
+        "portfolio_score": 61.7,
+        "score_components": {
+          "average_area_score": 73.34,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 12.36,
+          "overlap_risk_score": 87.64
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.3점",
+          "상권 간 최소 거리 5.2km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120148",
+          "3110892",
+          "3120075"
+        ],
+        "area_names": [
+          "국회의사당역(국회의사당)",
+          "관악구 중앙길",
+          "월곡역"
+        ],
+        "portfolio_score": 61.29,
+        "score_components": {
+          "average_area_score": 71.22,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 12.99,
+          "overlap_risk_score": 87.01
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.2점",
+          "상권 간 최소 거리 5.6km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120148",
+          "3120075",
+          "3120159"
+        ],
+        "area_names": [
+          "국회의사당역(국회의사당)",
+          "월곡역",
+          "서울대입구역"
+        ],
+        "portfolio_score": 60.1,
+        "score_components": {
+          "average_area_score": 69.38,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 12.99,
+          "overlap_risk_score": 87.01
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.4점",
+          "상권 간 최소 거리 6.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20140778": {
+    "brand_name": "크리스피크림",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120037"
+        ],
+        "area_names": [
+          "동대문역사문화공원역"
+        ],
+        "portfolio_score": 75.28,
+        "score_components": {
+          "average_area_score": 75.28,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.3점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3001493"
+        ],
+        "area_names": [
+          "동대문패션타운 관광특구"
+        ],
+        "portfolio_score": 73.54,
+        "score_components": {
+          "average_area_score": 73.54,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120119"
+        ],
+        "area_names": [
+          "발산역(마곡)"
+        ],
+        "portfolio_score": 72.97,
+        "score_components": {
+          "average_area_score": 72.97,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.0점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120149",
+          "3120062"
+        ],
+        "area_names": [
+          "여의도역(여의도)",
+          "신설동역"
+        ],
+        "portfolio_score": 58.19,
+        "score_components": {
+          "average_area_score": 66.45,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.16,
+          "overlap_risk_score": 80.84
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.5점",
+          "상권 간 최소 거리 10.4km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110762",
+          "3120062"
+        ],
+        "area_names": [
+          "선유도역 1번",
+          "신설동역"
+        ],
+        "portfolio_score": 57.98,
+        "score_components": {
+          "average_area_score": 66.12,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.16,
+          "overlap_risk_score": 80.84
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.1점",
+          "상권 간 최소 거리 12.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120149",
+          "3110538"
+        ],
+        "area_names": [
+          "여의도역(여의도)",
+          "충정로역 3번"
+        ],
+        "portfolio_score": 56.26,
+        "score_components": {
+          "average_area_score": 68.74,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.88,
+          "overlap_risk_score": 84.12
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.7점",
+          "상권 간 최소 거리 5.4km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110762",
+          "3120107",
+          "3120062"
+        ],
+        "area_names": [
+          "선유도역 1번",
+          "공덕역(공덕오거리)",
+          "신설동역"
+        ],
+        "portfolio_score": 57.63,
+        "score_components": {
+          "average_area_score": 65.58,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.03,
+          "overlap_risk_score": 86.97
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.6점",
+          "상권 간 최소 거리 5.2km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120119",
+          "3120149",
+          "3120062"
+        ],
+        "area_names": [
+          "발산역(마곡)",
+          "여의도역(여의도)",
+          "신설동역"
+        ],
+        "portfolio_score": 57.54,
+        "score_components": {
+          "average_area_score": 68.62,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 11.76,
+          "overlap_risk_score": 88.24
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.6점",
+          "상권 간 최소 거리 9.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120119",
+          "3110762",
+          "3120062"
+        ],
+        "area_names": [
+          "발산역(마곡)",
+          "선유도역 1번",
+          "신설동역"
+        ],
+        "portfolio_score": 57.39,
+        "score_components": {
+          "average_area_score": 68.4,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 11.76,
+          "overlap_risk_score": 88.24
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.4점",
+          "상권 간 최소 거리 5.5km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20150052": {
+    "brand_name": "빵장수단팥빵",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120158"
+        ],
+        "area_names": [
+          "녹두거리(대학동)"
+        ],
+        "portfolio_score": 79.44,
+        "score_components": {
+          "average_area_score": 79.44,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 79.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120069"
+        ],
+        "area_names": [
+          "상봉역"
+        ],
+        "portfolio_score": 74.28,
+        "score_components": {
+          "average_area_score": 74.28,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.3점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110569"
+        ],
+        "area_names": [
+          "홍대땡땡거리"
+        ],
+        "portfolio_score": 72.33,
+        "score_components": {
+          "average_area_score": 72.33,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 72.3점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120069",
+          "3110569"
+        ],
+        "area_names": [
+          "상봉역",
+          "홍대땡땡거리"
+        ],
+        "portfolio_score": 62.65,
+        "score_components": {
+          "average_area_score": 73.31,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.4,
+          "overlap_risk_score": 80.6
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.3점",
+          "상권 간 최소 거리 14.5km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120158",
+          "3120069"
+        ],
+        "area_names": [
+          "녹두거리(대학동)",
+          "상봉역"
+        ],
+        "portfolio_score": 59.02,
+        "score_components": {
+          "average_area_score": 76.86,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.64,
+          "overlap_risk_score": 86.36
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 76.9점",
+          "상권 간 최소 거리 19.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110569",
+          "3120245"
+        ],
+        "area_names": [
+          "홍대땡땡거리",
+          "둔촌역"
+        ],
+        "portfolio_score": 57.17,
+        "score_components": {
+          "average_area_score": 70.4,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.92,
+          "overlap_risk_score": 84.08
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.4점",
+          "상권 간 최소 거리 18.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120069",
+          "3110569",
+          "3120245"
+        ],
+        "area_names": [
+          "상봉역",
+          "홍대땡땡거리",
+          "둔촌역"
+        ],
+        "portfolio_score": 61.6,
+        "score_components": {
+          "average_area_score": 71.69,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.7,
+          "overlap_risk_score": 86.3
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.7점",
+          "상권 간 최소 거리 8.8km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120158",
+          "3120069",
+          "3110569"
+        ],
+        "area_names": [
+          "녹두거리(대학동)",
+          "상봉역",
+          "홍대땡땡거리"
+        ],
+        "portfolio_score": 61.06,
+        "score_components": {
+          "average_area_score": 75.35,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 11.7,
+          "overlap_risk_score": 88.3
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.3점",
+          "상권 간 최소 거리 9.4km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120069",
+          "3110569",
+          "3120134"
+        ],
+        "area_names": [
+          "상봉역",
+          "홍대땡땡거리",
+          "구로전화국"
+        ],
+        "portfolio_score": 60.4,
+        "score_components": {
+          "average_area_score": 71.76,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 12.85,
+          "overlap_risk_score": 87.15
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.8점",
+          "상권 간 최소 거리 8.6km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20150085": {
+    "brand_name": "못난이꽈배기",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110517"
+        ],
+        "area_names": [
+          "서대문소방서"
+        ],
+        "portfolio_score": 71.75,
+        "score_components": {
+          "average_area_score": 71.75,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120246"
+        ],
+        "area_names": [
+          "길동역"
+        ],
+        "portfolio_score": 69.93,
+        "score_components": {
+          "average_area_score": 69.93,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120038"
+        ],
+        "area_names": [
+          "약수역"
+        ],
+        "portfolio_score": 69.76,
+        "score_components": {
+          "average_area_score": 69.76,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110883",
+          "3120079"
+        ],
+        "area_names": [
+          "은천초등학교(은천교앞)",
+          "창동역"
+        ],
+        "portfolio_score": 58.27,
+        "score_components": {
+          "average_area_score": 66.57,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 31.09,
+          "overlap_risk_score": 68.91
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.6점",
+          "상권 간 최소 거리 20.8km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120110",
+          "3110883"
+        ],
+        "area_names": [
+          "목동역 8번출구",
+          "은천초등학교(은천교앞)"
+        ],
+        "portfolio_score": 52.16,
+        "score_components": {
+          "average_area_score": 68.3,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.85,
+          "overlap_risk_score": 80.15
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.3점",
+          "상권 간 최소 거리 7.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120241",
+          "3120079"
+        ],
+        "area_names": [
+          "거여역",
+          "창동역"
+        ],
+        "portfolio_score": 52.07,
+        "score_components": {
+          "average_area_score": 66.46,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.57,
+          "overlap_risk_score": 78.43
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.5점",
+          "상권 간 최소 거리 19.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120246",
+          "3110883",
+          "3120079"
+        ],
+        "area_names": [
+          "길동역",
+          "은천초등학교(은천교앞)",
+          "창동역"
+        ],
+        "portfolio_score": 59.0,
+        "score_components": {
+          "average_area_score": 67.69,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.69,
+          "overlap_risk_score": 80.31
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.7점",
+          "상권 간 최소 거리 15.2km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110883",
+          "3120079",
+          "3120247"
+        ],
+        "area_names": [
+          "은천초등학교(은천교앞)",
+          "창동역",
+          "굽은다리역"
+        ],
+        "portfolio_score": 58.09,
+        "score_components": {
+          "average_area_score": 66.29,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.69,
+          "overlap_risk_score": 80.31
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.3점",
+          "상권 간 최소 거리 14.5km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120110",
+          "3110883",
+          "3120079"
+        ],
+        "area_names": [
+          "목동역 8번출구",
+          "은천초등학교(은천교앞)",
+          "창동역"
+        ],
+        "portfolio_score": 58.04,
+        "score_components": {
+          "average_area_score": 67.57,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 18.89,
+          "overlap_risk_score": 81.11
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.6점",
+          "상권 간 최소 거리 7.9km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20160521": {
+    "brand_name": "심봉사도로케",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120246"
+        ],
+        "area_names": [
+          "길동역"
+        ],
+        "portfolio_score": 70.07,
+        "score_components": {
+          "average_area_score": 70.07,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.1점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120038"
+        ],
+        "area_names": [
+          "약수역"
+        ],
+        "portfolio_score": 69.03,
+        "score_components": {
+          "average_area_score": 69.03,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.0점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120226"
+        ],
+        "area_names": [
+          "석촌고분역"
+        ],
+        "portfolio_score": 66.71,
+        "score_components": {
+          "average_area_score": 66.71,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.7점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130072",
+          "3110593"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "신월3동주민센터"
+        ],
+        "portfolio_score": 56.58,
+        "score_components": {
+          "average_area_score": 63.97,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.68,
+          "overlap_risk_score": 76.32
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 64.0점",
+          "상권 간 최소 거리 20.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130072",
+          "3120112"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "등촌역"
+        ],
+        "portfolio_score": 56.5,
+        "score_components": {
+          "average_area_score": 63.85,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.68,
+          "overlap_risk_score": 76.32
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.9점",
+          "상권 간 최소 거리 16.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110883",
+          "3110593"
+        ],
+        "area_names": [
+          "은천초등학교(은천교앞)",
+          "신월3동주민센터"
+        ],
+        "portfolio_score": 53.22,
+        "score_components": {
+          "average_area_score": 63.77,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.85,
+          "overlap_risk_score": 80.15
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.8점",
+          "상권 간 최소 거리 11.0km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120246",
+          "3130072",
+          "3110593"
+        ],
+        "area_names": [
+          "길동역",
+          "성동용답상가시장",
+          "신월3동주민센터"
+        ],
+        "portfolio_score": 55.99,
+        "score_components": {
+          "average_area_score": 66.0,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.43,
+          "overlap_risk_score": 84.57
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.0점",
+          "상권 간 최소 거리 8.1km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120246",
+          "3130072",
+          "3120112"
+        ],
+        "area_names": [
+          "길동역",
+          "성동용답상가시장",
+          "등촌역"
+        ],
+        "portfolio_score": 55.93,
+        "score_components": {
+          "average_area_score": 65.92,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.43,
+          "overlap_risk_score": 84.57
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.9점",
+          "상권 간 최소 거리 8.1km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120038",
+          "3130072",
+          "3110593"
+        ],
+        "area_names": [
+          "약수역",
+          "성동용답상가시장",
+          "신월3동주민센터"
+        ],
+        "portfolio_score": 55.8,
+        "score_components": {
+          "average_area_score": 65.66,
+          "geographic_diversification_score": 87.46,
+          "consumer_diversification_score": 16.98,
+          "overlap_risk_score": 83.02
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.7점",
+          "상권 간 최소 거리 3.9km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20161137": {
+    "brand_name": "명랑시대쌀핫도그",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120080"
+        ],
+        "area_names": [
+          "마들역"
+        ],
+        "portfolio_score": 70.91,
+        "score_components": {
+          "average_area_score": 70.91,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120069"
+        ],
+        "area_names": [
+          "상봉역"
+        ],
+        "portfolio_score": 68.21,
+        "score_components": {
+          "average_area_score": 68.21,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.2점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3130146"
+        ],
+        "area_names": [
+          "쌍문시장(쌍문역골목시장)"
+        ],
+        "portfolio_score": 67.92,
+        "score_components": {
+          "average_area_score": 67.92,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130146",
+          "3110572"
+        ],
+        "area_names": [
+          "쌍문시장(쌍문역골목시장)",
+          "서강대역 1번"
+        ],
+        "portfolio_score": 56.87,
+        "score_components": {
+          "average_area_score": 64.41,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 39.14,
+          "overlap_risk_score": 60.86
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 64.4점",
+          "상권 간 최소 거리 13.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120079",
+          "3110572"
+        ],
+        "area_names": [
+          "창동역",
+          "서강대역 1번"
+        ],
+        "portfolio_score": 55.03,
+        "score_components": {
+          "average_area_score": 61.59,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 39.14,
+          "overlap_risk_score": 60.86
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 61.6점",
+          "상권 간 최소 거리 14.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130146",
+          "3110792"
+        ],
+        "area_names": [
+          "쌍문시장(쌍문역골목시장)",
+          "영등포역 2번"
+        ],
+        "portfolio_score": 54.35,
+        "score_components": {
+          "average_area_score": 67.46,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 30.34,
+          "overlap_risk_score": 69.66
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.5점",
+          "상권 간 최소 거리 18.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3130146",
+          "3110792",
+          "3110572"
+        ],
+        "area_names": [
+          "쌍문시장(쌍문역골목시장)",
+          "영등포역 2번",
+          "서강대역 1번"
+        ],
+        "portfolio_score": 57.36,
+        "score_components": {
+          "average_area_score": 65.27,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 26.01,
+          "overlap_risk_score": 73.99
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.3점",
+          "상권 간 최소 거리 5.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110792",
+          "3120079",
+          "3110572"
+        ],
+        "area_names": [
+          "영등포역 2번",
+          "창동역",
+          "서강대역 1번"
+        ],
+        "portfolio_score": 56.14,
+        "score_components": {
+          "average_area_score": 63.39,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 26.01,
+          "overlap_risk_score": 73.99
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.4점",
+          "상권 간 최소 거리 5.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3130146",
+          "3110601",
+          "3110572"
+        ],
+        "area_names": [
+          "쌍문시장(쌍문역골목시장)",
+          "신월1동우편취급국",
+          "서강대역 1번"
+        ],
+        "portfolio_score": 54.25,
+        "score_components": {
+          "average_area_score": 63.93,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.09,
+          "overlap_risk_score": 76.91
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.9점",
+          "상권 간 최소 거리 9.2km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20170827": {
+    "brand_name": "핫브레드",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110837"
+        ],
+        "area_names": [
+          "숭실대입구역 1번"
+        ],
+        "portfolio_score": 71.09,
+        "score_components": {
+          "average_area_score": 71.09,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.1점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120062"
+        ],
+        "area_names": [
+          "신설동역"
+        ],
+        "portfolio_score": 66.07,
+        "score_components": {
+          "average_area_score": 66.07,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.1점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3130072"
+        ],
+        "area_names": [
+          "성동용답상가시장"
+        ],
+        "portfolio_score": 65.95,
+        "score_components": {
+          "average_area_score": 65.95,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.0점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130072",
+          "3110302"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "보문역 8번"
+        ],
+        "portfolio_score": 54.87,
+        "score_components": {
+          "average_area_score": 64.92,
+          "geographic_diversification_score": 84.46,
+          "consumer_diversification_score": 14.28,
+          "overlap_risk_score": 85.72
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 64.9점",
+          "상권 간 최소 거리 3.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110302",
+          "3130065"
+        ],
+        "area_names": [
+          "보문역 8번",
+          "무학봉상점가"
+        ],
+        "portfolio_score": 51.53,
+        "score_components": {
+          "average_area_score": 62.74,
+          "geographic_diversification_score": 71.68,
+          "consumer_diversification_score": 14.28,
+          "overlap_risk_score": 85.72
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 62.7점",
+          "상권 간 최소 거리 2.6km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110302",
+          "3120158"
+        ],
+        "area_names": [
+          "보문역 8번",
+          "녹두거리(대학동)"
+        ],
+        "portfolio_score": 50.71,
+        "score_components": {
+          "average_area_score": 63.47,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 10.32,
+          "overlap_risk_score": 89.68
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 63.5점",
+          "상권 간 최소 거리 14.5km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3130072",
+          "3110302",
+          "3120188"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "보문역 8번",
+          "압구정역"
+        ],
+        "portfolio_score": 53.56,
+        "score_components": {
+          "average_area_score": 62.91,
+          "geographic_diversification_score": 84.46,
+          "consumer_diversification_score": 10.0,
+          "overlap_risk_score": 90.0
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 62.9점",
+          "상권 간 최소 거리 3.7km",
+          "3개 자치구로 분산",
+          "상권 간 소비자 구성이 유사해 고객 잠식 위험 존재"
+        ],
+        "risk_factors": [
+          "상권 간 고객층 중복 가능성 — 잠식 위험 검토 필요"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3130072",
+          "3110302",
+          "3110943"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "보문역 8번",
+          "법제교육센터(버들어린이공원)"
+        ],
+        "portfolio_score": 52.55,
+        "score_components": {
+          "average_area_score": 64.07,
+          "geographic_diversification_score": 84.46,
+          "consumer_diversification_score": 9.12,
+          "overlap_risk_score": 90.88
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 64.1점",
+          "상권 간 최소 거리 3.7km",
+          "3개 자치구로 분산",
+          "상권 간 소비자 구성이 유사해 고객 잠식 위험 존재"
+        ],
+        "risk_factors": [
+          "상권 간 고객층 중복 가능성 — 잠식 위험 검토 필요"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3130072",
+          "3110302",
+          "3120158"
+        ],
+        "area_names": [
+          "성동용답상가시장",
+          "보문역 8번",
+          "녹두거리(대학동)"
+        ],
+        "portfolio_score": 52.02,
+        "score_components": {
+          "average_area_score": 64.3,
+          "geographic_diversification_score": 84.46,
+          "consumer_diversification_score": 8.78,
+          "overlap_risk_score": 91.22
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 64.3점",
+          "상권 간 최소 거리 3.7km",
+          "3개 자치구로 분산",
+          "상권 간 소비자 구성이 유사해 고객 잠식 위험 존재"
+        ],
+        "risk_factors": [
+          "상권 간 고객층 중복 가능성 — 잠식 위험 검토 필요"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20201275": {
+    "brand_name": "호두당",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120062"
+        ],
+        "area_names": [
+          "신설동역"
+        ],
+        "portfolio_score": 79.64,
+        "score_components": {
+          "average_area_score": 79.64,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 79.6점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120208"
+        ],
+        "area_names": [
+          "청담사거리(청담동명품거리)"
+        ],
+        "portfolio_score": 76.71,
+        "score_components": {
+          "average_area_score": 76.71,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 76.7점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110943"
+        ],
+        "area_names": [
+          "법제교육센터(버들어린이공원)"
+        ],
+        "portfolio_score": 75.51,
+        "score_components": {
+          "average_area_score": 75.51,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130139",
+          "3120148"
+        ],
+        "area_names": [
+          "강북종합전통시장(강북종합골목시장)",
+          "국회의사당역(국회의사당)"
+        ],
+        "portfolio_score": 63.24,
+        "score_components": {
+          "average_area_score": 74.21,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 31.9,
+          "overlap_risk_score": 68.1
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.2점",
+          "상권 간 최소 거리 15.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130139",
+          "3120149"
+        ],
+        "area_names": [
+          "강북종합전통시장(강북종합골목시장)",
+          "여의도역(여의도)"
+        ],
+        "portfolio_score": 61.58,
+        "score_components": {
+          "average_area_score": 71.66,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 31.9,
+          "overlap_risk_score": 68.1
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.7점",
+          "상권 간 최소 거리 15.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120208",
+          "3130139"
+        ],
+        "area_names": [
+          "청담사거리(청담동명품거리)",
+          "강북종합전통시장(강북종합골목시장)"
+        ],
+        "portfolio_score": 59.31,
+        "score_components": {
+          "average_area_score": 75.46,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 24.34,
+          "overlap_risk_score": 75.66
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.5점",
+          "상권 간 최소 거리 13.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120062",
+          "3130139",
+          "3120148"
+        ],
+        "area_names": [
+          "신설동역",
+          "강북종합전통시장(강북종합골목시장)",
+          "국회의사당역(국회의사당)"
+        ],
+        "portfolio_score": 64.41,
+        "score_components": {
+          "average_area_score": 76.02,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.9,
+          "overlap_risk_score": 78.1
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 76.0점",
+          "상권 간 최소 거리 7.5km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120062",
+          "3130139",
+          "3120149"
+        ],
+        "area_names": [
+          "신설동역",
+          "강북종합전통시장(강북종합골목시장)",
+          "여의도역(여의도)"
+        ],
+        "portfolio_score": 63.31,
+        "score_components": {
+          "average_area_score": 74.32,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.9,
+          "overlap_risk_score": 78.1
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.3점",
+          "상권 간 최소 거리 7.5km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120208",
+          "3130139",
+          "3120148"
+        ],
+        "area_names": [
+          "청담사거리(청담동명품거리)",
+          "강북종합전통시장(강북종합골목시장)",
+          "국회의사당역(국회의사당)"
+        ],
+        "portfolio_score": 62.15,
+        "score_components": {
+          "average_area_score": 75.04,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 20.12,
+          "overlap_risk_score": 79.88
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.0점",
+          "상권 간 최소 거리 11.2km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20211367": {
+    "brand_name": "삼송빵집",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120226"
+        ],
+        "area_names": [
+          "석촌고분역"
+        ],
+        "portfolio_score": 76.82,
+        "score_components": {
+          "average_area_score": 76.82,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 76.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110161"
+        ],
+        "area_names": [
+          "중곡역 3번"
+        ],
+        "portfolio_score": 72.36,
+        "score_components": {
+          "average_area_score": 72.36,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 72.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3130222"
+        ],
+        "area_names": [
+          "오류시장"
+        ],
+        "portfolio_score": 71.11,
+        "score_components": {
+          "average_area_score": 71.11,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.1점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120246",
+          "3110861"
+        ],
+        "area_names": [
+          "길동역",
+          "관악구신사동주민센터"
+        ],
+        "portfolio_score": 58.86,
+        "score_components": {
+          "average_area_score": 67.47,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.47,
+          "overlap_risk_score": 86.53
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 67.5점",
+          "상권 간 최소 거리 20.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120246",
+          "3120158"
+        ],
+        "area_names": [
+          "길동역",
+          "녹두거리(대학동)"
+        ],
+        "portfolio_score": 57.77,
+        "score_components": {
+          "average_area_score": 65.8,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.47,
+          "overlap_risk_score": 86.53
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.8점",
+          "상권 간 최소 거리 19.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120246",
+          "3110883"
+        ],
+        "area_names": [
+          "길동역",
+          "은천초등학교(은천교앞)"
+        ],
+        "portfolio_score": 57.53,
+        "score_components": {
+          "average_area_score": 65.43,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.47,
+          "overlap_risk_score": 86.53
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.4점",
+          "상권 간 최소 거리 18.6km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120226",
+          "3120038",
+          "3110768"
+        ],
+        "area_names": [
+          "석촌고분역",
+          "약수역",
+          "도림2동유수지내체육시설"
+        ],
+        "portfolio_score": 58.85,
+        "score_components": {
+          "average_area_score": 71.33,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 8.7,
+          "overlap_risk_score": 91.3
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.3점",
+          "상권 간 최소 거리 9.5km",
+          "3개 자치구로 분산",
+          "상권 간 소비자 구성이 유사해 고객 잠식 위험 존재"
+        ],
+        "risk_factors": [
+          "상권 간 고객층 중복 가능성 — 잠식 위험 검토 필요"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120246",
+          "3120038",
+          "3110861"
+        ],
+        "area_names": [
+          "길동역",
+          "약수역",
+          "관악구신사동주민센터"
+        ],
+        "portfolio_score": 58.21,
+        "score_components": {
+          "average_area_score": 67.99,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 9.46,
+          "overlap_risk_score": 90.54
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.0점",
+          "상권 간 최소 거리 11.3km",
+          "3개 자치구로 분산",
+          "상권 간 소비자 구성이 유사해 고객 잠식 위험 존재"
+        ],
+        "risk_factors": [
+          "상권 간 고객층 중복 가능성 — 잠식 위험 검토 필요"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120246",
+          "3110768",
+          "3120158"
+        ],
+        "area_names": [
+          "길동역",
+          "도림2동유수지내체육시설",
+          "녹두거리(대학동)"
+        ],
+        "portfolio_score": 58.0,
+        "score_components": {
+          "average_area_score": 66.58,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 9.81,
+          "overlap_risk_score": 90.19
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.6점",
+          "상권 간 최소 거리 5.4km",
+          "3개 자치구로 분산",
+          "상권 간 소비자 구성이 유사해 고객 잠식 위험 존재"
+        ],
+        "risk_factors": [
+          "상권 간 고객층 중복 가능성 — 잠식 위험 검토 필요"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20212010": {
+    "brand_name": "복호두",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110757"
+        ],
+        "area_names": [
+          "양평역 2번"
+        ],
+        "portfolio_score": 79.46,
+        "score_components": {
+          "average_area_score": 79.46,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 79.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120218"
+        ],
+        "area_names": [
+          "코엑스"
+        ],
+        "portfolio_score": 72.03,
+        "score_components": {
+          "average_area_score": 72.03,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 72.0점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120037"
+        ],
+        "area_names": [
+          "동대문역사문화공원역"
+        ],
+        "portfolio_score": 71.7,
+        "score_components": {
+          "average_area_score": 71.7,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.7점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120037",
+          "3120106"
+        ],
+        "area_names": [
+          "동대문역사문화공원역",
+          "마포역"
+        ],
+        "portfolio_score": 59.09,
+        "score_components": {
+          "average_area_score": 70.07,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.76,
+          "overlap_risk_score": 85.24
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.1점",
+          "상권 간 최소 거리 6.1km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120037",
+          "3130183"
+        ],
+        "area_names": [
+          "동대문역사문화공원역",
+          "상암동상점가"
+        ],
+        "portfolio_score": 58.59,
+        "score_components": {
+          "average_area_score": 69.3,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.76,
+          "overlap_risk_score": 85.24
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.3점",
+          "상권 간 최소 거리 9.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120106",
+          "3111089"
+        ],
+        "area_names": [
+          "마포역",
+          "상일여고(상일초등학교)"
+        ],
+        "portfolio_score": 58.24,
+        "score_components": {
+          "average_area_score": 66.52,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.92,
+          "overlap_risk_score": 84.08
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 66.5점",
+          "상권 간 최소 거리 19.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110757",
+          "3120037",
+          "3120106"
+        ],
+        "area_names": [
+          "양평역 2번",
+          "동대문역사문화공원역",
+          "마포역"
+        ],
+        "portfolio_score": 59.56,
+        "score_components": {
+          "average_area_score": 73.2,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 10.29,
+          "overlap_risk_score": 89.71
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.2점",
+          "상권 간 최소 거리 5.7km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120037",
+          "3120106",
+          "3111089"
+        ],
+        "area_names": [
+          "동대문역사문화공원역",
+          "마포역",
+          "상일여고(상일초등학교)"
+        ],
+        "portfolio_score": 59.36,
+        "score_components": {
+          "average_area_score": 68.24,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 12.12,
+          "overlap_risk_score": 87.88
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.2점",
+          "상권 간 최소 거리 6.1km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110757",
+          "3120037",
+          "3130183"
+        ],
+        "area_names": [
+          "양평역 2번",
+          "동대문역사문화공원역",
+          "상암동상점가"
+        ],
+        "portfolio_score": 59.23,
+        "score_components": {
+          "average_area_score": 72.69,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 10.29,
+          "overlap_risk_score": 89.71
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 72.7점",
+          "상권 간 최소 거리 5.9km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20220253": {
+    "brand_name": "곤트란쉐리에(Gontran Cherrier)",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110943"
+        ],
+        "area_names": [
+          "법제교육센터(버들어린이공원)"
+        ],
+        "portfolio_score": 73.86,
+        "score_components": {
+          "average_area_score": 73.86,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3130147"
+        ],
+        "area_names": [
+          "쌍문역동측상점가"
+        ],
+        "portfolio_score": 73.42,
+        "score_components": {
+          "average_area_score": 73.42,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120151"
+        ],
+        "area_names": [
+          "보라매공원"
+        ],
+        "portfolio_score": 71.17,
+        "score_components": {
+          "average_area_score": 71.17,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.2점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130147",
+          "3120107"
+        ],
+        "area_names": [
+          "쌍문역동측상점가",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 60.37,
+        "score_components": {
+          "average_area_score": 69.8,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 39.14,
+          "overlap_risk_score": 60.86
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.8점",
+          "상권 간 최소 거리 13.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130147",
+          "3120009"
+        ],
+        "area_names": [
+          "쌍문역동측상점가",
+          "종로3가역"
+        ],
+        "portfolio_score": 53.18,
+        "score_components": {
+          "average_area_score": 69.21,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 25.81,
+          "overlap_risk_score": 74.19
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.2점",
+          "상권 간 최소 거리 9.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110943",
+          "3130147"
+        ],
+        "area_names": [
+          "법제교육센터(버들어린이공원)",
+          "쌍문역동측상점가"
+        ],
+        "portfolio_score": 53.11,
+        "score_components": {
+          "average_area_score": 73.64,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 20.05,
+          "overlap_risk_score": 79.95
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.6점",
+          "상권 간 최소 거리 19.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110943",
+          "3130147",
+          "3120107"
+        ],
+        "area_names": [
+          "법제교육센터(버들어린이공원)",
+          "쌍문역동측상점가",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 60.18,
+        "score_components": {
+          "average_area_score": 71.15,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.95,
+          "overlap_risk_score": 78.05
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.2점",
+          "상권 간 최소 거리 11.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3130147",
+          "3111090",
+          "3120107"
+        ],
+        "area_names": [
+          "쌍문역동측상점가",
+          "강일동주민센터",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 60.0,
+        "score_components": {
+          "average_area_score": 69.23,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.19,
+          "overlap_risk_score": 76.81
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.2점",
+          "상권 간 최소 거리 13.7km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3130147",
+          "3120209",
+          "3120107"
+        ],
+        "area_names": [
+          "쌍문역동측상점가",
+          "강남구청(청담역_8번, 강남세무서)",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 59.7,
+        "score_components": {
+          "average_area_score": 69.28,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 22.81,
+          "overlap_risk_score": 77.19
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.3점",
+          "상권 간 최소 거리 9.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20230468": {
+    "brand_name": "소림사",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120153"
+        ],
+        "area_names": [
+          "노량진역(노량진)"
+        ],
+        "portfolio_score": 77.86,
+        "score_components": {
+          "average_area_score": 77.86,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 77.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3001496"
+        ],
+        "area_names": [
+          "강남 마이스 관광특구"
+        ],
+        "portfolio_score": 75.63,
+        "score_components": {
+          "average_area_score": 75.63,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.6점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120037"
+        ],
+        "area_names": [
+          "동대문역사문화공원역"
+        ],
+        "portfolio_score": 74.36,
+        "score_components": {
+          "average_area_score": 74.36,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120069",
+          "3120107"
+        ],
+        "area_names": [
+          "상봉역",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 59.68,
+        "score_components": {
+          "average_area_score": 68.74,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.4,
+          "overlap_risk_score": 80.6
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.7점",
+          "상권 간 최소 거리 13.4km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120037",
+          "3120107"
+        ],
+        "area_names": [
+          "동대문역사문화공원역",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 56.22,
+        "score_components": {
+          "average_area_score": 70.78,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.76,
+          "overlap_risk_score": 85.24
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.8점",
+          "상권 간 최소 거리 5.5km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120069",
+          "3110892"
+        ],
+        "area_names": [
+          "상봉역",
+          "관악구 중앙길"
+        ],
+        "portfolio_score": 54.74,
+        "score_components": {
+          "average_area_score": 70.28,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.64,
+          "overlap_risk_score": 86.36
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.3점",
+          "상권 간 최소 거리 17.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120069",
+          "3110757",
+          "3120107"
+        ],
+        "area_names": [
+          "상봉역",
+          "양평역 2번",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 59.37,
+        "score_components": {
+          "average_area_score": 68.26,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.75,
+          "overlap_risk_score": 86.25
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.3점",
+          "상권 간 최소 거리 6.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120037",
+          "3120069",
+          "3120107"
+        ],
+        "area_names": [
+          "동대문역사문화공원역",
+          "상봉역",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 59.13,
+        "score_components": {
+          "average_area_score": 70.62,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 12.55,
+          "overlap_risk_score": 87.45
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.6점",
+          "상권 간 최소 거리 5.5km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120069",
+          "3120119",
+          "3120107"
+        ],
+        "area_names": [
+          "상봉역",
+          "발산역(마곡)",
+          "공덕역(공덕오거리)"
+        ],
+        "portfolio_score": 58.35,
+        "score_components": {
+          "average_area_score": 68.65,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 12.89,
+          "overlap_risk_score": 87.11
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.7점",
+          "상권 간 최소 거리 10.4km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20240478": {
+    "brand_name": "화이트리에",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120165"
+        ],
+        "area_names": [
+          "서래마을카페거리(서래마을)"
+        ],
+        "portfolio_score": 86.78,
+        "score_components": {
+          "average_area_score": 86.78,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 86.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120241"
+        ],
+        "area_names": [
+          "거여역"
+        ],
+        "portfolio_score": 82.77,
+        "score_components": {
+          "average_area_score": 82.77,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 82.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120047"
+        ],
+        "area_names": [
+          "한남오거리"
+        ],
+        "portfolio_score": 80.53,
+        "score_components": {
+          "average_area_score": 80.53,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 80.5점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120079",
+          "3120139"
+        ],
+        "area_names": [
+          "창동역",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 64.91,
+        "score_components": {
+          "average_area_score": 76.79,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 30.34,
+          "overlap_risk_score": 69.66
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 76.8점",
+          "상권 간 최소 거리 21.5km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120047",
+          "3120079"
+        ],
+        "area_names": [
+          "한남오거리",
+          "창동역"
+        ],
+        "portfolio_score": 64.11,
+        "score_components": {
+          "average_area_score": 78.83,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 27.11,
+          "overlap_risk_score": 72.89
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 78.8점",
+          "상권 간 최소 거리 13.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120079",
+          "3130059"
+        ],
+        "area_names": [
+          "창동역",
+          "후암시장"
+        ],
+        "portfolio_score": 62.84,
+        "score_components": {
+          "average_area_score": 76.88,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 27.11,
+          "overlap_risk_score": 72.89
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 76.9점",
+          "상권 간 최소 거리 13.0km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120241",
+          "3120079",
+          "3120139"
+        ],
+        "area_names": [
+          "거여역",
+          "창동역",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 65.2,
+        "score_components": {
+          "average_area_score": 78.79,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 20.68,
+          "overlap_risk_score": 79.32
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 78.8점",
+          "상권 간 최소 거리 19.7km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120165",
+          "3120079",
+          "3120139"
+        ],
+        "area_names": [
+          "서래마을카페거리(서래마을)",
+          "창동역",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 64.26,
+        "score_components": {
+          "average_area_score": 80.12,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 18.78,
+          "overlap_risk_score": 81.22
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 80.1점",
+          "상권 간 최소 거리 8.9km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120047",
+          "3120079",
+          "3120139"
+        ],
+        "area_names": [
+          "한남오거리",
+          "창동역",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 63.94,
+        "score_components": {
+          "average_area_score": 78.04,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.86,
+          "overlap_risk_score": 80.14
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 78.0점",
+          "상권 간 최소 거리 10.4km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20240723": {
+    "brand_name": "올드몬트베이글",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120079"
+        ],
+        "area_names": [
+          "창동역"
+        ],
+        "portfolio_score": 81.89,
+        "score_components": {
+          "average_area_score": 81.89,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 81.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120080"
+        ],
+        "area_names": [
+          "마들역"
+        ],
+        "portfolio_score": 81.24,
+        "score_components": {
+          "average_area_score": 81.24,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 81.2점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110431"
+        ],
+        "area_names": [
+          "상계역"
+        ],
+        "portfolio_score": 78.94,
+        "score_components": {
+          "average_area_score": 78.94,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 78.9점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120079",
+          "3120241"
+        ],
+        "area_names": [
+          "창동역",
+          "거여역"
+        ],
+        "portfolio_score": 64.55,
+        "score_components": {
+          "average_area_score": 79.74,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.57,
+          "overlap_risk_score": 78.43
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 79.7점",
+          "상권 간 최소 거리 19.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120079",
+          "3120188"
+        ],
+        "area_names": [
+          "창동역",
+          "압구정역"
+        ],
+        "portfolio_score": 64.49,
+        "score_components": {
+          "average_area_score": 77.41,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.33,
+          "overlap_risk_score": 76.67
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 77.4점",
+          "상권 간 최소 거리 14.2km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110352",
+          "3120188"
+        ],
+        "area_names": [
+          "수유1동주민센터",
+          "압구정역"
+        ],
+        "portfolio_score": 62.96,
+        "score_components": {
+          "average_area_score": 73.79,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 24.34,
+          "overlap_risk_score": 75.66
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.8점",
+          "상권 간 최소 거리 11.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120079",
+          "3120241",
+          "3120188"
+        ],
+        "area_names": [
+          "창동역",
+          "거여역",
+          "압구정역"
+        ],
+        "portfolio_score": 64.23,
+        "score_components": {
+          "average_area_score": 77.47,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.64,
+          "overlap_risk_score": 84.36
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 77.5점",
+          "상권 간 최소 거리 11.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120079",
+          "3120152",
+          "3120188"
+        ],
+        "area_names": [
+          "창동역",
+          "신대방삼거리역",
+          "압구정역"
+        ],
+        "portfolio_score": 63.35,
+        "score_components": {
+          "average_area_score": 76.98,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.19,
+          "overlap_risk_score": 84.81
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 77.0점",
+          "상권 간 최소 거리 9.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120079",
+          "3120241",
+          "3120152"
+        ],
+        "area_names": [
+          "창동역",
+          "거여역",
+          "신대방삼거리역"
+        ],
+        "portfolio_score": 62.94,
+        "score_components": {
+          "average_area_score": 78.53,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.07,
+          "overlap_risk_score": 85.93
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 78.5점",
+          "상권 간 최소 거리 19.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20240814": {
+    "brand_name": "보리원",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120166"
+        ],
+        "area_names": [
+          "방배역"
+        ],
+        "portfolio_score": 76.65,
+        "score_components": {
+          "average_area_score": 76.65,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 76.7점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120133"
+        ],
+        "area_names": [
+          "서울시흥동우체국(홈플러스시흥점)"
+        ],
+        "portfolio_score": 74.4,
+        "score_components": {
+          "average_area_score": 74.4,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110274"
+        ],
+        "area_names": [
+          "서일대학교"
+        ],
+        "portfolio_score": 73.68,
+        "score_components": {
+          "average_area_score": 73.68,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.7점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3110593",
+          "3120139"
+        ],
+        "area_names": [
+          "신월3동주민센터",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 59.98,
+        "score_components": {
+          "average_area_score": 69.2,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.94,
+          "overlap_risk_score": 78.06
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 69.2점",
+          "상권 간 최소 거리 7.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120112",
+          "3120139"
+        ],
+        "area_names": [
+          "등촌역",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 59.73,
+        "score_components": {
+          "average_area_score": 68.82,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.94,
+          "overlap_risk_score": 78.06
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.8점",
+          "상권 간 최소 거리 6.4km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130206",
+          "3120139"
+        ],
+        "area_names": [
+          "신정3동 골목시장",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 59.64,
+        "score_components": {
+          "average_area_score": 70.24,
+          "geographic_diversification_score": 93.2,
+          "consumer_diversification_score": 21.94,
+          "overlap_risk_score": 78.06
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.2점",
+          "상권 간 최소 거리 4.4km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120133",
+          "3110593",
+          "3120139"
+        ],
+        "area_names": [
+          "서울시흥동우체국(홈플러스시흥점)",
+          "신월3동주민센터",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 60.7,
+        "score_components": {
+          "average_area_score": 70.93,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.71,
+          "overlap_risk_score": 85.29
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.9점",
+          "상권 간 최소 거리 5.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120133",
+          "3120112",
+          "3120139"
+        ],
+        "area_names": [
+          "서울시흥동우체국(홈플러스시흥점)",
+          "등촌역",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 60.54,
+        "score_components": {
+          "average_area_score": 70.68,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 14.71,
+          "overlap_risk_score": 85.29
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 70.7점",
+          "상권 간 최소 거리 5.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120133",
+          "3130206",
+          "3120139"
+        ],
+        "area_names": [
+          "서울시흥동우체국(홈플러스시흥점)",
+          "신정3동 골목시장",
+          "대림3동사거리"
+        ],
+        "portfolio_score": 60.13,
+        "score_components": {
+          "average_area_score": 71.62,
+          "geographic_diversification_score": 93.2,
+          "consumer_diversification_score": 14.71,
+          "overlap_risk_score": 85.29
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.6점",
+          "상권 간 최소 거리 4.4km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20250749": {
+    "brand_name": "디에그",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120153"
+        ],
+        "area_names": [
+          "노량진역(노량진)"
+        ],
+        "portfolio_score": 73.24,
+        "score_components": {
+          "average_area_score": 73.24,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 73.2점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120037"
+        ],
+        "area_names": [
+          "동대문역사문화공원역"
+        ],
+        "portfolio_score": 72.43,
+        "score_components": {
+          "average_area_score": 72.43,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 72.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120159"
+        ],
+        "area_names": [
+          "서울대입구역"
+        ],
+        "portfolio_score": 72.39,
+        "score_components": {
+          "average_area_score": 72.39,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 72.4점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120069",
+          "3130065"
+        ],
+        "area_names": [
+          "상봉역",
+          "무학봉상점가"
+        ],
+        "portfolio_score": 57.13,
+        "score_components": {
+          "average_area_score": 64.81,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 19.0,
+          "overlap_risk_score": 81.0
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 64.8점",
+          "상권 간 최소 거리 6.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120159",
+          "3120069"
+        ],
+        "area_names": [
+          "서울대입구역",
+          "상봉역"
+        ],
+        "portfolio_score": 54.01,
+        "score_components": {
+          "average_area_score": 68.69,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.64,
+          "overlap_risk_score": 86.36
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.7점",
+          "상권 간 최소 거리 17.6km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130065",
+          "3130318"
+        ],
+        "area_names": [
+          "무학봉상점가",
+          "로데오거리상점가"
+        ],
+        "portfolio_score": 53.62,
+        "score_components": {
+          "average_area_score": 64.4,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 15.92,
+          "overlap_risk_score": 84.08
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 64.4점",
+          "상권 간 최소 거리 8.9km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120148",
+          "3120069",
+          "3130065"
+        ],
+        "area_names": [
+          "국회의사당역(국회의사당)",
+          "상봉역",
+          "무학봉상점가"
+        ],
+        "portfolio_score": 57.59,
+        "score_components": {
+          "average_area_score": 65.52,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.83,
+          "overlap_risk_score": 86.17
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.5점",
+          "상권 간 최소 거리 6.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120136",
+          "3120069",
+          "3130065"
+        ],
+        "area_names": [
+          "영등포구청역",
+          "상봉역",
+          "무학봉상점가"
+        ],
+        "portfolio_score": 57.31,
+        "score_components": {
+          "average_area_score": 65.09,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 13.83,
+          "overlap_risk_score": 86.17
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 65.1점",
+          "상권 간 최소 거리 6.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120159",
+          "3120148",
+          "3120069"
+        ],
+        "area_names": [
+          "서울대입구역",
+          "국회의사당역(국회의사당)",
+          "상봉역"
+        ],
+        "portfolio_score": 56.65,
+        "score_components": {
+          "average_area_score": 68.1,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 12.02,
+          "overlap_risk_score": 87.98
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 68.1점",
+          "상권 간 최소 거리 6.0km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  },
+  "BRD_20260378": {
+    "brand_name": "빵굼터",
+    "portfolios": [
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120112"
+        ],
+        "area_names": [
+          "등촌역"
+        ],
+        "portfolio_score": 81.28,
+        "score_components": {
+          "average_area_score": 81.28,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 81.3점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3110593"
+        ],
+        "area_names": [
+          "신월3동주민센터"
+        ],
+        "portfolio_score": 80.1,
+        "score_components": {
+          "average_area_score": 80.1,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 80.1점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 1,
+        "area_ids": [
+          "3120066"
+        ],
+        "area_names": [
+          "장한평역(장한평)"
+        ],
+        "portfolio_score": 77.81,
+        "score_components": {
+          "average_area_score": 77.81,
+          "geographic_diversification_score": null,
+          "consumer_diversification_score": null,
+          "overlap_risk_score": null
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 77.8점"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120076",
+          "3110128"
+        ],
+        "area_names": [
+          "수유역",
+          "성원중학교"
+        ],
+        "portfolio_score": 61.61,
+        "score_components": {
+          "average_area_score": 71.71,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 34.04,
+          "overlap_risk_score": 65.96
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.7점",
+          "상권 간 최소 거리 11.3km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3130139",
+          "3110128"
+        ],
+        "area_names": [
+          "강북종합전통시장(강북종합골목시장)",
+          "성원중학교"
+        ],
+        "portfolio_score": 61.35,
+        "score_components": {
+          "average_area_score": 71.31,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 34.04,
+          "overlap_risk_score": 65.96
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 71.3점",
+          "상권 간 최소 거리 11.7km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 2,
+        "area_ids": [
+          "3120112",
+          "3110128"
+        ],
+        "area_names": [
+          "등촌역",
+          "성원중학교"
+        ],
+        "portfolio_score": 57.98,
+        "score_components": {
+          "average_area_score": 75.48,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 23.68,
+          "overlap_risk_score": 76.32
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 75.5점",
+          "상권 간 최소 거리 16.4km",
+          "2개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120112",
+          "3120076",
+          "3110128"
+        ],
+        "area_names": [
+          "등촌역",
+          "수유역",
+          "성원중학교"
+        ],
+        "portfolio_score": 62.49,
+        "score_components": {
+          "average_area_score": 74.9,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.48,
+          "overlap_risk_score": 78.52
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.9점",
+          "상권 간 최소 거리 11.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 1
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3120112",
+          "3130139",
+          "3110128"
+        ],
+        "area_names": [
+          "등촌역",
+          "강북종합전통시장(강북종합골목시장)",
+          "성원중학교"
+        ],
+        "portfolio_score": 62.31,
+        "score_components": {
+          "average_area_score": 74.63,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.48,
+          "overlap_risk_score": 78.52
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.6점",
+          "상권 간 최소 거리 11.7km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 2
+      },
+      {
+        "desired_store_count": 3,
+        "area_ids": [
+          "3110593",
+          "3120076",
+          "3110128"
+        ],
+        "area_names": [
+          "신월3동주민센터",
+          "수유역",
+          "성원중학교"
+        ],
+        "portfolio_score": 62.23,
+        "score_components": {
+          "average_area_score": 74.5,
+          "geographic_diversification_score": 100.0,
+          "consumer_diversification_score": 21.48,
+          "overlap_risk_score": 78.52
+        },
+        "rationale_facts": [
+          "선택 상권의 평균 적합도 74.5점",
+          "상권 간 최소 거리 11.3km",
+          "3개 자치구로 분산"
+        ],
+        "risk_factors": [
+          "특별히 확인된 위험 요인 없음"
+        ],
+        "next_checks": [
+          "후보별 임대료와 예상 고정비 비교",
+          "현장 유동과 접근성 확인",
+          "출점 순서와 운영인력 배치 검토"
+        ],
+        "portfolio_rank": 3
+      }
+    ]
+  }
+}

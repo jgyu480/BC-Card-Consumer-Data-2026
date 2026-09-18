@@ -1,0 +1,5 @@
+numpy==2.5.3
+pandas==3.0.5
+fastparquet==2026.5.0
+pyarrow==25.0.1
+pathlib==1.0.1
