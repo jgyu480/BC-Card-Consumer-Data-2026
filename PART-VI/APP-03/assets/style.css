@@ -295,7 +295,8 @@ h6 {
         0 2px 6px rgba(46, 42, 34, 0.05) !important;
 
     padding: 0 !important;
-    overflow: hidden;
+    max-height: min(360px, 60vh) !important;   /* 추가 */
+    overflow-y: auto !important;                /* 추가: overflow: hidden 대신 */
     font-family: var(--font-body) !important;
 
     --accent-color: var(--color-accent) !important;
