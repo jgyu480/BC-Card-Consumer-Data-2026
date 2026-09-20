@@ -12,7 +12,6 @@ from components.shared_ui import (
 # =========================================================
 # 지표 용어 설명 (glossary.json 기반)
 # =========================================================
-# glossary.json 내용을 그대로 옮김.
 SCORE_GLOSSARY = {
     "DNA 적합도": (
         "이 브랜드가 지금까지 입점해온 지역들의 소비 특성과 이 상권의 소비 특성이 "
@@ -709,14 +708,18 @@ def build_area_list(
     """
     추천 상권 목록.
 
-    - 상단: 의사결정용 요약 표
+    - 상단: "상권 상세" 제목 (지도 쪽에 브랜드명이 이미 있어서 여기선 제목만)
     - 행 클릭: 해당 상권의 상세 평가 펼침
     """
 
+    title = html.Div("상권 상세", className="portfolio-page-title area-section-title")
+
     if not recommendations:
-        return html.P(
-            "추천 상권이 없습니다.",
-            className="text-muted",
+        return html.Div(
+            [
+                title,
+                html.P("추천 상권이 없습니다.", className="text-muted"),
+            ]
         )
 
     rows = []
@@ -754,8 +757,9 @@ def build_area_list(
 
     return html.Div(
         [
-            table,
-            html.Div(style={"height": "70vh"}),
+        title,
+        table,
+            html.Div(style={"height": "5vh"}),
         ],
         className="area-list-container",
     )

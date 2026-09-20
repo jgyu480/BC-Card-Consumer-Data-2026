@@ -14,4 +14,4 @@ server = app.server  # Render 배포 시 gunicorn이 이 변수를 찾아서 씀
 app.layout = build_layout()
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8050)
+    app.run(debug=False, port=8050)

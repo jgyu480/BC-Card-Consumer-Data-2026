@@ -7,7 +7,7 @@ def build_selector(brand_options, compact=False, initial_brand=None, initial_cou
     compact=False: 랜딩 화면용 (드롭다운 두 개 폭 = 아래 버튼 폭)
     compact=True: 탭바 우측용 (라벨/버튼 없이 슬림하게)
     """
-    box_width = 240  # 드롭다운 하나의 고정 폭 (px)
+    box_width = 240  
 
     brand_box = html.Div(
         [
@@ -37,8 +37,18 @@ def build_selector(brand_options, compact=False, initial_brand=None, initial_cou
                 placeholder="출점 수 선택",
                 clearable=False,
             ),
+            html.Div(
+                "상권 상세",
+                id="store-count-overlay",
+                className="store-count-overlay",
+                style={"display": "none"},
+            ),
         ],
-        style={"width": f"{box_width}px", "flex": f"0 0 {box_width}px"},
+        style={
+            "width": f"{box_width}px",
+            "flex": f"0 0 {box_width}px",
+            "position": "relative",
+        },
     )
 
     selector_row = html.Div(
