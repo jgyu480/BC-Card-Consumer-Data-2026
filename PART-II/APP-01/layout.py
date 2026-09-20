@@ -6,7 +6,7 @@ from components.selector import build_selector
 
 
 SERVICE_DESCRIPTION = (
-    "베이커리 브랜드별 기존 점포의 소비환경을 분석해 서울 상권 중 함께 검토할"
+    "베이커리 브랜드별 기존 점포의 소비환경을 분석해 서울 상권 중 함께 검토할 "
     "출점 후보 조합을 제안하는 도구입니다. 예상 매출이나 성공 확률이 아닌, "
     "브랜드 입점 DNA를 기준으로 한 비교 근거를 제공합니다."
 )

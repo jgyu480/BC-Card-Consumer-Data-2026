@@ -1390,6 +1390,11 @@ h6 {
     color: var(--color-risk);
 }
 
+.portfolio-risk-value-detail {
+    font-size: 11px;
+ 
+    color: var(--color-risk);
+}
 
 .portfolio-risk-label-neutral {
     font-size: 10px;

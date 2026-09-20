@@ -259,7 +259,7 @@ def build_single_store_chart(portfolios, brand_recommendations):
 
     x_metrics = [
         "최종 적합도",
-        "DNA 유사도",
+        "DNA 적합도",
         "시장 규모",
         "경쟁 매력도",
     ]

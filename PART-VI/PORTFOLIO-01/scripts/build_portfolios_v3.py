@@ -25,12 +25,6 @@ MODEL-01 v3.1이 브랜드별로 이미 계산해둔 "개별 상권 적합도"�
 2. PART-III/MODEL-01/outputs/final_model_v3_1/model01_brand_availability_v3_1.csv
 3. PART-II/DATA-02/outputs/area_feature_master.parquet
 
-사용자가 결정해야 할 값 (CONFIG 섹션)
---------------------------------------------
-- WEIGHTS: 4가지 기준을 몇 대 몇으로 섞을지 (지금은 임시값, A 확인 후 조정 권장)
-- TOP_N_CANDIDATES_PER_BRAND: 브랜드당 조합을 만들 때 상위 몇 개 상권까지 후보로 볼지
-- MIN_DISTANCE_M / FULL_SCORE_DISTANCE_M: 상권 간 거리 판정 기준
-- PORTFOLIO_SIZES: 몇 개짜리 조합을 만들지 (1/2/3)
 """
 
 import itertools
