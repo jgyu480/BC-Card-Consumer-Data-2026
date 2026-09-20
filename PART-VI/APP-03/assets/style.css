@@ -1,22 +1,15 @@
 /* =========================================================
-   이 파일이 어떤 파이썬 파일에서 쓰이는지 섹션마다 주석으로 표시했습니다.
-   전체 요약:
 
-   layout.py              → PAGE, LANDING PAGE(일부), DASHBOARD HEADER(일부), DASHBOARD CARD TEMPLATE(일부), MODAL CONTAINER
-   tabbar.py    (구 s00_tabbar.py)          → DASHBOARD HEADER
-   selector.py  (구 s01_selector.py)         → LANDING PAGE(일부), SELECTOR / DROPDOWN
-   tab1_overview.py        (구 s02_dna_summary.py)      → S02 BRAND OVERVIEW
-   tab2_portfolio.py       (구 s03_portfolio_cards.py)  → S03 PORTFOLIO, PORTFOLIO COMPARISON, NEXT CHECKS, PLOTLY RESPONSIVE FIX
-                                                          ※ 확인됨 (tab2_portfolio.py 실제 코드와 대조 완료)
-   tab2_portfolio_modal.py (구 s03b_portfolio_detail.py)→ 두 번째 PORTFOLIO DETAIL MODAL(.portfolio-detail-*)
-   tab3_area_table.py      (구 s04_area_list.py)        → Area List, Expanded Area Detail, Fact Chips, Factor, Risk, Basic Information, Next Checks
-   tab3_area_map.py        (구 s05_map_view.py)         → 자체 CSS 클래스 없음 (인라인 스타일만 사용)
-   utils/competitor_lookup.py (구 s03c_competitor_lookup.py) → CSS 없음 (순수 데이터 로직)
+   layout.py    → PAGE, LANDING PAGE(일부), DASHBOARD HEADER(일부), DASHBOARD CARD TEMPLATE(일부), MODAL CONTAINER
+   tabbar.py    → DASHBOARD HEADER
+   selector.py  → LANDING PAGE(일부), SELECTOR / DROPDOWN
+   tab1_overview.py → S02 BRAND OVERVIEW
+   tab2_portfolio.py    → S03 PORTFOLIO, PORTFOLIO COMPARISON, NEXT CHECKS, PLOTLY RESPONSIVE FIX
+   tab2_portfolio_modal.py  → 두 번째 PORTFOLIO DETAIL MODAL(.portfolio-detail-*)
+   tab3_area_table.py   → Area List, Expanded Area Detail, Fact Chips, Factor, Risk, Basic Information, Next Checks
+   tab3_area_map.py → 자체 CSS 클래스 없음 (인라인 스타일만 사용)
+   utils/competitor_lookup.py   → CSS 없음 (순수 데이터 로직)
 
-   ⚠ 삭제해도 안전 (확인됨):
-   - OLD PORTFOLIO LINK STYLES 중 .portfolio-rank-number, .portfolio-area-link (tab2_portfolio.py 대조 완료)
-   - 첫 번째 PORTFOLIO DETAIL MODAL 섹션 전체 (.portfolio-modal-*)
-   - s00_navbar.py 파일 자체 — layout.py가 이 파일을 import도, 호출도 하지 않는 것 확인됨 (2026-09-10 확인)
    ========================================================= */
 
 
@@ -111,7 +104,7 @@ h6 {
 /* =========================================================
     LANDING PAGE
     ========================================================= */
-/* 사용 파일: layout.py (랜딩 화면 build_landing_shell) + selector.py (구 s01_selector.py, .selector-row) */
+/* 사용 파일: layout.py (랜딩 화면 build_landing_shell) + selector.py  */
 
 .landing-shell {
     min-height: 80vh;
@@ -166,7 +159,7 @@ h6 {
 /* =========================================================
     DASHBOARD HEADER
     ========================================================= */
-/* 사용 파일: tabbar.py (구 s00_tabbar.py, .tab-folder/.tab-nav) + layout.py (.shell-header-row 래퍼) */
+/* 사용 파일: tabbar.py + layout.py (.shell-header-row 래퍼) */
 
 .shell-header-row {
     max-width: 1400px;
@@ -214,7 +207,7 @@ h6 {
 /* =========================================================
     SELECTOR / DROPDOWN
     ========================================================= */
-/* 사용 파일: selector.py (구 s01_selector.py) — 브랜드·출점수 dcc.Dropdown 전체 */
+/* 사용 파일: selector.py  — 브랜드·출점수 dcc.Dropdown 전체 */
 
 #selector-outside-wrap {
     width: 500px;
@@ -532,7 +525,7 @@ h6 {
     S02 BRAND OVERVIEW
     Portfolio와 일관된 정보 중심 디자인
     ========================================================= */
-/* 사용 파일: tab1_overview.py (구 s02_dna_summary.py) */
+/* 사용 파일: tab1_overview.py  */
 
     .overview-layout {
     width: 100%;
@@ -943,9 +936,7 @@ h6 {
 /* =========================================================
     OLD PORTFOLIO LINK STYLES
     ========================================================= */
-/* ⚠ 확인됨 — 삭제해도 안전: tab2_portfolio.py 실제 코드는 .portfolio-rank-label / .portfolio-area-name을
-    쓰고 있고, 이 블록의 .portfolio-rank-number / .portfolio-area-link는 어디서도 참조하지 않습니다.
-    단, 바로 아래 .fact-chip은 tab3_area_table.py(구 s04_area_list.py)가 지금도 쓰고 있어서 그것만 남기고 지우세요. */
+/* 임시 */
 
 .portfolio-rank-number {
     font-family: var(--font-heading);
@@ -997,7 +988,7 @@ h6 {
     S03 PORTFOLIO
     Overview와 동일한 visual language
     ========================================================= */
-/* 사용 파일: tab2_portfolio.py (구 s03_portfolio_cards.py) — 확인됨, 클래스명 전부 일치 */
+/* 사용 파일: tab2_portfolio.py  */
 
 .portfolio-section {
     width: 100%;
@@ -1067,10 +1058,6 @@ h6 {
 
     background: var(--color-surface);
 
-    /*
-        의도적으로 border 제거.
-        Overview의 white surface card와 동일한 느낌.
-    */
     border: none;
 
     border-radius: 12px;
@@ -1099,13 +1086,6 @@ h6 {
 
 /* ---------------------------------------------------------
     1순위 강조
-    ---------------------------------------------------------
-
-    중요:
-    border-top 제거
-    gradient 제거
-
-    1순위는 타이포그래피와 색으로만 강조한다.
     --------------------------------------------------------- */
 
 .portfolio-card-primary {
@@ -1185,10 +1165,7 @@ h6 {
 
 
 .portfolio-score {
-    /*
-        기존 Fraunces 대신 Inter.
-        숫자가 더 현대적이고 데이터 UI에 적합함.
-    */
+
     font-family: var(--font-body);
 
     font-size: 44px;
@@ -1477,9 +1454,8 @@ h6 {
 
 /* =========================================================
     PORTFOLIO COMPARISON
-    그래프는 기존 디자인 유지
     ========================================================= */
-/* 사용 파일: tab2_portfolio.py — 조합 간 지표 비교 그래프 카드 (확인됨) */
+/* 사용 파일: tab2_portfolio.py — 조합 간 지표 비교 그래프 카드 */
 
 .portfolio-comparison-card {
     background: var(--color-surface);
@@ -1664,10 +1640,7 @@ h6 {
 /* =========================================================
     PORTFOLIO DETAIL MODAL
     ========================================================= */
-/* ⚠ 미사용 추정: 아래 .portfolio-modal-* 블록 전체가, 한참 뒤에 나오는 두 번째 'PORTFOLIO DETAIL MODAL'
-    섹션(.portfolio-detail-*)과 거의 같은 내용을 다른 이름으로 담고 있습니다. tab2_portfolio_modal.py
-    (구 s03b_portfolio_detail.py)의 실제 코드는 .portfolio-detail-*를 쓰고 있어서, 이 블록(.portfolio-modal-*)은
-    예전 버전의 잔재로 보입니다. 삭제해도 안전한지 확인 후 지우는 걸 추천드려요. */
+/* 임시 */
 
     .portfolio-modal-content {
     background: var(--color-shell);
@@ -2005,7 +1978,7 @@ h6 {
 /* =========================================================
     PLOTLY RESPONSIVE FIX
     ========================================================= */
-/* 사용 파일: tab2_portfolio.py — .portfolio-section 스코프 안 Plotly 그래프 반응형 처리 (확인됨) */
+/* 사용 파일: tab2_portfolio.py — .portfolio-section 스코프 안 Plotly 그래프 반응형 처리 */
 
     .portfolio-section .row,
     .portfolio-section .col,
@@ -2025,7 +1998,7 @@ h6 {
     PORTFOLIO DETAIL MODAL
     Overview / Portfolio와 동일한 디자인 시스템
     ========================================================= */
-/* 사용 파일: tab2_portfolio_modal.py (구 s03b_portfolio_detail.py) — 실제 코드와 클래스명 일치 확인됨 */
+/* 사용 파일: tab2_portfolio_modal.py  */
 
     .portfolio-detail-content {
     font-family: var(--font-body);
@@ -2307,7 +2280,7 @@ h6 {
 /* =========================================================
     Area List
     ========================================================= */
-/* 사용 파일: tab3_area_table.py (구 s04_area_list.py) — 상권 요약 표 */
+/* 사용 파일: tab3_area_table.py  — 상권 요약 표 */
 
 .area-list-container {
     width: 100%;
@@ -2592,7 +2565,6 @@ h6 {
 
 /* ---------------------------------------------------------
     Competitor Section (경쟁 브랜드 현황)
-    기존 .portfolio-detail-area-row 패턴을 그대로 따름
     --------------------------------------------------------- */
 
 .portfolio-detail-competitor-list-wrap {
@@ -2721,4 +2693,38 @@ h6 {
     font-size: 12px;
     color: var(--color-accent);
     line-height: 1.6;
+}
+
+/* ---------------------------------------------------------
+    Store Count Overlay ("상권 상세" 탭에서 출점수 셀렉터를
+    비활성화하는 대신 텍스트로 덮어씌움)
+    --------------------------------------------------------- */
+
+.store-count-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+
+    color: var(--color-ink-muted);
+    font-size: 14px;
+
+    pointer-events: none;  /* 클릭이 뒤의 드롭다운으로 새지 않게 막음 */
+    z-index: 5;
+}
+
+/* ---------------------------------------------------------
+    Area section title (지도/표 바로 위 "상권 지도"·"상권 상세" 제목)
+    --------------------------------------------------------- */
+
+.area-section-title {
+    margin-bottom: 16px;
 }

@@ -14,16 +14,10 @@ from components.shared_ui import (
 
 
 def build_brand_identity_header(brand):
-    """브랜드명만 - 카드 없는 텍스트 헤더"""
-    if brand is None:
-        return html.Div("브랜드를 선택하세요.", className="text-muted")
-
-    return html.Div(
-        html.H4(
-            brand["brand_name"],
-            className="mb-3 portfolio-compatible-brand-title"
-        )
-    )
+    """브랜드명만 - 카드 없는 텍스트 헤더 (shared_ui.py로 이동, 하위 호환을 위해
+    여기서도 re-export)."""
+    from components.shared_ui import build_brand_identity_header as _impl
+    return _impl(brand)
 
 
 def _kpi_tile(label, value):

@@ -3,17 +3,13 @@
 
 다른 components 파일(tab1_overview, tab3_area_map, tab3_area_table,
 tab2_portfolio_modal 등)이 전부 이 파일에서만 가져다 쓴다.
-
 이 파일이 다른 components 파일을 import하면 안 된다 — 그러면 순환 import가
-생긴다.
+생긴다. 
 """
 
 
 def _suitability_tone(score):
-    """80점 이상 매우 적합 / 65~80점 적합 / 65점 미만 검토 필요.
-    (레거시 — 브랜드마다 점수 분포가 달라 대부분 '적합'에만 몰리는 문제가 있어서
-    개별 상권 표시에는 _recommendation_tone을 대신 쓴다. recommendation_label이
-    없는 예외 상황의 폴백으로만 남겨둠.)"""
+    """80점 이상 매우 적합 / 65~80점 적합 / 65점 미만 검토 필요."""
     if score >= 80:
         return "success"
     elif score >= 65:
@@ -32,7 +28,6 @@ _TONE_LABEL = {
     "warning": "적합",
     "danger": "검토 필요",
 }
-
 
 _LABEL_TONE = {
     "최우선 검토": "success",
@@ -61,3 +56,16 @@ def format_distance(meters):
         return f"약 {meters / 1000:.1f}km"
     rounded = round(meters / 10) * 10
     return f"약 {rounded:,.0f}m"
+
+
+def build_brand_identity_header(brand):
+    """브랜드명만 - 카드 없는 텍스트 헤더."""
+    from dash import html
+    if brand is None:
+        return html.Div("브랜드를 선택하세요.", className="text-muted")
+    return html.Div(
+        html.H4(
+            brand["brand_name"],
+            className="mb-3 portfolio-compatible-brand-title"
+        )
+    )

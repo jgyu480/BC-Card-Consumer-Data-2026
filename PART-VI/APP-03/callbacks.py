@@ -57,11 +57,12 @@ def update_portfolio_section(brand_id, desired_store_count):
 
 
 # =========================================================
-# Selected area
+# Selected area + Tab switching 
 # =========================================================
 
 @dash.callback(
     Output("selected-area-store", "data"),
+    Output("active-tab-store", "data"),
     Input(
         {"type": "area-marker", "index": ALL},
         "n_clicks",
@@ -74,25 +75,52 @@ def update_portfolio_section(brand_id, desired_store_count):
         {"type": "portfolio-area-jump", "index": ALL},
         "n_clicks",
     ),
+    Input(
+        {"type": "nav-tab", "index": ALL},
+        "n_clicks",
+    ),
     Input("brand-selector", "value"),
     prevent_initial_call=True,
 )
-def update_selected_area(
+def update_selected_area_and_tab(
     marker_clicks,
     jump_clicks,
     portfolio_jump_clicks,
+    nav_clicks,
     brand_id,
 ):
 
     triggered_id = ctx.triggered_id
+    # 실제 클릭 횟수(n_clicks). 컴포넌트가 화면에 "새로 나타나기만" 해도
+    # 이 콜백이 걸리는 Dash 패턴매칭 특성 때문에, isinstance(dict) 체크만
+    # 하면 Overview 탭에 들어가기만 해도 "지도에서 보기" 위젯(1위 상권 id를
+    # 달고 있음)이 클릭도 안 했는데 선택된 것처럼 처리되는 버그가 있었음.
+    # n_clicks가 실제로 1 이상(참값)인지 반드시 같이 확인해서 방지.
+    triggered_value = ctx.triggered[0]["value"] if ctx.triggered else None
 
-    # 브랜드가 바뀌면 선택 상권 초기화
+    # 브랜드가 바뀌면 선택 상권만 초기화 (탭은 그대로 둠)
     if triggered_id == "brand-selector":
-        return None
+        return None, dash.no_update
 
-    # 마커 / Overview 지도 / Portfolio에서 상권을 선택한 경우
-    if isinstance(triggered_id, dict):
-        return triggered_id["index"]
+    if not (isinstance(triggered_id, dict) and triggered_value):
+        return dash.no_update, dash.no_update
+
+    tab_type = triggered_id.get("type")
+
+    # 탭 버튼 직접 클릭 — 선택 상권은 안 건드림
+    if tab_type == "nav-tab":
+        return dash.no_update, triggered_id["index"]
+
+    # 마커 / Overview 지도 / Portfolio에서 상권을 실제로 클릭한 경우:
+    # 선택 상권 갱신 + "상권 상세" 탭 이동을 동시에
+    if tab_type in (
+        "area-marker",
+        "overview-map-jump",
+        "portfolio-area-jump",
+    ):
+        return triggered_id["index"], "areas"
+
+    return dash.no_update, dash.no_update
 
     return dash.no_update
 
@@ -151,6 +179,7 @@ def update_area_list_and_map(
         area_map = build_map_view(
             recommendations,
             selected_area_id,
+            brand,
         )
 
     else:
@@ -206,65 +235,6 @@ def handle_search_click(
         folder,
         selector,
     )
-
-
-# =========================================================
-# Tab switching
-# =========================================================
-
-@dash.callback(
-    Output("active-tab-store", "data"),
-    Input(
-        {"type": "nav-tab", "index": ALL},
-        "n_clicks",
-    ),
-    Input(
-        {"type": "overview-map-jump", "index": ALL},
-        "n_clicks",
-    ),
-    Input(
-        {"type": "portfolio-area-jump", "index": ALL},
-        "n_clicks",
-    ),
-    prevent_initial_call=True,
-)
-def switch_tab(
-    nav_clicks,
-    jump_clicks,
-    portfolio_jump_clicks,
-):
-
-    triggered = ctx.triggered
-
-    if not triggered or not ctx.triggered_id:
-        return dash.no_update
-
-    triggered_id = ctx.triggered_id
-
-    val = ctx.triggered[0].get("value")
-
-    if not val:
-        return dash.no_update
-
-    # -----------------------------------------
-    # 탭 버튼
-    # -----------------------------------------
-
-    if isinstance(triggered_id, dict):
-
-        tab_type = triggered_id.get("type")
-
-        if tab_type == "nav-tab":
-            return triggered_id["index"]
-
-        # Overview / Portfolio에서 상권 상세로 이동
-        if tab_type in (
-            "overview-map-jump",
-            "portfolio-area-jump",
-        ):
-            return "areas"
-
-    return dash.no_update
 
 
 # =========================================================
@@ -576,12 +546,6 @@ def toggle_area_detail_modal(
 
 # =========================================================
 # 선택된 상권으로 스크롤 이동
-#
-# 자바스크립트 없이 브라우저 기본 기능(URL 해시 # 이동)만 씀.
-# tab3_area_table.py가 각 상권 행 바로 앞에 id="area-anchor-{area_id}"인
-# 빈 앵커를 심어뒀고, 여기서 dcc.Location의 hash를 그 앵커로 바꿔주면
-# 브라우저가 알아서 그 위치로 스크롤한다 (<a href="#id"> 클릭한 것과 동일한
-# 원리 — 새 JS 코드 없이 표준 브라우저 동작 그대로 씀).
 # =========================================================
 
 @dash.callback(
@@ -596,3 +560,23 @@ def scroll_to_selected_area(selected_area_id, active_tab):
         return dash.no_update
 
     return f"#area-anchor-{selected_area_id}"
+
+
+
+# =========================================================
+# 상권 상세 탭에서는 출점 수 셀렉터 비활성화
+#
+# "상권 상세" 탭은 desired_store_count(1/2/3개)에 영향을 안 받고
+# 항상 4~20위 전체를 보여주는데, 셀렉터가 활성화돼 있으면 "이걸 바꾸면
+# 뭔가 달라지겠지"라고 오해하기 쉬움. 이 탭에서만 흐리게 비활성화 처리.
+# =========================================================
+
+@dash.callback(
+    Output("store-count-selector", "disabled"),
+    Output("store-count-overlay", "style"),
+    Input("active-tab-store", "data"),
+)
+def disable_store_count_on_areas_tab(active_tab):
+    is_areas = active_tab == "areas"
+    overlay_style = {"display": "flex"} if is_areas else {"display": "none"}
+    return is_areas, overlay_style

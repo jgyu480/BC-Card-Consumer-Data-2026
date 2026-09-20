@@ -2,7 +2,7 @@ import dash_leaflet as dl
 import dash_bootstrap_components as dbc
 from dash import html
 
-from components.shared_ui import format_distance
+from components.shared_ui import format_distance, build_brand_identity_header
 
 
 def _map_tooltip(rec):
@@ -120,13 +120,23 @@ def _map_tooltip(rec):
     )
 
 
-def build_map_view(recommendations, selected_area_id=None):
-    """상권 위치 지도. area_id를 공유 id로 써서 표와 연동한다."""
+def build_map_view(recommendations, selected_area_id=None, brand=None):
+    """상권 위치 지도. area_id를 공유 id로 써서 표와 연동한다.
+    brand가 주어지면 맨 위에 "브랜드명 / 상권 상세" 헤더를 붙인다
+    (Overview·Portfolio 탭과 통일된 위치 — 지도보다 위, 페이지 맨 위)."""
+
+    header_children = []
+    if brand is not None:
+        header_children = [
+            build_brand_identity_header(brand),
+            html.Div("상권 지도", className="portfolio-page-title area-section-title"),
+        ]
 
     if not recommendations:
-        return html.P(
-            "표시할 상권이 없습니다.",
-            className="text-muted"
+        return html.Div(
+            header_children + [
+                html.P("표시할 상권이 없습니다.", className="text-muted"),
+            ]
         )
 
     markers = []
@@ -208,12 +218,16 @@ def build_map_view(recommendations, selected_area_id=None):
         ],
     )
 
-    return dbc.Card(
-        dbc.CardBody(
-            map_component,
-            className="p-2",
-        ),
-        className="shadow-sm border-0",
+    return html.Div(
+        header_children + [
+            dbc.Card(
+                dbc.CardBody(
+                    map_component,
+                    className="p-2",
+                ),
+                className="shadow-sm border-0",
+            ),
+        ]
     )
 
 
