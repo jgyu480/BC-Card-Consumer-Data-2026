@@ -14,16 +14,16 @@ MODEL-01의 상위 후보(브랜드당 최대 15개, `TOP_N_CANDIDATES_PER_BRAND
 
 ```
 portfolio_score = 0.65 × average_area_score              (평균상권적합도)
-                 + 0.25 × geographic_diversification_score   (자치구분산 0.5 + 거리 0.5 를 합친 값)
-                 - 0.10 × overlap_risk_score(정규화됨)        (소비자분산도의 반대 표현, 아래 4번 참고)
+                 + 0.15 × geographic_diversification_score   (자치구분산 0.5 + 거리 0.5 를 합친 값)
+                 - 0.20 × overlap_risk_score(정규화됨)        (소비자분산도의 반대 표현, 아래 4번 참고)
 ```
 
 | 요인 | 실질 가중치 |
 |---|---|
 | 평균상권적합도 | 65% |
-| 자치구 분산 | 12.5% |
-| 상권 간 거리 | 12.5% |
-| 소비자 구성 분산(중복위험의 반대) | 10% |
+| 자치구 분산 | 7.5% |
+| 상권 간 거리 | 7.5% |
+| 소비자 구성 분산(중복위험의 반대) | 20% |
 
 `consumer_diversification_score`와 `overlap_risk_score`는 합이 항상 100인 반대쌍이라 점수식엔 하나만 사용(`overlap_risk_score`를 감점 형태로).
 

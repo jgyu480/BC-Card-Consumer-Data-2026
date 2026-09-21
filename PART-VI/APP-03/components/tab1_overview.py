@@ -46,7 +46,7 @@ def _kpi_tile(label, value):
 def _suitability_gauge(score, recommendation_label=None):
     tone = _recommendation_tone(recommendation_label) if recommendation_label else _suitability_tone(score)
     color = _TONE_COLOR[tone]
-    label = _TONE_LABEL[tone]
+    label = recommendation_label if recommendation_label else _TONE_LABEL[tone]
 
     # 게이지 자체만 Plotly로 렌더링
     fig = go.Figure(
