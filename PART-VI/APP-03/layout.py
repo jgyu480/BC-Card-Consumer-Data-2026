@@ -6,7 +6,7 @@ from components.selector import build_selector
 
 
 SERVICE_DESCRIPTION = (
-    "베이커리 브랜드별 기존 점포의 소비환경을 분석해 서울 상권 중 함께 검토할 "
+    "베이커리 브랜드별 기존 점포의 소비환경을 분석해 서울 상권 중 함께 검토할"
     "출점 후보 조합을 제안하는 도구입니다. 예상 매출이나 성공 확률이 아닌, "
     "브랜드 입점 DNA를 기준으로 한 비교 근거를 제공합니다."
 )
@@ -54,6 +54,7 @@ def build_layout():
                         ],
                     ),
 
+                    dcc.Location(id="url", refresh=False),
                     dcc.Store(id="selected-area-store", data=None),
                     dcc.Store(id="active-tab-store", data="overview"),
 
@@ -81,6 +82,16 @@ def build_layout():
                             dbc.ModalFooter(dbc.Button("닫기", id="portfolio-detail-modal-close", color="secondary", size="sm")),
                         ],
                         id="portfolio-detail-modal",
+                        is_open=False,
+                        size="lg",
+                    ),
+                    dbc.Modal(
+                        [
+                            dbc.ModalHeader(dbc.ModalTitle("상권 상세"), close_button=False),
+                            dbc.ModalBody(id="area-detail-modal-body"),
+                            dbc.ModalFooter(dbc.Button("닫기", id="area-detail-modal-close", color="secondary", size="sm")),
+                        ],
+                        id="area-detail-modal",
                         is_open=False,
                         size="lg",
                     ),
